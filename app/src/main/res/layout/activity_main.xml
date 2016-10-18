@@ -20,10 +20,10 @@
         android:layout_marginTop="26dp"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
-        android:id="@+id/imageButton3"
-        android:layout_below="@+id/imageButton2"
-        android:layout_alignRight="@+id/imageButton2"
-        android:layout_alignEnd="@+id/imageButton2"
+        android:id="@+id/opciones"
+        android:layout_below="@+id/cocteleria"
+        android:layout_alignRight="@+id/cocteleria"
+        android:layout_alignEnd="@+id/cocteleria"
         android:backgroundTint="@android:color/transparent" />
 
     <ImageButton
@@ -32,7 +32,7 @@
         app:srcCompat="@mipmap/cocteleria"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
-        android:id="@+id/imageButton2"
+        android:id="@+id/cocteleria"
         android:backgroundTint="@android:color/transparent"
         android:layout_marginRight="48dp"
         android:layout_marginEnd="48dp"
@@ -46,10 +46,10 @@
         app:srcCompat="@mipmap/juegos"
         android:scaleType="fitCenter"
         android:adjustViewBounds="true"
-        android:id="@+id/imageButton"
+        android:id="@+id/juegos"
         android:backgroundTint="@android:color/transparent"
         android:layout_marginBottom="40dp"
-        android:layout_above="@+id/imageButton2"
-        android:layout_alignRight="@+id/imageButton2"
-        android:layout_alignEnd="@+id/imageButton2" />
+        android:layout_above="@+id/cocteleria"
+        android:layout_alignRight="@+id/cocteleria"
+        android:layout_alignEnd="@+id/cocteleria" />
 </RelativeLayout>
