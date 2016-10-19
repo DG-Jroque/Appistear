@@ -13,43 +13,80 @@
     tools:context="com.example.roque.appistear.MainActivity"
     android:background="@mipmap/fondo">
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/opciones"
-        android:layout_marginTop="26dp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
-        android:id="@+id/opciones"
-        android:layout_below="@+id/cocteleria"
-        android:layout_alignRight="@+id/cocteleria"
-        android:layout_alignEnd="@+id/cocteleria"
-        android:backgroundTint="@android:color/transparent" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/cocteleria"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
-        android:id="@+id/cocteleria"
-        android:backgroundTint="@android:color/transparent"
-        android:layout_marginRight="48dp"
-        android:layout_marginEnd="48dp"
-        android:layout_centerVertical="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            class="android.support.v4.widget.Space"
+            android:id="@+id/view"
+            android:layout_weight="2.07"
+            />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/juegos"
-        android:scaleType="fitCenter"
-        android:adjustViewBounds="true"
-        android:id="@+id/juegos"
-        android:backgroundTint="@android:color/transparent"
-        android:layout_marginBottom="40dp"
-        android:layout_above="@+id/cocteleria"
-        android:layout_alignRight="@+id/cocteleria"
-        android:layout_alignEnd="@+id/cocteleria" />
+        <ImageButton
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/juegos"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:id="@+id/juegos"
+            android:backgroundTint="@android:color/transparent"
+            android:layout_width="279dp"
+            android:elevation="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="49dp"
+            android:layout_marginEnd="49dp"
+            android:layout_above="@+id/imageButton3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            class="android.support.v4.widget.Space"
+            android:id="@+id/view2"
+            android:layout_weight="0.31" />
+
+        <ImageButton
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/cocteleria"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:id="@+id/cocteleria"
+            android:backgroundTint="@android:color/transparent"
+            android:elevation="0dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            class="android.support.v4.widget.Space"
+            android:id="@+id/view3"
+            android:layout_weight="0.31" />
+
+        <ImageButton
+            android:layout_width="308dp"
+            android:layout_height="63dp"
+            app:srcCompat="@mipmap/opciones"
+            android:scaleType="fitCenter"
+            android:id="@+id/opciones"
+            android:backgroundTint="@android:color/transparent"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:elevation="0dp"
+            android:layout_marginTop="17dp"
+            android:layout_below="@+id/imageButton3"
+            android:layout_alignRight="@+id/imageButton2"
+            android:layout_alignEnd="@+id/imageButton2"
+            android:layout_weight="0.16" />
+    </LinearLayout>
 </RelativeLayout>
