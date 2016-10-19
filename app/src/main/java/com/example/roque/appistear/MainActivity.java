@@ -8,12 +8,12 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
+    ImageButton button;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        ImageButton button = (ImageButton) findViewById(R.id.juegos);
+
+
+    public void juegos(){
+        button = (ImageButton) findViewById(R.id.juegos);
         final Context context = this;
         button.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
@@ -21,23 +21,38 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
 
-        ImageButton btn = (ImageButton) findViewById(R.id.cocteleria);
+    public void Coctelera(){
+        button = (ImageButton) findViewById(R.id.cocteleria);
         final Context ct = this;
-        btn.setOnClickListener(new View.OnClickListener(){
+        button.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                Intent intent = new Intent(context,Cocteleria.class);
-                startActivity(intent);
-            }
-        });
-
-        ImageButton bt = (ImageButton) findViewById(R.id.opciones);
-        final Context ctx = this;
-        bt.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
-                Intent intent = new Intent(context, Opciones.class);
+                Intent intent = new Intent(ct,Cocteleria.class);
                 startActivity(intent);
             }
         });
     }
+
+    public void Opciones(){
+        button = (ImageButton) findViewById(R.id.opciones);
+        final Context ctx = this;
+        button.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                Intent intent = new Intent(ctx, Opciones.class);
+                startActivity(intent);
+            }
+        });
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        juegos();
+        Coctelera();
+        Opciones();
+    }
+
+
 }
