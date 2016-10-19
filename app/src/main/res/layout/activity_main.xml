@@ -30,21 +30,12 @@
             android:layout_weight="2.07"
             />
 
-        <ImageButton
-            android:layout_height="wrap_content"
-            app:srcCompat="@mipmap/juegos"
-            android:scaleType="fitCenter"
-            android:adjustViewBounds="true"
-            android:id="@+id/juegos"
-            android:backgroundTint="@android:color/transparent"
-            android:layout_width="279dp"
-            android:elevation="0dp"
-            android:layout_marginBottom="20dp"
-            android:layout_marginRight="49dp"
-            android:layout_marginEnd="49dp"
-            android:layout_above="@+id/imageButton3"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+        <Button
+            android:text="Button"
+            android:layout_width="215dp"
+            android:layout_height="130dp"
+            android:id="@+id/button"
+            android:fontFamily="sans-serif-medium" />
 
         <view
             android:layout_width="match_parent"
@@ -53,18 +44,11 @@
             android:id="@+id/view2"
             android:layout_weight="0.31" />
 
-        <ImageButton
-            android:layout_width="333dp"
-            android:layout_height="wrap_content"
-            app:srcCompat="@mipmap/cocteleria"
-            android:adjustViewBounds="true"
-            android:scaleType="fitCenter"
-            android:id="@+id/cocteleria"
-            android:backgroundTint="@android:color/transparent"
-            android:elevation="0dp"
-            android:layout_centerVertical="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+        <Button
+            android:text="Button"
+            android:layout_width="211dp"
+            android:layout_height="113dp"
+            android:id="@+id/button2" />
 
         <view
             android:layout_width="match_parent"
@@ -73,20 +57,11 @@
             android:id="@+id/view3"
             android:layout_weight="0.31" />
 
-        <ImageButton
-            android:layout_width="308dp"
-            android:layout_height="63dp"
-            app:srcCompat="@mipmap/opciones"
-            android:scaleType="fitCenter"
-            android:id="@+id/opciones"
-            android:backgroundTint="@android:color/transparent"
-            android:adjustViewBounds="true"
-            android:cropToPadding="false"
-            android:elevation="0dp"
-            android:layout_marginTop="17dp"
-            android:layout_below="@+id/imageButton3"
-            android:layout_alignRight="@+id/imageButton2"
-            android:layout_alignEnd="@+id/imageButton2"
-            android:layout_weight="0.16" />
+        <Button
+            android:text="Button"
+            android:layout_width="209dp"
+            android:layout_height="110dp"
+            android:id="@+id/button3" />
+
     </LinearLayout>
 </RelativeLayout>
