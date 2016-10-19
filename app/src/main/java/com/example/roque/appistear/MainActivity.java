@@ -10,8 +10,6 @@ import android.widget.ImageButton;
 public class MainActivity extends AppCompatActivity {
     ImageButton button;
 
-
-
     public void juegos(){
         button = (ImageButton) findViewById(R.id.juegos);
         final Context context = this;
