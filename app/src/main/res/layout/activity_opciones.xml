@@ -43,11 +43,10 @@
         android:text="Acerca de...."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="97dp"
+        android:id="@+id/btninfo"
+        android:background="@android:color/transparent"
         android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/textView2"
-        android:layout_toEndOf="@+id/textView2"
-        android:layout_marginBottom="99dp"
-        android:id="@+id/button2"
-        android:background="@android:color/transparent" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
