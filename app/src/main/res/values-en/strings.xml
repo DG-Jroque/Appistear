@@ -3,4 +3,7 @@
     <string name="juegos">Games</string>
     <string name="cocteleria">Mixology</string>
     <string name="opciones">Options</string>
+    <string name="jugadores">Plaayers</string>
+    <string name="idioma">Language</string>
+    <string name="acercade">About...</string>
 </resources>

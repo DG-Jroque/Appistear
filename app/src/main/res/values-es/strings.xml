@@ -3,4 +3,8 @@
     <string name="juegos">Juegos</string>
     <string name="cocteleria">Cocteleria</string>
     <string name="opciones">Opciones</string>
+    <string name="jugadores">Jugadores</string>
+    <string name="idioma">Idioma</string>
+    <string name="acercade">Acerca de...</string>
+
 </resources>

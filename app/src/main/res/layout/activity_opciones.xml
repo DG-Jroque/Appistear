@@ -12,22 +12,7 @@
     android:background="@mipmap/fondo">
 
     <TextView
-        android:text="Idioma"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="19dp"
-        android:layout_marginStart="19dp"
-        android:layout_marginTop="96dp"
-        android:id="@+id/textView2"
-        android:textStyle="normal|bold"
-        android:fontFamily="cursive"
-        android:textSize="34sp" />
-
-    <TextView
-        android:text="Jugadores"
+        android:text="@string/jugadores"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="89dp"
@@ -40,7 +25,7 @@
         android:layout_alignStart="@+id/textView2" />
 
     <Button
-        android:text="Acerca de....."
+        android:text="@string/acercade"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="97dp"
@@ -48,5 +33,39 @@
         android:background="@android:color/transparent"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/button_mex"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp"
+        android:id="@+id/button_usa"
+        android:background="@mipmap/eng"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:id="@+id/button_mex"
+        android:background="@mipmap/esp"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignRight="@+id/btninfo"
+        android:layout_alignEnd="@+id/btninfo" />
+
+    <TextView
+        android:text="@string/idioma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="94dp"
+        android:id="@+id/textView2"
+        android:textStyle="normal|bold"
+        android:fontFamily="cursive"
+        android:textSize="34sp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/btninfo"
+        android:layout_toStartOf="@+id/btninfo" />
 
 </RelativeLayout>
