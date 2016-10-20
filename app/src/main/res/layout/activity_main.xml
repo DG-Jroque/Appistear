@@ -31,24 +31,32 @@
             />
 
         <Button
-            android:text="Button"
-            android:layout_width="215dp"
-            android:layout_height="130dp"
-            android:id="@+id/button"
-            android:fontFamily="sans-serif-medium" />
+            android:text="@string/juegos"
+            android:layout_width="wrap_content"
+            android:layout_height="74dp"
+            android:id="@+id/juegos"
+            android:background="#4D78A8"
+            android:textColor="#DEA230"
+            android:textSize="20sp"
+            android:drawableRight="@mipmap/juego"/>
 
         <view
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             class="android.support.v4.widget.Space"
             android:id="@+id/view2"
-            android:layout_weight="0.31" />
+            android:layout_weight="0.31"
+            />
 
         <Button
-            android:text="Button"
-            android:layout_width="211dp"
-            android:layout_height="113dp"
-            android:id="@+id/button2" />
+            android:text="@string/cocteleria"
+            android:background="#4D78A8"
+            android:layout_width="295dp"
+            android:layout_height="68dp"
+            android:id="@+id/cocteleria"
+            android:textColor="#DEA230"
+            android:textSize="20sp"
+            android:drawableRight="@mipmap/coctel"/>
 
         <view
             android:layout_width="match_parent"
@@ -58,10 +66,15 @@
             android:layout_weight="0.31" />
 
         <Button
-            android:text="Button"
-            android:layout_width="209dp"
-            android:layout_height="110dp"
-            android:id="@+id/button3" />
+            android:text="@string/opciones"
+            android:background="#4D78A8"
+            android:layout_width="226dp"
+            android:layout_height="67dp"
+            android:id="@+id/opciones"
+            android:textColor="#DEA230"
+            android:textSize="20sp"
+            android:drawableRight="@mipmap/opc"
+            />
 
     </LinearLayout>
 </RelativeLayout>

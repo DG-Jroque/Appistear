@@ -2,9 +2,11 @@ package com.example.roque.appistear;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,31 +15,40 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ImageButton button = (ImageButton) findViewById(R.id.juegos);
-        final Context context = this;
-        button.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
-                Intent intent = new Intent(context, Juegos.class);
+        Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
+
+        final Button boton = (Button)findViewById(R.id.juegos);
+        boton.setTypeface(nf);
+//Implementamos el evento “click” del botón
+        boton.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent intent =  new Intent(MainActivity.this, Juegos.class);
                 startActivity(intent);
             }
         });
 
-        ImageButton btn = (ImageButton) findViewById(R.id.cocteleria);
-        final Context ct = this;
-        btn.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
-                Intent intent = new Intent(context,Cocteleria.class);
+        final Button btn = (Button)findViewById(R.id.cocteleria);
+        btn.setTypeface(nf);
+//Implementamos el evento “click” del botón
+        btn.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent intent =  new Intent(MainActivity.this, Cocteleria.class);
                 startActivity(intent);
             }
         });
 
-        ImageButton bt = (ImageButton) findViewById(R.id.opciones);
-        final Context ctx = this;
-        bt.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
-                Intent intent = new Intent(context, Opciones.class);
+        final Button bt = (Button)findViewById(R.id.opciones);
+        bt.setTypeface(nf);
+//Implementamos el evento “click” del botón
+        bt.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent intent =  new Intent(MainActivity.this, Opciones.class);
                 startActivity(intent);
             }
         });
+
     }
 }
