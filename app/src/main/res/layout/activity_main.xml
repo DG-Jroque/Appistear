@@ -51,7 +51,7 @@
         <Button
             android:text="@string/cocteleria"
             android:background="#4D78A8"
-            android:layout_width="295dp"
+            android:layout_width="wrap_content"
             android:layout_height="68dp"
             android:id="@+id/cocteleria"
             android:textColor="#DEA230"
@@ -68,7 +68,7 @@
         <Button
             android:text="@string/opciones"
             android:background="#4D78A8"
-            android:layout_width="226dp"
+            android:layout_width="217dp"
             android:layout_height="67dp"
             android:id="@+id/opciones"
             android:textColor="#DEA230"
