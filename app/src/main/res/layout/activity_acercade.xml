@@ -14,88 +14,112 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="23dp"
-        android:id="@+id/textView10"
+        android:layout_marginTop="52dp"
+        android:id="@+id/equipo"
         android:typeface="serif"
         android:fontFamily="cursive"
-        android:textSize="38sp"
+        android:textSize="20sp"
         android:textStyle="normal|bold"
         android:textColor="@android:color/black"
-        android:layout_below="@+id/textView7"
-        android:layout_alignRight="@+id/textView7"
-        android:layout_alignEnd="@+id/textView7"
-        android:text="Carlos V" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+       android:text="@string/equipo"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="105dp"
-        android:id="@+id/textView7"
-        android:typeface="serif"
-        android:fontFamily="cursive"
-        android:textSize="30sp"
-        android:textStyle="normal|bold"
-        android:textColor="@android:color/black"
-        android:text="Developed by: The DG Crew" />
-
-    <TextView
-        android:text="Jose Roque"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView9"
-        android:typeface="serif"
-        android:fontFamily="cursive"
-        android:textSize="38sp"
-        android:textStyle="normal|bold"
-        android:textColor="@android:color/black"
-        android:layout_alignBaseline="@+id/textView10"
-        android:layout_alignBottom="@+id/textView10"
-        android:layout_alignLeft="@+id/textView7"
-        android:layout_alignStart="@+id/textView7" />
-
-    <TextView
-        android:text="Kevin Angel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView6"
-        android:typeface="serif"
-        android:fontFamily="cursive"
-        android:textSize="38sp"
-        android:textStyle="normal|bold"
-        android:textColor="@android:color/black"
-        android:layout_alignBaseline="@+id/textView8"
-        android:layout_alignBottom="@+id/textView8"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:text="Alan GL"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="49dp"
-        android:id="@+id/textView8"
-        android:typeface="serif"
-        android:fontFamily="cursive"
-        android:textSize="38sp"
-        android:textStyle="normal|bold"
-        android:textColor="@android:color/black"
-        android:layout_below="@+id/textView10"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <TextView
-        android:text="Richy Ramos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:id="@+id/textView11"
-        android:typeface="serif"
-        android:fontFamily="cursive"
-        android:textSize="38sp"
-        android:textStyle="normal|bold"
-        android:textColor="@android:color/black"
-        android:layout_below="@+id/textView6"
         android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/desarrollador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/p1"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/equipo"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv"
+        android:typeface="serif"
+        android:fontFamily="cursive"
+        android:textSize="14sp"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/black"
+        android:text="CARLOS V"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/p1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp" />
+
+    <TextView
+        android:text="ALAN GL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ag"
+        android:typeface="serif"
+        android:fontFamily="cursive"
+        android:textSize="14sp"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/jr"
+        android:layout_alignBottom="@+id/jr"
+        android:layout_alignLeft="@+id/cv"
+        android:layout_alignStart="@+id/cv" />
+
+    <TextView
+        android:text="KEVIN ANGEL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ka"
+        android:typeface="serif"
+        android:fontFamily="cursive"
+        android:textSize="14sp"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/disenador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/d1"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="38dp"
+        android:layout_above="@+id/ka"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="J, ROQUE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/jr"
+        android:typeface="serif"
+        android:fontFamily="cursive"
+        android:textSize="14sp"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="55dp"
+        android:layout_above="@+id/d1"
+        android:layout_alignRight="@+id/equipo"
+        android:layout_alignEnd="@+id/equipo" />
+
+    <TextView
+        android:text="R. RAMOS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rr"
+        android:typeface="serif"
+        android:fontFamily="cursive"
+        android:textSize="14sp"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/cv"
+        android:layout_alignBottom="@+id/cv"
+        android:layout_alignLeft="@+id/jr"
+        android:layout_alignStart="@+id/jr" />
 </RelativeLayout>

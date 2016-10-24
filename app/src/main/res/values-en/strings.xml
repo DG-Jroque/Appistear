@@ -3,4 +3,9 @@
     <string name="juegos">Games</string>
     <string name="cocteleria">Mixology</string>
     <string name="opciones">Options</string>
+    <string name="idioma">LANGUAGE</string>
+    <string name="acerca">ABOUT...</string>
+    <string name="equipo">OUR TEAM..</string>
+    <string name="desarrollador">DEVELOPERS</string>
+    <string name="disenador">DESIGNER</string>
 </resources>
