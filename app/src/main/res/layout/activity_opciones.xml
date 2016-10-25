@@ -11,19 +11,6 @@
     tools:context="com.example.roque.appistear.Opciones"
     android:background="@mipmap/fondo">
 
-    <TextView
-        android:text="@string/jugadores"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="89dp"
-        android:id="@+id/textView4"
-        android:textStyle="normal|bold"
-        android:fontFamily="cursive"
-        android:textSize="34sp"
-        android:layout_below="@+id/textView2"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_alignStart="@+id/textView2" />
-
     <Button
         android:text="@string/acercade"
         android:layout_width="wrap_content"
@@ -37,35 +24,51 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="80dp"
-        android:layout_alignTop="@+id/button_mex"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="11dp"
-        android:layout_marginEnd="11dp"
         android:id="@+id/button_usa"
         android:background="@mipmap/eng"
-        />
+
+        android:layout_alignBottom="@+id/button_mex"
+        android:layout_alignTop="@+id/button_mex"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/idioma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="normal|bold"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+        android:layout_above="@+id/btninfo"
+        android:layout_toLeftOf="@+id/button_mex"
+        android:layout_toStartOf="@+id/button_mex"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="176dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="80dp"
         android:id="@+id/button_mex"
         android:background="@mipmap/esp"
-        android:layout_alignTop="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
         android:layout_alignRight="@+id/btninfo"
         android:layout_alignEnd="@+id/btninfo" />
 
     <TextView
-        android:text="@string/idioma"
+        android:text="@string/jugadores"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="94dp"
-        android:id="@+id/textView2"
+        android:id="@+id/textView4"
         android:textStyle="normal|bold"
         android:fontFamily="cursive"
-        android:textSize="34sp"
-        android:layout_alignParentTop="true"
-        android:layout_toLeftOf="@+id/btninfo"
-        android:layout_toStartOf="@+id/btninfo" />
+        android:textSize="30sp"
+
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/button_mex"
+        android:layout_alignRight="@+id/button_mex"
+        android:layout_alignEnd="@+id/button_mex" />
+
 
 </RelativeLayout>

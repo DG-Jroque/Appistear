@@ -38,7 +38,7 @@
         android:textSize="30sp"
         android:textStyle="normal|bold"
         android:textColor="@android:color/black"
-        android:text="Developed by: The DG Crew" />
+        android:text="@string/desarrolladopor" />
 
     <TextView
         android:text="Jose Roque"
