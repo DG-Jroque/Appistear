@@ -3,4 +3,10 @@
     <string name="juegos">Juegos</string>
     <string name="cocteleria">Cocteleria</string>
     <string name="opciones">Opciones</string>
+    <string name="idioma">IDIOMA</string>
+    <string name="acerca">ACERCA DE...</string>
+    <string name="equipo">NUESTRO EQUIPO..</string>
+    <string name="desarrollador">PROGRAMADORES</string>
+    <string name="disenador">DISENADOR</string>
+    <string name="ron">RON</string>
 </resources>
