@@ -10,9 +10,8 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="portrait"
             android:configChanges="locale|orientation"
-            >
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,11 +29,14 @@
         <activity
             android:name=".Opciones"
             android:configChanges="locale|orientation"
-            android:screenOrientation="portrait"
-            />
-        <activity android:name=".Acercade"
-            android:configChanges="locale|orientation"
-            ></activity>
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Acercade"
+            android:configChanges="locale|orientation" />
+        <activity
+            android:name=".BebidasDinamicas"
+            android:label="@string/title_activity_bebidas_dinamicas"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
