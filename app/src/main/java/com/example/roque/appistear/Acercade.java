@@ -13,7 +13,7 @@ public class Acercade extends AppCompatActivity {
         setContentView(R.layout.activity_acercade);
         Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
 
-        final TextView eq = (TextView) findViewById(R.id.equipo);
+       /* final TextView eq = (TextView) findViewById(R.id.equipo);
         final TextView cv = (TextView) findViewById(R.id.cv);
         final TextView rr = (TextView) findViewById(R.id.rr);
         final TextView ka = (TextView) findViewById(R.id.ka);
@@ -28,7 +28,7 @@ public class Acercade extends AppCompatActivity {
         ka.setTypeface(nf);
         jr.setTypeface(nf);
         d1.setTypeface(nf);
-        p1.setTypeface(nf);
+        p1.setTypeface(nf);*/
 
     }
 }
