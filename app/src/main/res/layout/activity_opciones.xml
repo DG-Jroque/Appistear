@@ -70,5 +70,4 @@
         android:layout_alignRight="@+id/button_mex"
         android:layout_alignEnd="@+id/button_mex" />
 
-
 </RelativeLayout>
