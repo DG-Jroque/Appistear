@@ -9,10 +9,13 @@ import android.view.View;
 
 public class BebidasDinamicas extends AppCompatActivity {
 
+    String descripcion, nombreImagen;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bebidas_dinamicas);
+
+
     }
 
 
