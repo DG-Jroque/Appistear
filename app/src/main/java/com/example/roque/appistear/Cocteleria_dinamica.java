@@ -12,16 +12,21 @@ public class Cocteleria_dinamica extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cocteleria_dinamica);
         String recibir= getIntent().getStringExtra("var");
+        recibir= recibir.toLowerCase();
         switch(recibir){
-            case "mararita":
+            case "tequila_margarita":
+                tequila_margarita();
                 break;
             default:
                 break;
         }
     }
 
-    public void margarita(){
+    public void tequila_margarita(){
 
+        ((TextView)findViewById(R.id.textView_titulo)).setText("Margarita");
+        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_Margarita");
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Margarita");
 
     }
 }
