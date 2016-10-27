@@ -64,5 +64,56 @@ Si lo desea, adórnelo con una rebanada de fruta.
     <!--
         ****************RON****************
         -->
+    <string name="ingredientesRon_CubaLibre">160ml de ron.\n15ml de zumo de limón.\n2 cascaras de limón.\nRefresco de cola.\nCubos de hielo
+</string>
+    <string name="prepararRon_CubaLibre">En vasos altos coloque los cubitos, vierta el zumo de limón y añada el ron, complete con refresco de cola; agregue las cascarás después de frotar con ellas el borde del vaso</string>
+    <string name="ingredientesRon_PinaColada">Hielo.\n45ml de Ron blanco.\n35ml de crema de coco.\nZumo o jugo de piña.\nRodaja de piña y guinda</string>
+    <string name="prepararRon_PinaColada">Verter el hielo, el Ron blanco, la crema de coco y rellenar con zumo de piña.
+Agitar bien la mezcla y colar en un vaso.
+Decorar con rodaja de piña y guinda.
+</string>
+    <string name="ingredientesRon_Mojito">Hielo.\n1 cucharada de azúcar.\n10ml de zumo de lima.\n50ml de Ron blanco.\nGaseosa (7up, Sprite, Fanta de limón).\nHierbabuena o menta.
+</string>
+    <string name="prepararRon_Mojito">Poner la hierbabuena y el azúcar en el vaso y machacar con un mortero
+Añadir el hielo, el zumo de lima y el ron
+Llenar el vaso con la gaseosa y remover
+Decorar con un limón o una ramita de hierbabuena
+</string>
+    <string name="ingredientesRon_Daikiri">90ml de ron blanco.\n40ml de zumo de limón.\n1 parte de azúcar</string>
+    <string name="prepararRon_Daikiri"> Mezclar todos los ingredientes en una coctelera con hielo. Batir y servir en copa de cóctel. También lo puedes combinar con las frutas que quieras.</string>
+    <!--
+          ****************VODKA****************
+          -->
+
+    <string name="ingredientesVodka_WhiteRussian">20ml de licor de café (Kahlúa o Tia Maria por ejemplo).\n50ml de vodka.\n30ml de nata o leche
+</string>
+<string name="prepararVodka_WhiteRussian">Se trata de un coctel sencillo, no requiere coctelera y se presenta en vaso corto. Lo primero es llenar el vaso de hielo, a continuación, echamos el licor de café, el vodka y finalmente la nata. Si no te convence la leche ni la nata puedes probar a usar leche de soja o directamente pasar al Black Russian.</string>
+ <string name="ingredientesVodka_Moradito">Vodka.\nJugo de uva.\nAzúcar morena.
+</string>
+    <string name="prepararVodka_Moradito">Mezclas un tanto de Vodka de buena calidad con Licor o jugo de uva (si es natural resulta mejor) una cucharada de azúcar morena.
+ si en vez de vodka usas tequila
+sabe muy bien y se llama 69.
+</string>
+    <string name="ingredientesVodka_BloodyMary">40 ml. de vodka.\n75 gramos de zumo de tomate.\n15 ml de zumo de limón.\n2 golpes (chorritos) de salsa inglesa.
+\n2-3 gotitas de tabasco.
+\nSal y pimienta negra recién molida.
+\n3-4 cubitos de hielo.
+\n1 cucharada de jerez también le va bien (opcional).
+</string>
+    <string name="prepararVodka_BloodyMary">Preparar el vaso con los hielos.
+Verter el vodka.
+Agregar el limón.
+Aderezar con la sal y pimienta.
+Añadir la salsa y el tabasco.
+Rellenar con el tomate.
+Adornar con apio y servir.
+</string>
+    <string name="ingredientesVodka_BlueberrySpritzer">1 1/2 onzas de lavanda y miel jarabe simple.\n2 onzas de vodka de arándano.\n4 -6 oz cal agua con gas o soda.\nJugo de 1/4 limón, recién exprimido.
+</string>
+    <string name="prepararVodka_BlueberrySpritzer">1. Combine el jarabe de miel de lavanda, el vodka y el hielo en una coctelera.
+2. Mezcle para combinar, y la tensión en una copa de cóctel o una flauta.
+3. Cubra con agua con gas o soda, y el acabado con unas gotas de jugo de limón fresco
+</string>
+    <string name="ingredientesVodka_SexOnTheBeach">d</string>
 
 </resources>
