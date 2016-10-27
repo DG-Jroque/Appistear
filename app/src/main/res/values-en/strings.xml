@@ -24,5 +24,177 @@ Garnish with a slice of lemon on the rim
 <string name="prepararTequila_Paloma">the ice is placed in the cup, add tequila and lime juice and finish filling with grapefruit soda</string>
     <string name="ingredientesTequila_CharroNegro">1/3 de Tequila.\n1/3 lemon or lime juice.\n1/3 coke soda.</string>
     <string name="prepararTequila_CharroNegro">Spread salt on a plate. Rub the rim of the glass with lime wedge and wipe the salt so that it is covered.
-        Mix all ingredients in a shaker with crushed ice and shake vigorously. Strain into the cocktail glass salt and garnish with a slice of lime. </ String>
+        Mix all ingredients in a shaker with crushed ice and shake vigorously. Strain into the cocktail glass salt and garnish with a slice of lime. </string>
+
+    <!--
+    ****************WHISKY****************
+    -->
+    <string name="ingredientesWhisky_OldFashioned">1 sugar cube\n
+Angostura.\n
+soda.\n
+Ice.\n
+Whisky 60ml.\n
+1 slice of orange.\n
+1 slice of lemon.\n
+</string>
+    <string name="prepararWhisky_OldFashioned">Pour into the glass a stroke of Angostura and the sugar cube and wait two minutes.
+Fill the glass of soda
+Add the ice and stir to dissolve the sugar cube.
+Add the Whisky
+Garnish with a cocktail bar, a slice of orange and lemon other
+</string>
+    <string name="ingredientesWhisky_WardEight">• 1½ ounces of bourbon whiskey.\nJuice of half a lemon.\n½ ounce of grenadine.\nSoda
+</string>
+    <string name="prepararWhisky_WardEight">Shake all ingredients except soda with crushed ice.
+Pour, unstrained, in a tall glass. Fill the glass with soda.
+If desired, garnish with a slice of fruit.</string>
+    <string name="ingredientesWhisky_NightCap">2 oz. whiskey.\n1/2 oz. milk.\n1/2 oz. cocoa cream
+</string>
+    <string name="prepararWhisky_NightCap">In a shaker with ice, combine all ingredients. Serve in a cocktail glass.</string>
+    <string name="ingredientesWhisky_BlackJack">1 1/2 onz whiskey.\n1 kahlúa.\n1/2 triple sec.\n1/2 lemon juice
+</string>
+    <string name="prepararWhisky_BlackJack">In a blender with ice, combine all ingredients. Shake and serve in a cocktail glass.</string>
+    <string name="ingredientesWhisky_CafeIrlandes">1 1/2 ounce of Irish Whiskey.\n6 ounces of hot black coffee.\nWhipped cream.\n3/4 oz Irish Cream
+</string>
+    <string name="prepararWhisky_CafeIrlandes">Place the whiskey in a cup of coffee, then add the hot coffee and Irish cream. Add the whipped cream the top, and garnish with ground coffee beans or brown sugar.</string>
+    <!--
+        ****************RON****************
+        -->
+    <string name="ingredientesRon_CubaLibre">160ml rum.\n
+15ml lemon juice.\n
+2 lemon peel.\n
+Cola drink.\n
+Ice cubes.
+</string>
+    <string name="prepararRon_CubaLibre">Place in tall glasses cubes, pour the lemon juice and add the rum, complete with cola; add the shells after rubbing with them the rim of the glass</string>
+    <string name="ingredientesRon_PinaColada">Ice.\n
+45ml white rum.\n
+35ml coconut cream.\n
+Juice or pineapple juice.\n
+Pineapple and cherry slice.
+</string>
+    <string name="prepararRon_PinaColada">Pour ice, white rum, coconut cream and fill with pineapple juice.
+Stir the mixture well and strain into a glass.
+Garnish with pineapple slice and cherry.
+</string>
+    <string name="ingredientesRon_Mojito">Ice.\n
+1 tablespoon sugar.\n
+10ml lime juice.\n
+50ml white rum.\n
+Gaseous (7UP, Sprite, Fanta Lemon).\n
+Peppermint or mint.
+</string>
+    <string name="prepararRon_Mojito">Put the mint and sugar in the glass and crush with a mortar
+Add ice, lime juice and rum
+Fill the glass with the gas and remove
+Garnish with lemon or a sprig of mint
+</string>
+    <string name="ingredientesRon_Daikiri">90ml rum blanco.\n40ml parts lemon juice.\n1 part of sugar</string>
+    <string name="prepararRon_Daikiri">Mix all ingredients in a shaker with ice. Shake and serve in a cocktail glass. you can also combine with fruits you want. </string>
+
+    <string name="ingredientesRon_BlueHawaiian">Coconut cream.\nBlue Curacao.\n
+Pineapple juice.\n
+.\nRon White.
+</string>
+    <string name="prepararRon_BlueHawaiian">Pour into a blender with crushed ice 1oz White Rum, Blue Curacao 1oz, 1oz 2oz Coconut Cream and Pineapple Juice. Mix at maximum speed for 10 seconds, serve in a tall glass and garnish with a pineapple and a cherry.</string>
+    <!--
+          ****************VODKA****************
+          -->
+
+    <string name="ingredientesVodka_WhiteRussian">20 ml coffee liqueur (Kahlua or Tia Maria for example).\n
+50ml of vodka.\n
+30ml cream or milk.\n
+</string>
+    <string name="prepararVodka_WhiteRussian">It is a simple cocktail shaker does not require and is presented in short glass. The first is to fill the glass with ice, then pour the coffee liqueur, vodka and finally the cream. If you do not like milk or cream you can try using soy milk or directly go to Black Russian.</string>
+ <string name="ingredientesVodka_Moradito">Vodka.\n
+Grape juice.\n
+brown sugar.
+</string>
+    <string name="prepararVodka_Moradito">Mixtures somewhat of good quality vodka with liqueur or grape juice (if it is natural is better) a tablespoon of brown sugar;
+ if you use vodka instead of tequila
+He tastes great and is called 69
+</string>
+    <string name="ingredientesVodka_BloodyMary">40 ml. vodka.\n
+75 grams of tomato juice.\n
+15 ml lemon juice.\n
+2 strokes (squirts) Worcestershire sauce.\n
+2-3 drops of tabasco.\n
+Salt and freshly ground black pepper.\n
+3-4 ice cubes.\n
+1 tablespoon sherry also does well (optional).
+</string>
+    <string name="prepararVodka_BloodyMary">Prepare the glass with ice.
+Pour the vodka.
+Add the lemon.
+Season with salt and pepper.
+Add the sauce and Tabasco.
+Fill with tomato.
+Garnish with celery and serve.
+</string>
+    <string name="ingredientesVodka_BlueberrySpritzer">1 1/2 ounces of lavender and honey simple syrup.\n2 ounces of cranberry vodka
+\n4 -6 oz lime soda or sparkling water\n1/4 lemon juice, freshly squeezed
+</string>
+    <string name="prepararVodka_BlueberrySpritzer">1. Combine lavender honey syrup, vodka and ice in a shaker.\n
+2. Stir to combine, and strain into a cocktail glass or a flute.\n
+3. Cover with water or soda, and finish with a few drops of fresh lemon juice.
+</string>
+    <string name="ingredientesVodka_SexOnTheBeach">1 1/2 ounces vodka.\n
+Peach schnapps 3/4 oz (liquor peach / peaches).\n
+1 1/2 oz freshly squeezed orange juice.\n
+1 1/2 oz cranberry juice.\n
+Ice.\n
+collins glass.\n
+2 straws.\n
+1 slice of orange (or lemon) to decorate.\n
+1 red cherry for garnish.\n
+</string>
+    <string name="prepararVodka_SexOnTheBeach">pour the vodka, peach schnapps, orange juice and blueberries. With a bar spoon stir gently for 10 seconds, add a couple of straws and garnish with a slice of good fresh orange on the rim. Finally add a red cherry, this will help in the decoration and give a more sensual and aromatic to this cocktail so sophisticated touch</string>
+
+    <!--
+          ****************MEZCAL****************
+          -->
+<string name="ingredientesMezcal_Zignumocuilli">1 oz SILVER ZIGNUM.\n
+1 oz chamoy.\n
+1 oz tamarind concentrate.\n
+Worm salt or chili powder to decorate.\n
+Strips of cucumber for garnish.
+</string>
+    <string name="prepararMezcal_Zignumocuilli">In a shaker put ice to taste, then add the Zignum oz Silver Mezcal with the chamoy and tamarind mixture for 35 seconds. Strain into a glass previously cooled and frosted with salt worm, finally garnish with cucumber also covered with salt or chili powder worm.</string>
+    <string name="ingredientesMezcal_HotPinneapple">2 ounces of Zignum reposed.\n
+4 ounces of pineapple juice.\n
+Lemon juice ¼ oz.\n
+Pineapple tidbits.
+</string>
+    <string name="prepararMezcal_Hotpinneapple">1. In a separate mixing jug mezcal with pineapple juice.\n
+2. Add the lemon juice.\n
+3. Add ice.\n
+4. Frost the glass where Tajin serve with sauce around.\n
+5. Decorate with a slice of pineapple on a shore enchilada.\n
+6. Serve
+</string>
+    <string name="ingredientesMezcal_Tunacuixe">1 ounce of mezcal Treat Sprat-Madrecuixe.\n
+4 pieces of tuna.\n
+1 ounce natural syrup.\n
+1/2 ounce lemon juice.\n
+2 ounces of mineral water.
+</string>
+    <string name="prepararMezcal_Tunacuixe">Crush the ingredients in a mixing glass (except mineral water). Add ice, shake and serve the content (double cast). In the glass with ice, fill with mineral water.</string>
+    <string name="ingredientesMezcal_Sunset">Natural lemon juice 25 ml.\n
+Orange juice 25 ml.\n
+25 ml white gold mezcal.\n
+1 tablespoon liquid honey.\n
+Crushed ice.\n
+1 spiral lemon (to decorate).\n
+</string>
+    <string name="prepararMezcal_Sunset">Hours before putting the cups in the freezer. Add white mezcal, lemon juice and orange juice and move. Pour honey into the cup, long before the ice. Enter the ice and decorate as desired</string>
+    <string name="ingredientesMezcal_BlackMexcan">1 1/2 ounce white mezcal.\n
+1 ounce coffee liqueur.\n
+Ice cubes.
+</string>
+    <string name="prepararMezcal_BlackMexican">Pour both drinks in a cocktail glass filled with icelleno de hielo</string>
 </resources>
+
+
+
+
+
