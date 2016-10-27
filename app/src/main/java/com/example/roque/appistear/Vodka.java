@@ -20,7 +20,6 @@ public class Vodka extends AppCompatActivity {
         btn.setTypeface(nf);
 //Implementamos el evento “click” del botón
         btn.setOnClickListener(new View.OnClickListener() {
-
             public void onClick(View v) {
                 Intent intent =  new Intent(Vodka.this, Cocteleria_dinamica.class);
                 intent.putExtra("var", "Vodka_WhiteRussian");
@@ -28,5 +27,49 @@ public class Vodka extends AppCompatActivity {
             }
         });
 
+        final Button btn1 = (Button)findViewById(R.id.buttonBlueberrySpritzer);
+        btn1.setTypeface(nf);
+//Implementamos el evento “click” del botón
+        btn1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent =  new Intent(Vodka.this, Cocteleria_dinamica.class);
+                intent.putExtra("var", "Vodka_BlueberrySpritzer");
+                startActivity(intent);
+            }
+        });
+
+        final Button btn2 = (Button)findViewById(R.id.buttonBloodyMary);
+        btn2.setTypeface(nf);
+//Implementamos el evento “click” del botón
+        btn2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent =  new Intent(Vodka.this, Cocteleria_dinamica.class);
+                intent.putExtra("var", "Vodka_BloodyMary");
+                startActivity(intent);
+            }
+        });
+
+
+        final Button btn3 = (Button)findViewById(R.id.buttonMoradito);
+        btn3.setTypeface(nf);
+//Implementamos el evento “click” del botón
+        btn3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent =  new Intent(Vodka.this, Cocteleria_dinamica.class);
+                intent.putExtra("var", "Vodka_Moradito");
+                startActivity(intent);
+            }
+        });
+
+        final Button btn4 = (Button)findViewById(R.id.buttonSexOnTheBeach);
+        btn4.setTypeface(nf);
+//Implementamos el evento “click” del botón
+        btn4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent =  new Intent(Vodka.this, Cocteleria_dinamica.class);
+                intent.putExtra("var", "Vodka_SexOnTheBeach");
+                startActivity(intent);
+            }
+        });
     }
 }
