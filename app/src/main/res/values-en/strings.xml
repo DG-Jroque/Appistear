@@ -8,8 +8,17 @@
     <string name="acerca">About...</string>
     <string name="desarrolladopor">Developed by: The DG Crew</string>
     <string name="ron">Rum</string>
-    <string name="equipo">NUESTRO EQUIPO..</string>
-    <string name="desarrollador">PROGRAMADORES</string>
-    <string name="disenador">DISENADOR</string>
+    <string name="equipo">Our Team..</string>
+    <string name="desarrollador">Programmers</string>
+    <string name="disenador">Designers</string>
+    <string name="preparacion">Directions:</string>
+    <string name="ingredientes">Ingredients:</string>
+    <string name="ingredientesTequila_Margarita">Tequila 60 ml.\nCointreau 30 ml.\n30 ml Lemon juice.\nIce.\nSalt for the rim of the glass.
+</string>
+      <string name="prepararTequila_Margarita">Take the glass and rub the edge with the 3/4 lemon juice, immediately after passing the edges of the salt.
+Place all ingredients (except salt) in a cocktail shaker with ice.
+Shake and serve the drink (which should be salted on its edge)
+Garnish with a slice of lemon on the rim
+</string>
 
 </resources>
