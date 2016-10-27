@@ -11,6 +11,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_cocteleria_dinamica);
         String recibir= getIntent().getStringExtra("var");
         recibir= recibir.toLowerCase();
         switch(recibir){
@@ -26,7 +27,6 @@ public class Cocteleria_dinamica extends AppCompatActivity {
             default:
                 break;
         }
-        setContentView(R.layout.activity_cocteleria_dinamica);
 
     }
 
