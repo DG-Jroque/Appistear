@@ -16,7 +16,7 @@ public class Vodka extends AppCompatActivity {
         Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
 
 
-        final Button btn = (Button)findViewById(R.id.buttonWhiteRussian);
+        final Button btn = (Button)findViewById(R.id.buttonwhiterussian);
         btn.setTypeface(nf);
 //Implementamos el evento “click” del botón
         btn.setOnClickListener(new View.OnClickListener() {
@@ -27,7 +27,7 @@ public class Vodka extends AppCompatActivity {
             }
         });
 
-        final Button btn1 = (Button)findViewById(R.id.buttonBlueberrySpritzer);
+        final Button btn1 = (Button)findViewById(R.id.buttonblueberryspritzer);
         btn1.setTypeface(nf);
 //Implementamos el evento “click” del botón
         btn1.setOnClickListener(new View.OnClickListener() {
@@ -38,7 +38,7 @@ public class Vodka extends AppCompatActivity {
             }
         });
 
-        final Button btn2 = (Button)findViewById(R.id.buttonBloodyMary);
+        final Button btn2 = (Button)findViewById(R.id.buttonbloodymary);
         btn2.setTypeface(nf);
 //Implementamos el evento “click” del botón
         btn2.setOnClickListener(new View.OnClickListener() {
@@ -50,7 +50,7 @@ public class Vodka extends AppCompatActivity {
         });
 
 
-        final Button btn3 = (Button)findViewById(R.id.buttonMoradito);
+        final Button btn3 = (Button)findViewById(R.id.buttonmoradito);
         btn3.setTypeface(nf);
 //Implementamos el evento “click” del botón
         btn3.setOnClickListener(new View.OnClickListener() {
@@ -61,7 +61,7 @@ public class Vodka extends AppCompatActivity {
             }
         });
 
-        final Button btn4 = (Button)findViewById(R.id.buttonSexOnTheBeach);
+        final Button btn4 = (Button)findViewById(R.id.buttonsexonthebeach);
         btn4.setTypeface(nf);
 //Implementamos el evento “click” del botón
         btn4.setOnClickListener(new View.OnClickListener() {
