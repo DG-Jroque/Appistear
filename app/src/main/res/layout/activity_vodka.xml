@@ -24,72 +24,69 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp" />
 
-
-
     <Button
-        android:text="Blueberry Spritzer"
+        android:text="Moradito"
         android:background="#4D78A8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:textColor="#DEA230"
-        android:id="@+id/buttonBlueberrySpritzer"
         android:layout_marginTop="40dp"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
+        android:textColor="#DEA230"
+        android:textSize="20sp"
+        android:layout_below="@+id/buttonwhiterussian"
+        android:layout_alignLeft="@+id/buttonwhiterussian"
+        android:id="@+id/buttomoradito" />
 
     <Button
         android:text="Bloody Mary"
         android:background="#4D78A8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:textColor="#DEA230"
-        android:id="@+id/buttonBloodyMary"
         android:layout_marginTop="40dp"
-        android:layout_below="@+id/buttonBlueberrySpritzer"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:textColor="#DEA230"
+        android:textSize="20sp"
+        android:layout_below="@+id/buttomoradito"
+        android:layout_alignLeft="@+id/buttomoradito"
+        android:layout_alignStart="@+id/buttomoradito"
+        android:id="@+id/buttonbloodymary" />
 
     <Button
-        android:text="Moradito"
+        android:text="Blueberry Spritzer"
         android:background="#4D78A8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:textColor="#DEA230"
-        android:id="@+id/buttonMoradito"
         android:layout_marginTop="40dp"
-        android:layout_below="@+id/buttonBloodyMary"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-
-    <Button
-        android:text="White Russian"
-        android:background="#4D78A8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30sp"
         android:textColor="#DEA230"
-        android:id="@+id/buttonWhiteRussian"
-        android:layout_marginTop="40dp"
-        android:layout_below="@+id/buttonMoradito"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:textSize="20sp"
+        android:layout_below="@+id/buttonbloodymary"
+
+        android:layout_alignLeft="@+id/buttonbloodymary"
+        android:id="@+id/buttonblueberryspritzer" />
 
     <Button
         android:text="Sex On The Beach"
         android:background="#4D78A8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
+        android:layout_marginTop="40dp"
         android:textColor="#DEA230"
-        android:id="@+id/buttonSexOnTheBeach"
-        android:layout_below="@+id/buttonWhiteRussian"
+        android:textSize="20sp"
+        android:layout_below="@+id/buttonblueberryspritzer"
+
+        android:layout_alignLeft="@+id/buttonblueberryspritzer"
+        android:id="@+id/buttonsexonthebeach" />
+
+    <Button
+        android:text="White Russian"
+        android:background="#4D78A8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="#DEA230"
+        android:textSize="20sp"
+        android:id="@+id/buttonwhiterussian"
+        android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="40dp" />
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp" />
 </RelativeLayout>

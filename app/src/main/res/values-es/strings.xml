@@ -61,4 +61,8 @@ Si lo desea, adórnelo con una rebanada de fruta.
     <string name="prepararWhisky_BlackJack">En una batidora con hielo, combinar todos los ingredientes. Batir, y servir en copa de cóctel.</string>
 <string name="ingredientesWhisky_CafeIrlandes">1 1/2 onzas de Whiskey Irlandés.\n6 onzas de café negro caliente.\nCrema Batida.\n3/4 onzas de Crema.</string>
     <string name="prepararWhisky_CafeIrlandes">Coloca el whisky en una taza de café, luego agrega el café caliente y la crema irlandesa. Agrega la crema batida arriba del todo y decora con granos de café molidos o azúcar morena.</string>
+    <!--
+        ****************RON****************
+        -->
+
 </resources>
