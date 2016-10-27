@@ -23,7 +23,7 @@ public class Tequila extends AppCompatActivity {
 
             public void onClick(View v) {
                 Intent intent =  new Intent(Tequila.this, Cocteleria_dinamica.class);
-                intent.putExtra("var","margarita");
+                intent.putExtra("var","tequila_margarita");
                 startActivity(intent);
             }
         });
@@ -31,7 +31,7 @@ public class Tequila extends AppCompatActivity {
 
             public void onClick(View v) {
                 Intent intent =  new Intent(Tequila.this, Cocteleria_dinamica.class);
-                intent.putExtra("var","paloma");
+                intent.putExtra("var","tequila_paloma");
                 startActivity(intent);
             }
         });
@@ -39,7 +39,7 @@ public class Tequila extends AppCompatActivity {
 
             public void onClick(View v) {
                 Intent intent =  new Intent(Tequila.this, Cocteleria_dinamica.class);
-                intent.putExtra("var","bloody");
+                intent.putExtra("var","tequila_bloodymaria");
                 startActivity(intent);
             }
         });
@@ -47,7 +47,7 @@ public class Tequila extends AppCompatActivity {
 
             public void onClick(View v) {
                 Intent intent =  new Intent(Tequila.this, Cocteleria_dinamica.class);
-                intent.putExtra("var","charro");
+                intent.putExtra("var","tequila_charronegro");
                 startActivity(intent);
             }
         });
@@ -55,7 +55,7 @@ public class Tequila extends AppCompatActivity {
 
             public void onClick(View v) {
                 Intent intent =  new Intent(Tequila.this, Cocteleria_dinamica.class);
-                intent.putExtra("var","sunrise");
+                intent.putExtra("var","tequila_sunrise");
                 startActivity(intent);
             }
         });
