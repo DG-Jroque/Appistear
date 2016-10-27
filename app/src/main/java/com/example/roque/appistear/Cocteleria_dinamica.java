@@ -109,7 +109,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
     public void tequila_margarita(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
         titulo.setTypeface(nf);
-                titulo.setText("Margarita");
+                titulo.setText("MARGARITA");
 
         ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararTequila_Margarita));
         ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesTequila_Margarita));
@@ -117,7 +117,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void tequila_paloma(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
-        titulo.setText("Paloma");
+        titulo.setText("PALOMA");
         titulo.setTypeface(nf);
         ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararTequila_Paloma));
         ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesTequila_Paloma));
@@ -133,7 +133,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void tequila_bloodyMaria(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
-        titulo.setText("Blood Maria");
+        titulo.setText("BLOODY MARIA");
         titulo.setTypeface(nf);
         ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararTequila_BloodyMaria));
         ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesTequila_BoodyMaria));
@@ -141,7 +141,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void tequila_sunrise(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
-        titulo.setText("Sunrise");
+        titulo.setText("SUNRISE");
         titulo.setTypeface(nf);
         ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararTequila_Sunrise));
         ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesTequila_Sunrise));
@@ -152,7 +152,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
      *****************/
     public void whisky_oldFashioned(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
-        titulo.setText("Old Fashioned");
+        titulo.setText("OLD FASHIONED");
         titulo.setTypeface(nf);
         ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararWhisky_OldFashioned));
         ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesWhisky_OldFashioned));
@@ -160,7 +160,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void whisky_wardEight(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
-        titulo.setText("Ward Eight");
+        titulo.setText("WARD EIGHT");
         titulo.setTypeface(nf);
         ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararWhisky_WardEight));
         ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesWhisky_WardEight));
@@ -168,7 +168,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void whisky_nightCap(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
-        titulo.setText("Night Cap");
+        titulo.setText("NIGHT CAP");
         titulo.setTypeface(nf);
         ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararWhisky_NightCap));
         ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesWhisky_NightCap));
@@ -176,7 +176,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void whisky_blackJack(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
-        titulo.setText("Black Jack");
+        titulo.setText("BLACK JACK");
         titulo.setTypeface(nf);
         ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararWhisky_BlackJack));
         ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesWhisky_BlackJack));
@@ -184,7 +184,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void whisky_cadeIrlandes(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
-        titulo.setText("Café Irlandés");
+        titulo.setText("CAFÉ IRLANDÉS");
         titulo.setTypeface(nf);
         ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararWhisky_CafeIrlandes));
         ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesWhisky_CafeIrlandes));
@@ -196,7 +196,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void vodka_whiteRussian(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
-        titulo.setText("White Russian");
+        titulo.setText("WHITE RUSSIAN");
         titulo.setTypeface(nf);
         ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararVodka_WhiteRussian));
         ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesVodka_WhiteRussian));
@@ -204,7 +204,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void vodka_bloodyMary(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
-        titulo.setText("Bloody Mary");
+        titulo.setText("BLOODY MARY");
         titulo.setTypeface(nf);
         ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararVodka_BloodyMary));
         ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesVodka_BloodyMary));
@@ -212,7 +212,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void vodka_moradito(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
-        titulo.setText("Moradito");
+        titulo.setText("MORADITO");
         titulo.setTypeface(nf);
         ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararVodka_Moradito));
         ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesVodka_Moradito));
@@ -220,7 +220,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void vodka_blueberrySpritzer(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
-        titulo.setText("Blueberry Spritzer");
+        titulo.setText("BLUEBERRY SPRITZER");
         titulo.setTypeface(nf);
         ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararVodka_BlueberrySpritzer));
         ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesVodka_BlueberrySpritzer));
@@ -228,7 +228,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void vodka_sexOnTheBeach(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
-        titulo.setText("Sex On The Beach");
+        titulo.setText("SEX ON THE BEACH");
         titulo.setTypeface(nf);
         ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararVodka_SexOnTheBeach));
         ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesVodka_SexOnTheBeach));
@@ -240,7 +240,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void ron_cubaLibre(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
-        titulo.setText("Cuba Libre");
+        titulo.setText("CUBA LIBRE");
         titulo.setTypeface(nf);
         ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararRon_CubaLibre));
         ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesRon_CubaLibre));
@@ -248,7 +248,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void ron_pinacolada(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
-        titulo.setText("Piña Colada");
+        titulo.setText("PIÑA COLADA");
         titulo.setTypeface(nf);
         ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararRon_PinaColada));
         ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesRon_PinaColada));
@@ -256,7 +256,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void ron_mojito(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
-        titulo.setText("Mojito");
+        titulo.setText("MOJITO");
         titulo.setTypeface(nf);
         ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararRon_Mojito));
         ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesRon_Mojito));
@@ -264,7 +264,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void ron_daikiri(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
-        titulo.setText("Daikiri");
+        titulo.setText("DAIKIRI");
         titulo.setTypeface(nf);
         ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararRon_Daikiri));
         ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesRon_Daikiri));
@@ -272,7 +272,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void ron_bluehawaiian(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
-        titulo.setText("Blue Hawaiian");
+        titulo.setText("BLUE HAWAIIAN");
         titulo.setTypeface(nf);
         ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararRon_BlueHawaiian));
         ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesRon_BlueHawaiian));
@@ -284,7 +284,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void mezcal_zignumocuilli() {
         TextView titulo = (TextView) findViewById(R.id.textView_titulo);
-        titulo.setText("Zignum Ocuilli");
+        titulo.setText("ZIGNUM OCUILLI");
         titulo.setTypeface(nf);
         ((TextView) findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararMezcal_Zignumocuilli));
         ((TextView) findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesMezcal_Zignumocuilli));
@@ -292,7 +292,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void mezcal_hotpinneapple() {
         TextView titulo = (TextView) findViewById(R.id.textView_titulo);
-        titulo.setText("Hot PinneApple");
+        titulo.setText("HOT PINNEAPPLE");
         titulo.setTypeface(nf);
         ((TextView) findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararMezcal_Hotpinneapple));
         ((TextView) findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesMezcal_HotPinneapple));
@@ -300,7 +300,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void mezcal_tunacuixe() {
         TextView titulo = (TextView) findViewById(R.id.textView_titulo);
-        titulo.setText("Tunacuixe");
+        titulo.setText("TUNACIIXE");
         titulo.setTypeface(nf);
         ((TextView) findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararMezcal_Tunacuixe));
         ((TextView) findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesMezcal_Tunacuixe));
@@ -308,7 +308,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void mezcal_sunset() {
         TextView titulo = (TextView) findViewById(R.id.textView_titulo);
-        titulo.setText("Sunset");
+        titulo.setText("SUNSET");
         titulo.setTypeface(nf);
         ((TextView) findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararMezcal_Sunset));
         ((TextView) findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesMezcal_Sunset));
@@ -316,7 +316,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void mezcal_blackmexican() {
         TextView titulo = (TextView) findViewById(R.id.textView_titulo);
-        titulo.setText("Black Mexican");
+        titulo.setText("BLACK MEXICAN");
         titulo.setTypeface(nf);
         ((TextView) findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararMezcal_BlackMexican));
         ((TextView) findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesMezcal_BlackMexcan));
