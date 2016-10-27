@@ -38,10 +38,7 @@
         <activity android:name=".Whisky" />
         <activity android:name=".Vodka" />
         <activity android:name=".Mezcal" />
-        <activity
-            android:name=".bebidas_dinamicas"
-            android:label="@string/title_activity_bebidas_dinamicas"
-            android:theme="@style/AppTheme"></activity>
+        <activity android:name=".Cocteleria_dinamica"></activity>
     </application>
 
 </manifest>
