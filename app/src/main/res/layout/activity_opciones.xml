@@ -12,14 +12,16 @@
     android:background="@mipmap/fondo">
 
     <Button
-        android:text="@string/acercade"
+        android:text="@string/acerca"
         android:layout_width="wrap_content"
+        android:background="#4D78A8"
+        android:textColor="#DEA230"
         android:layout_height="wrap_content"
         android:layout_marginBottom="97dp"
         android:id="@+id/btninfo"
-        android:background="@android:color/transparent"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -32,27 +34,12 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
-    <TextView
-        android:text="@string/idioma"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:textStyle="normal|bold"
-        android:fontFamily="cursive"
-        android:textSize="30sp"
-        android:layout_above="@+id/btninfo"
-        android:layout_toLeftOf="@+id/button_mex"
-        android:layout_toStartOf="@+id/button_mex"
-        android:layout_marginRight="12dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="176dp" />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="80dp"
         android:id="@+id/button_mex"
         android:background="@mipmap/esp"
-        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignBottom="@+id/idioma"
         android:layout_alignRight="@+id/btninfo"
         android:layout_alignEnd="@+id/btninfo" />
 
@@ -69,5 +56,20 @@
         android:layout_below="@+id/button_mex"
         android:layout_alignRight="@+id/button_mex"
         android:layout_alignEnd="@+id/button_mex" />
+
+    <TextView
+        android:text="@string/idioma"
+        android:background="#4D78A8"
+        android:textColor="#DEA230"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idioma"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="162dp"
+        android:fontFamily="sans-serif" />
 
 </RelativeLayout>

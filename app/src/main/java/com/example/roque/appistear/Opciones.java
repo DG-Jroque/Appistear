@@ -2,10 +2,13 @@ package com.example.roque.appistear;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import java.lang.reflect.Type;
 import java.util.Locale;
 import android.os.Bundle;
 import android.app.Activity;
@@ -13,6 +16,7 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.util.DisplayMetrics;
+import android.widget.TextView;
 
 public class Opciones extends AppCompatActivity {
 
@@ -39,7 +43,9 @@ public class Opciones extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_opciones);
+        Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
         Button btn = (Button)findViewById(R.id.btninfo);
+        btn.setTypeface(nf);
 //Implementamos el evento “click” del botón
         btn.setOnClickListener(new View.OnClickListener() {
 
@@ -48,7 +54,6 @@ public class Opciones extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
         Button btn2 = (Button)findViewById(R.id.button_usa);
 //Implementamos el evento “click” del botón
         btn2.setOnClickListener(new View.OnClickListener() {
@@ -66,6 +71,8 @@ public class Opciones extends AppCompatActivity {
                 setLocale("es");
             }
         });
+        TextView tv1=(TextView)findViewById(R.id.idioma);
+        tv1.setTypeface(nf);
 
 
     }

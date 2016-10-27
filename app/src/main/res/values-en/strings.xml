@@ -3,11 +3,13 @@
     <string name="juegos">Games</string>
     <string name="cocteleria">Mixology</string>
     <string name="opciones">Options</string>
-    <string name="jugadores">Plaayers</string>
+    <string name="jugadores">Players</string>
     <string name="idioma">Language</string>
-    <string name="acercade">About...</string>
+    <string name="acerca">About...</string>
     <string name="desarrolladopor">Developed by: The DG Crew</string>
     <string name="ron">Rum</string>
-
+    <string name="equipo">NUESTRO EQUIPO..</string>
+    <string name="desarrollador">PROGRAMADORES</string>
+    <string name="disenador">DISENADOR</string>
 
 </resources>
