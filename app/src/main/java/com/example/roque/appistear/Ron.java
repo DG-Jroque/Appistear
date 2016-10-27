@@ -62,7 +62,7 @@ public class Ron extends AppCompatActivity {
 
             public void onClick(View v) {
                 Intent intent =  new Intent(Ron.this, Cocteleria_dinamica.class);
-                intent.putExtra("var","ron_bluehawaian");
+                intent.putExtra("var","ron_bluehawaiian");
                 startActivity(intent);
             }
         });

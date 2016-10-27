@@ -21,7 +21,7 @@ public class Whisky extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent =  new Intent(Whisky.this, Cocteleria_dinamica.class);
-                intent.putExtra("var", "Whisky_WhiteRussian");
+                intent.putExtra("var", "Whisky_oldfashioned");
                 startActivity(intent);
             }
         });
@@ -32,7 +32,7 @@ public class Whisky extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent =  new Intent(Whisky.this, Cocteleria_dinamica.class);
-                intent.putExtra("var", "Whisky_wardeights");
+                intent.putExtra("var", "Whisky_wardeight");
                 startActivity(intent);
             }
         });

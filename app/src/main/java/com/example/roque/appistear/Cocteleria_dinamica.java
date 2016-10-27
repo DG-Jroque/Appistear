@@ -30,7 +30,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
             case "tequila_bloodymaria":
                 tequila_bloodyMaria();
                 break;
-            case "tequial_sunrise":
+            case "tequila_sunrise":
                 tequila_sunrise();
                 break;
             //VODKA
