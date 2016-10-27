@@ -69,6 +69,34 @@ public class Cocteleria_dinamica extends AppCompatActivity {
             case "ron_cubalibre":
                 ron_cubaLibre();
                 break;
+            case "ron_pinacolada":
+                ron_pinacolada();
+                break;
+            case "ron_mojito":
+                ron_mojito();
+                break;
+            case "ron_daikiri":
+                ron_daikiri();
+                break;
+            case "ron_bluehawaiian":
+                ron_bluehawaiian();
+                break;
+            //MEZCAL
+            case "mezcal_zignumocuilli":
+                mezcal_zignumocuilli();
+                break;
+            case "mezcal_hotpinneapple":
+                mezcal_hotpinneapple();
+                break;
+            case "mezcal_tunacuixe":
+                mezcal_tunacuixe();
+                break;
+            case "mezcal_sunset":
+                mezcal_sunset();
+                break;
+            case "mezcal_blackmexican":
+                mezcal_blackmexican();
+                break;
             default:
                 break;
         }
@@ -218,11 +246,85 @@ public class Cocteleria_dinamica extends AppCompatActivity {
         ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesRon_CubaLibre));
     }
 
-    public void ron_(){
+    public void ron_pinacolada(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
-        titulo.setText("Cuba Libre");
+        titulo.setText("Piña Colada");
         titulo.setTypeface(nf);
-        ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararRon_CubaLibre));
-        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesRon_CubaLibre));
+        ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararRon_PinaColada));
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesRon_PinaColada));
     }
-}
+
+    public void ron_mojito(){
+        TextView titulo= (TextView)findViewById(R.id.textView_titulo);
+        titulo.setText("Mojito");
+        titulo.setTypeface(nf);
+        ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararRon_Mojito));
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesRon_Mojito));
+    }
+
+    public void ron_daikiri(){
+        TextView titulo= (TextView)findViewById(R.id.textView_titulo);
+        titulo.setText("Daikiri");
+        titulo.setTypeface(nf);
+        ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararRon_Daikiri));
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesRon_Daikiri));
+    }
+
+    public void ron_bluehawaiian(){
+        TextView titulo= (TextView)findViewById(R.id.textView_titulo);
+        titulo.setText("Blue Hawaiian");
+        titulo.setTypeface(nf);
+        ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararRon_BlueHawaiian));
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesRon_BlueHawaiian));
+    }
+
+    /***************
+     METHODS FOR MEZCAL
+     *****************/
+
+    public void mezcal_zignumocuilli() {
+        TextView titulo = (TextView) findViewById(R.id.textView_titulo);
+        titulo.setText("Zignum Ocuilli");
+        titulo.setTypeface(nf);
+        ((TextView) findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararMezcal_Zignumocuilli));
+        ((TextView) findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesMezcal_Zignumocuilli));
+    }
+
+    public void mezcal_hotpinneapple() {
+        TextView titulo = (TextView) findViewById(R.id.textView_titulo);
+        titulo.setText("Hot PinneApple");
+        titulo.setTypeface(nf);
+        ((TextView) findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararMezcal_Hotpinneapple));
+        ((TextView) findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesMezcal_HotPinneapple));
+    }
+
+    public void mezcal_tunacuixe() {
+        TextView titulo = (TextView) findViewById(R.id.textView_titulo);
+        titulo.setText("Tunacuixe");
+        titulo.setTypeface(nf);
+        ((TextView) findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararMezcal_Tunacuixe));
+        ((TextView) findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesMezcal_Tunacuixe));
+    }
+
+    public void mezcal_sunset() {
+        TextView titulo = (TextView) findViewById(R.id.textView_titulo);
+        titulo.setText("Sunset");
+        titulo.setTypeface(nf);
+        ((TextView) findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararMezcal_Sunset));
+        ((TextView) findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesMezcal_Sunset));
+    }
+
+    public void mezcal_blackmexican() {
+        TextView titulo = (TextView) findViewById(R.id.textView_titulo);
+        titulo.setText("Black Mexican");
+        titulo.setTypeface(nf);
+        ((TextView) findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararMezcal_BlackMexican));
+        ((TextView) findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesMezcal_BlackMexcan));
+    }
+
+
+
+
+
+
+    }
