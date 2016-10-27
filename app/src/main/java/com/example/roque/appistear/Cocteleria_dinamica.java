@@ -91,32 +91,32 @@ public class Cocteleria_dinamica extends AppCompatActivity {
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
         titulo.setText("Paloma");
         titulo.setTypeface(nf);
-        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_Paloma");
-        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Paloma");
+        ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararTequila_Paloma));
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesTequila_Paloma));
     }
 
     public void tequila_charroNegro(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
         titulo.setText("Charro Negro");
         titulo.setTypeface(nf);
-        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_CharroNegro");
-        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_CharroNegro");
+        ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararTequila_CharroNegro));
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesTequila_CharroNegro));
     }
 
     public void tequila_bloodyMaria(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
         titulo.setText("Blood Maria");
         titulo.setTypeface(nf);
-        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_Margarita");
-        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Margarita");
+        ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararTequila_BloodyMaria));
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesTequila_BoodyMaria));
     }
 
     public void tequila_sunrise(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
         titulo.setText("Sunrise");
         titulo.setTypeface(nf);
-        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_Margarita");
-        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Margarita");
+        ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararTequila_Sunrise));
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesTequila_Sunrise));
     }
 
     /***************
@@ -126,40 +126,40 @@ public class Cocteleria_dinamica extends AppCompatActivity {
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
         titulo.setText("Old Fashioned");
         titulo.setTypeface(nf);
-        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararWhisky_OldFashioned");
-        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesWhisky_OldFashioned");
+        ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararWhisky_OldFashioned));
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesWhisky_OldFashioned));
     }
 
     public void whisky_wardEight(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
         titulo.setText("Ward Eight");
         titulo.setTypeface(nf);
-        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararWhisky_WardEight");
-        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesWhisky_WardEight");
+        ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararWhisky_WardEight));
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesWhisky_WardEight));
     }
 
     public void whisky_nightCap(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
         titulo.setText("Night Cap");
         titulo.setTypeface(nf);
-        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararWhisky_NightCap");
-        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesWhisky_NightCap");
+        ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararWhisky_NightCap));
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesWhisky_NightCap));
     }
 
     public void whisky_blackJack(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
         titulo.setText("Black Jack");
         titulo.setTypeface(nf);
-        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararWhisky_BlackJack");
-        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesWhisky_BlackJack");
+        ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararWhisky_BlackJack));
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesWhisky_BlackJack));
     }
 
     public void whisky_cadeIrlandes(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
         titulo.setText("Café Irlandés");
         titulo.setTypeface(nf);
-        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararWhisky_CafeIrlandes");
-        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesWhisky_CafeIrlandes");
+        ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararWhisky_CafeIrlandes));
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesWhisky_CafeIrlandes));
     }
 
     /***************
@@ -170,40 +170,40 @@ public class Cocteleria_dinamica extends AppCompatActivity {
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
         titulo.setText("White Russian");
         titulo.setTypeface(nf);
-        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_Margarita");
-        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Margarita");
+        ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararVodka_WhiteRussian));
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesVodka_WhiteRussian));
     }
 
     public void vodka_bloodyMary(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
         titulo.setText("Bloody Mary");
         titulo.setTypeface(nf);
-        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_Margarita");
-        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Margarita");
+        ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararVodka_BloodyMary));
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesVodka_BloodyMary));
     }
 
     public void vodka_moradito(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
         titulo.setText("Moradito");
         titulo.setTypeface(nf);
-        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_Margarita");
-        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Margarita");
+        ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararVodka_Moradito));
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesVodka_Moradito));
     }
 
     public void vodka_blueberrySpritzer(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
         titulo.setText("Blueberry Spritzer");
         titulo.setTypeface(nf);
-        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_Margarita");
-        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Margarita");
+        ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararVodka_BlueberrySpritzer));
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesVodka_BlueberrySpritzer));
     }
 
     public void vodka_sexOnTheBeach(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
         titulo.setText("Sex On The Beach");
         titulo.setTypeface(nf);
-        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_Margarita");
-        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Margarita");
+        ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararVodka_SexOnTheBeach));
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesVodka_SexOnTheBeach));
     }
 
     /***************
@@ -214,7 +214,15 @@ public class Cocteleria_dinamica extends AppCompatActivity {
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
         titulo.setText("Cuba Libre");
         titulo.setTypeface(nf);
-        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_Margarita");
-        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Margarita");
+        ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararRon_CubaLibre));
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesRon_CubaLibre));
+    }
+
+    public void ron_(){
+        TextView titulo= (TextView)findViewById(R.id.textView_titulo);
+        titulo.setText("Cuba Libre");
+        titulo.setTypeface(nf);
+        ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararRon_CubaLibre));
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesRon_CubaLibre));
     }
 }
