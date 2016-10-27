@@ -10,4 +10,55 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.roque.appistear.Tequila">
 
+    <Button
+        android:text="Margarita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="68dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="61dp"
+        android:id="@+id/btmar" />
+
+    <Button
+        android:text="Paloma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btmar"
+        android:layout_alignRight="@+id/btmar"
+        android:layout_alignEnd="@+id/btmar"
+        android:layout_marginTop="38dp"
+        android:id="@+id/btpal" />
+
+    <Button
+        android:text="Bloody Mary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btchn"
+        android:layout_alignLeft="@+id/btchn"
+        android:layout_alignStart="@+id/btchn"
+        android:layout_marginTop="46dp"
+        android:id="@+id/btblm" />
+
+    <Button
+        android:text="Sunrise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btblm"
+        android:layout_alignLeft="@+id/btblm"
+        android:layout_alignStart="@+id/btblm"
+        android:layout_marginTop="44dp"
+        android:id="@+id/bttsu" />
+
+    <Button
+        android:text="Charro Negro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:id="@+id/btchn"
+        android:layout_below="@+id/btpal"
+        android:layout_alignLeft="@+id/btmar"
+        android:layout_alignStart="@+id/btmar" />
 </RelativeLayout>

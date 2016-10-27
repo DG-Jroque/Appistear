@@ -37,7 +37,8 @@
         <activity android:name=".Ron" />
         <activity android:name=".Whisky" />
         <activity android:name=".Vodka" />
-        <activity android:name=".Mezcal"></activity>
+        <activity android:name=".Mezcal" />
+        <activity android:name=".Cocteleria_dinamica"></activity>
     </application>
 
 </manifest>
