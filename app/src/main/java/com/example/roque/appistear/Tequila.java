@@ -19,6 +19,11 @@ public class Tequila extends AppCompatActivity {
         final Button btblm = (Button)findViewById(R.id.btblm);
         final Button btchn = (Button)findViewById(R.id.btchn);
         final Button bttsu = (Button)findViewById(R.id.bttsu);
+        btmar.setTypeface(nf);
+        btpal.setTypeface(nf);
+        btblm.setTypeface(nf);
+        btchn.setTypeface(nf);
+        bttsu.setTypeface(nf);
         btmar.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View v) {
@@ -39,7 +44,7 @@ public class Tequila extends AppCompatActivity {
 
             public void onClick(View v) {
                 Intent intent =  new Intent(Tequila.this, Cocteleria_dinamica.class);
-                intent.putExtra("var","tequila_bloodymaria");
+                intent.putExtra("var","tequila_bloodymary");
                 startActivity(intent);
             }
         });

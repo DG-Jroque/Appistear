@@ -20,16 +20,16 @@
         android:id="@+id/btmezcal"
         android:layout_below="@+id/btvodka"
         android:layout_centerHorizontal="true"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textColor="#DEA230"
-        />
+        android:textStyle="normal|bold" />
 
     <Button
         android:text="Whisky"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btwhisky"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:background="#4D78A8"
         android:textColor="#DEA230"
         android:layout_alignBaseline="@+id/btvodka"
@@ -37,7 +37,7 @@
         android:layout_toRightOf="@+id/btmezcal"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        />
+        android:textStyle="normal|bold" />
 
     <Button
         android:text="Vodka"
@@ -46,27 +46,28 @@
         android:id="@+id/btvodka"
         android:background="#4D78A8"
         android:layout_marginTop="81dp"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textColor="#DEA230"
         android:layout_below="@+id/bttequila"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        />
+        android:textStyle="normal|bold" />
 
     <Button
         android:text="@string/ron"
         android:background="#4D78A8"
+        android:textColor="#DEA230"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btron"
-        android:textSize="20sp"
-        android:textColor="#DEA230"
+        android:textSize="18sp"
         android:layout_marginTop="141dp"
         android:layout_alignParentTop="true"
         android:layout_alignLeft="@+id/btwhisky"
         android:layout_alignStart="@+id/btwhisky"
         android:layout_marginLeft="11dp"
-        android:layout_marginStart="11dp" />
+        android:layout_marginStart="11dp"
+        android:textStyle="normal|bold" />
 
     <Button
         android:text="Tequila"
@@ -74,8 +75,9 @@
         android:layout_height="wrap_content"
         android:background="#4D78A8"
         android:id="@+id/bttequila"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textColor="#DEA230"
+        android:textStyle="normal|bold"
         android:layout_alignBaseline="@+id/btron"
         android:layout_alignBottom="@+id/btron"
         android:layout_alignParentLeft="true"

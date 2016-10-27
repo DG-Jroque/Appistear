@@ -8,6 +8,74 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.roque.appistear.Mezcal">
+    tools:context="com.example.roque.appistear.Mezcal"
+    android:background="@mipmap/fondo">
 
+    <Button
+        android:text="Zignum Ocuilli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bthot"
+        android:layout_alignLeft="@+id/bthot"
+        android:layout_alignStart="@+id/bthot"
+        android:layout_marginTop="51dp"
+        android:background="#4D78A8"
+        android:textColor="#DEA230"
+        android:id="@+id/btzig"
+        android:textStyle="normal|bold"
+        android:textSize="16sp" />
+
+    <Button
+        android:text="Mezcal sunset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:id="@+id/btmst"
+        android:background="#4D78A8"
+        android:textColor="#DEA230"
+        android:layout_below="@+id/btblm"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold"
+        android:textSize="16sp" />
+
+    <Button
+        android:text="Black Mexican"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:id="@+id/btblm"
+        android:background="#4D78A8"
+        android:textColor="#DEA230"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/btzig"
+        android:layout_alignEnd="@+id/btzig"
+        android:textStyle="normal|bold"
+        android:textSize="16sp" />
+
+    <Button
+        android:text="Tunacuixe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:id="@+id/bttun"
+        android:background="#4D78A8"
+        android:textColor="#DEA230"
+        android:layout_below="@+id/btmst"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold"
+        android:textSize="16sp" />
+
+    <Button
+        android:text="Hot Pinneapple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:id="@+id/bthot"
+        android:background="#4D78A8"
+        android:textColor="#DEA230"
+        android:layout_below="@+id/bttun"
+        android:layout_alignLeft="@+id/btmst"
+        android:layout_alignStart="@+id/btmst"
+        android:textStyle="normal|bold"
+        android:textSize="16sp" />
 </RelativeLayout>
