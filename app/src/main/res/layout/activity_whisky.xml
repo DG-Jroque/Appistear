@@ -32,9 +32,9 @@
         android:layout_marginTop="40dp"
         android:textColor="#DEA230"
         android:textSize="20sp"
-        android:layout_below="@+id/buttonwhiterussian"
-        android:layout_alignLeft="@+id/buttonwhiterussian"
-        android:id="@+id/buttomoradito" />
+        android:layout_below="@+id/buttonoldfashioned"
+        android:layout_alignLeft="@+id/buttonoldfashioned"
+        android:id="@+id/buttonwardeight" />
 
     <Button
         android:text="Night Cap"
@@ -44,10 +44,10 @@
         android:layout_marginTop="40dp"
         android:textColor="#DEA230"
         android:textSize="20sp"
-        android:layout_below="@+id/buttomoradito"
-        android:layout_alignLeft="@+id/buttomoradito"
-        android:layout_alignStart="@+id/buttomoradito"
-        android:id="@+id/buttonbloodymary" />
+        android:layout_below="@+id/buttonwardeight"
+        android:layout_alignLeft="@+id/buttonwardeight"
+        android:layout_alignStart="@+id/buttonwardeight"
+        android:id="@+id/buttonnightcap" />
 
     <Button
         android:text="Black jack"
@@ -57,10 +57,10 @@
         android:layout_marginTop="40dp"
         android:textColor="#DEA230"
         android:textSize="20sp"
-        android:layout_below="@+id/buttonbloodymary"
+        android:layout_below="@+id/buttonnightcap"
 
-        android:layout_alignLeft="@+id/buttonbloodymary"
-        android:id="@+id/buttonblueberryspritzer" />
+        android:layout_alignLeft="@+id/buttonnightcap"
+        android:id="@+id/buttonblackjack" />
 
     <Button
         android:text="Café Irlandés"
@@ -70,10 +70,10 @@
         android:layout_marginTop="40dp"
         android:textColor="#DEA230"
         android:textSize="20sp"
-        android:layout_below="@+id/buttonblueberryspritzer"
+        android:layout_below="@+id/buttonblackjack"
 
-        android:layout_alignLeft="@+id/buttonblueberryspritzer"
-        android:id="@+id/button5" />
+        android:layout_alignLeft="@+id/buttonblackjack"
+        android:id="@+id/buttoncafeirlandes" />
 
     <Button
         android:text="Old Fshioned"
@@ -83,7 +83,7 @@
         android:layout_marginTop="40dp"
         android:textColor="#DEA230"
         android:textSize="20sp"
-        android:id="@+id/buttonwhiterussian"
+        android:id="@+id/buttonoldfashioned"
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"

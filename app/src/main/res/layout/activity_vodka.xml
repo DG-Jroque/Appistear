@@ -25,6 +25,18 @@
         android:layout_marginTop="40dp" />
 
     <Button
+        android:text="White Russian"
+        android:background="#4D78A8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="#DEA230"
+        android:textSize="20sp"
+        android:layout_below="@+id/textView"
+
+        android:id="@+id/buttonwhiterussian" />
+
+    <Button
         android:text="Moradito"
         android:background="#4D78A8"
         android:layout_width="wrap_content"
@@ -34,7 +46,7 @@
         android:textSize="20sp"
         android:layout_below="@+id/buttonwhiterussian"
         android:layout_alignLeft="@+id/buttonwhiterussian"
-        android:id="@+id/buttomoradito" />
+        android:id="@+id/buttonmoradito" />
 
     <Button
         android:text="Bloody Mary"
@@ -44,9 +56,9 @@
         android:layout_marginTop="40dp"
         android:textColor="#DEA230"
         android:textSize="20sp"
-        android:layout_below="@+id/buttomoradito"
-        android:layout_alignLeft="@+id/buttomoradito"
-        android:layout_alignStart="@+id/buttomoradito"
+        android:layout_below="@+id/buttonmoradito"
+        android:layout_alignLeft="@+id/buttonmoradito"
+        android:layout_alignStart="@+id/buttonmoradito"
         android:id="@+id/buttonbloodymary" />
 
     <Button
@@ -58,8 +70,8 @@
         android:textColor="#DEA230"
         android:textSize="20sp"
         android:layout_below="@+id/buttonbloodymary"
-
         android:layout_alignLeft="@+id/buttonbloodymary"
+        android:layout_alignStart="@+id/buttonbloodymary"
         android:id="@+id/buttonblueberryspritzer" />
 
     <Button
@@ -71,22 +83,8 @@
         android:textColor="#DEA230"
         android:textSize="20sp"
         android:layout_below="@+id/buttonblueberryspritzer"
-
         android:layout_alignLeft="@+id/buttonblueberryspritzer"
+        android:layout_alignStart="@+id/buttonblueberryspritzer"
         android:id="@+id/buttonsexonthebeach" />
 
-    <Button
-        android:text="White Russian"
-        android:background="#4D78A8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:textColor="#DEA230"
-        android:textSize="20sp"
-        android:id="@+id/buttonwhiterussian"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="21dp"
-        android:layout_marginStart="21dp" />
 </RelativeLayout>
