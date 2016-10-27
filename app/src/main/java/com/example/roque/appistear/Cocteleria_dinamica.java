@@ -17,16 +17,33 @@ public class Cocteleria_dinamica extends AppCompatActivity {
             case "tequila_margarita":
                 tequila_margarita();
                 break;
+            case "tequila_paloma":
+                tequila_paloma();
+            break;
+            case "tequila_charronegro":
+                tequila_charronegro();
+                break;
             default:
                 break;
         }
     }
 
     public void tequila_margarita(){
-
         ((TextView)findViewById(R.id.textView_titulo)).setText("Margarita");
         ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_Margarita");
         ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Margarita");
-
     }
+
+    public void tequila_paloma(){
+        ((TextView)findViewById(R.id.textView_titulo)).setText("Paloma");
+        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_Margarita");
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Margarita");
+    }
+
+    public void tequila_charronegro(){
+        ((TextView)findViewById(R.id.textView_titulo)).setText("Charro Negro");
+        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_Margarita");
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Margarita");
+    }
+
 }
