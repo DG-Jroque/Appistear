@@ -38,7 +38,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
                 vodka_whiteRussian();
                 break;
             case "vodka_bloodymary":
-                vodka_bloodymary();
+                vodka_bloodyMary();
                 break;
             case "vodka_moradito":
                 vodka_moradito();
@@ -47,7 +47,27 @@ public class Cocteleria_dinamica extends AppCompatActivity {
                 vodka_blueberrySpritzer();
                 break;
             case "vodka_sexonthebeach":
-                vodka_SexOnTheBeach();
+                vodka_sexOnTheBeach();
+                break;
+            //WHISKY
+            case "whisky_oldfashioned":
+                whisky_oldFashioned();
+                break;
+            case "whisky_wardeight":
+                whisky_wardEight();
+                break;
+            case "whisky_nightcap":
+                whisky_nightCap();
+                break;
+            case "whisky_blackjack":
+                whisky_blackJack();
+                break;
+            case "whisky_cafeirlandes":
+                whisky_cadeIrlandes();
+                break;
+            //RON
+            case "ron_cubalibre":
+                ron_cubaLibre();
                 break;
             default:
                 break;
@@ -100,6 +120,49 @@ public class Cocteleria_dinamica extends AppCompatActivity {
     }
 
     /***************
+     METHODS FOR WHISKY
+     *****************/
+    public void whisky_oldFashioned(){
+        TextView titulo= (TextView)findViewById(R.id.textView_titulo);
+        titulo.setText("Old Fashioned");
+        titulo.setTypeface(nf);
+        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararWhisky_OldFashioned");
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesWhisky_OldFashioned");
+    }
+
+    public void whisky_wardEight(){
+        TextView titulo= (TextView)findViewById(R.id.textView_titulo);
+        titulo.setText("Ward Eight");
+        titulo.setTypeface(nf);
+        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararWhisky_WardEight");
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesWhisky_WardEight");
+    }
+
+    public void whisky_nightCap(){
+        TextView titulo= (TextView)findViewById(R.id.textView_titulo);
+        titulo.setText("Night Cap");
+        titulo.setTypeface(nf);
+        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararWhisky_NightCap");
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesWhisky_NightCap");
+    }
+
+    public void whisky_blackJack(){
+        TextView titulo= (TextView)findViewById(R.id.textView_titulo);
+        titulo.setText("Black Jack");
+        titulo.setTypeface(nf);
+        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararWhisky_BlackJack");
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesWhisky_BlackJack");
+    }
+
+    public void whisky_cadeIrlandes(){
+        TextView titulo= (TextView)findViewById(R.id.textView_titulo);
+        titulo.setText("Café Irlandés");
+        titulo.setTypeface(nf);
+        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararWhisky_CafeIrlandes");
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesWhisky_CafeIrlandes");
+    }
+
+    /***************
     METHODS FOR VODKA
    *****************/
 
@@ -111,7 +174,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
         ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Margarita");
     }
 
-    public void vodka_bloodymary(){
+    public void vodka_bloodyMary(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
         titulo.setText("Bloody Mary");
         titulo.setTypeface(nf);
@@ -135,7 +198,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
         ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Margarita");
     }
 
-    public void vodka_SexOnTheBeach(){
+    public void vodka_sexOnTheBeach(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
         titulo.setText("Sex On The Beach");
         titulo.setTypeface(nf);
@@ -147,4 +210,11 @@ public class Cocteleria_dinamica extends AppCompatActivity {
      METHODS FOR RUM
      *****************/
 
+    public void ron_cubaLibre(){
+        TextView titulo= (TextView)findViewById(R.id.textView_titulo);
+        titulo.setText("Cuba Libre");
+        titulo.setTypeface(nf);
+        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_Margarita");
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Margarita");
+    }
 }

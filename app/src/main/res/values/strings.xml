@@ -13,6 +13,9 @@
     <string name="desarrolladopor">Desarrollado por: El equipo DG</string>
     <string name="preparacion">Preparacón:</string>
     <string name="ingredientes">Ingredientes:</string>
+    <!--
+    **********TEQUILA************
+    -->
     <string name="ingredientesTequila_Margarita">Tequila 60 ml.\nCointreau 30 ml.\n30 ml de jugo de limón.\nHielo.\nSal para el borde de la copa
 </string>
     <string name="prepararTequila_Margarita">Tomar la copa y frotar el borde con el 3/4 del jugo de limón, pasando inmediatamente después los bordes de la copa por sal fina.
@@ -25,7 +28,7 @@ Decorar con una rodaja de limón en el borde
     <string name="ingredientesTequila_CharroNegro">1/3 de Tequila.\n1/3 de jugo de lima o limón.\n1/3 de refresco de Cola.</string>
     <string name="prepararTequila_CharroNegro">Extienda la sal en un plato. Frote el borde de la copa de cóctel con la rodaja de lima y páselo por la sal de modo que quede cubierto.
         Mezcle todos los ingredientes en la coctelera con hielo picado y agite enérgicamente. Cuele en la copa de cóctel salada y decore con una rodaja de lima.</string>
-<string name="ingredientesTequila_BoodyMaria">1.5 oz. de tequila.\n3 oz. de jugo de tomate.\nUn toque de salsa picante al gusto.\nUn toque de sal al gusto.\nUn toque de pimienta al gusto.\nUna varita de apio.
+    <string name="ingredientesTequila_BoodyMaria">1.5 oz. de tequila.\n3 oz. de jugo de tomate.\nUn toque de salsa picante al gusto.\nUn toque de sal al gusto.\nUn toque de pimienta al gusto.\nUna varita de apio.
 </string>
     <string name="prepararTequila_BloodyMaria">En un vaso alto con hielo mezcla todos los ingredientes. Adorna con la ro-daja de limón.
 Opcional: Antes de servir, escarcha el vaso con sal.
@@ -35,5 +38,29 @@ Opcional: Antes de servir, escarcha el vaso con sal.
 </string>
     <string name="preprarTequila_Sunrise">Coloca unos cuantos hielos en el vaso, vierte el tequila sobre los hielos, el jugo de naranja en el vaso y la granadina en el vaso, corte una rebanada de naranja.Tome una cereza y hazle una hendidura en el fondo. Coloca la cereza sobre el vaso encima de la hendidura.
 </string>
+
+    <!--
+    ****************WHISKY****************
+    -->
+   <string name="ingredientesWhisky_OldFashioned">1 terrón de azúcar.\nAngostura.\nRefresco.\nHielo.\n60ml de Whisky.\n1 rodaja de naranja.\n1 rodaja de limón.
+</string>
+    <string name="prepararWhisky_OldFashioned">Vierta en el vaso un golpe de Angostura y el terrón de azúcar y espere dos minutos.
+Llene el vaso de soda
+Añada el hielo y remueva para disolver el terrón de azúcar.
+Añada el Whisky
+Decore con una varilla de cocktail, una rodaja de naranja y otra de limón
+</string>
+    <string name="ingredientesWhisky_WardEight">1½ onzas de whisky bourbon.\nJugo de medio limón.\n½ onza de granadina\nSoda</string>
+    <string name="prepararWhisky_WardEight">Agite todos los ingredientes, excepto la soda, con hielo picado.
+Vierta, sin colar, en un vaso alto. Llene el vaso con la soda.
+Si lo desea, adórnelo con una rebanada de fruta.
+</string>
+    <string name="ingredientesWhisky_NightCap">2 oz. whisky.\n1/2 oz. leche.\n1/2 oz. Crema cacao.</string>
+    <string name="prepararWhisky_NightCap">En una coctelera con hielo, combinar todos los ingredientes. Servir en una copa de cóctel.</string>
+    <string name="ingredientesWhisky_BlackJack">1 1/2 onzas de whisky.\n1 kahlúa.\n1/2 triple sec.\n1/2 jugo limón.</string>
+    <string name="prepararWhisky_BlackJack">En una batidora con hielo, combinar todos los ingredientes. Batir, y servir en copa de cóctel.</string>
+    <string name="ingredientesWhisky_CafeIrlandes">1 1/2 onzas de Whiskey Irlandés.\n6 onzas de café negro caliente.\nCrema Batida.\n3/4 onzas de Crema.</string>
+    <string name="prepararWhisky_CafeIrlandes">Coloca el whisky en una taza de café, luego agrega el café caliente y la crema irlandesa. Agrega la crema batida arriba del todo y decora con granos de café molidos o azúcar morena.</string>
+
 
 </resources>
