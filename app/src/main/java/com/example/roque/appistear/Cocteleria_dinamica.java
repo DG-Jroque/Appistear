@@ -37,6 +37,18 @@ public class Cocteleria_dinamica extends AppCompatActivity {
             case "vodka_whiterussian":
                 vodka_whiteRussian();
                 break;
+            case "vodka_bloodymary":
+                vodka_bloodymary();
+                break;
+            case "vodka_moradito":
+                vodka_moradito();
+                break;
+            case "vodka_blueberryspritzer":
+                vodka_blueberrySpritzer();
+                break;
+            case "vodka_sexonthebeach":
+                vodka_SexOnTheBeach();
+                break;
             default:
                 break;
         }
@@ -59,16 +71,16 @@ public class Cocteleria_dinamica extends AppCompatActivity {
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
         titulo.setText("Paloma");
         titulo.setTypeface(nf);
-        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_Margarita");
-        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Margarita");
+        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_Paloma");
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Paloma");
     }
 
     public void tequila_charroNegro(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
         titulo.setText("Charro Negro");
         titulo.setTypeface(nf);
-        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_Margarita");
-        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Margarita");
+        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_CharroNegro");
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_CharroNegro");
     }
 
     public void tequila_bloodyMaria(){
@@ -98,5 +110,41 @@ public class Cocteleria_dinamica extends AppCompatActivity {
         ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_Margarita");
         ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Margarita");
     }
+
+    public void vodka_bloodymary(){
+        TextView titulo= (TextView)findViewById(R.id.textView_titulo);
+        titulo.setText("Bloody Mary");
+        titulo.setTypeface(nf);
+        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_Margarita");
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Margarita");
+    }
+
+    public void vodka_moradito(){
+        TextView titulo= (TextView)findViewById(R.id.textView_titulo);
+        titulo.setText("Moradito");
+        titulo.setTypeface(nf);
+        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_Margarita");
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Margarita");
+    }
+
+    public void vodka_blueberrySpritzer(){
+        TextView titulo= (TextView)findViewById(R.id.textView_titulo);
+        titulo.setText("Blueberry Spritzer");
+        titulo.setTypeface(nf);
+        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_Margarita");
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Margarita");
+    }
+
+    public void vodka_SexOnTheBeach(){
+        TextView titulo= (TextView)findViewById(R.id.textView_titulo);
+        titulo.setText("Sex On The Beach");
+        titulo.setTypeface(nf);
+        ((TextView)findViewById(R.id.textView_preparar)).setText("@string/prepararTequila_Margarita");
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText("@string/ingredientesTequila_Margarita");
+    }
+
+    /***************
+     METHODS FOR RUM
+     *****************/
 
 }

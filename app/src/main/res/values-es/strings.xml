@@ -13,6 +13,9 @@
     <string name="preparacion">Preparacón:</string>
     <string name="ingredientes">Ingredientes:</string>
     <string name="desarrolladopor">Desarrollado por: El equipo DG</string>
+    <!--
+    **********TEQUILA************
+    -->
     <string name="ingredientesTequila_Margarita">Tequila 60 ml.\nCointreau 30 ml.\n30 ml de jugo de limón.\nHielo.\nSal para el borde de la copa
 </string>
     <string name="prepararTequila_Margarita">Tomar la copa y frotar el borde con el 3/4 del jugo de limón, pasando inmediatamente después los bordes de la copa por sal fina.
@@ -20,4 +23,32 @@ Poner todos los ingredientes (menos la sal) en una cocktelera con hielo.
 Batir y servir la copa (que debe estar con sal en su borde)
 Decorar con una rodaja de limón en el borde
 </string>
+    <string name="ingredientesTequila_Paloma">1 vaso largo, escarchado con sal.\n1 copita tequila blanco.\n1 cdts jugo de limón.\nRefresco de toronja.\nHielo.</string>
+    <string name="prepararTequila_Paloma">Se coloca el hielo en el vaso, añade el tequila y el jugo de limón y termina de llenar con el refresco de toronja.</string>
+    <string name="ingredientesTequila_CharroNegro">1/3 de Tequila.\n1/3 de jugo de lima o limón.\n1/3 de refresco de Cola.</string>
+    <string name="prepararTequila_CharroNegro">Extienda la sal en un plato. Frote el borde de la copa de cóctel con la rodaja de lima y páselo por la sal de modo que quede cubierto.
+        Mezcle todos los ingredientes en la coctelera con hielo picado y agite enérgicamente. Cuele en la copa de cóctel salada y decore con una rodaja de lima.</string>
+    <string name="ingredientesTequila_BoodyMaria">1.5 oz. de tequila.\n3 oz. de jugo de tomate.\nUn toque de salsa picante al gusto.\nUn toque de sal al gusto.\nUn toque de pimienta al gusto.\nUna varita de apio.
+</string>
+    <string name="prepararTequila_BloodyMaria">En un vaso alto con hielo mezcla todos los ingredientes. Adorna con la ro-daja de limón.
+Opcional: Antes de servir, escarcha el vaso con sal.
+</string>
+    <string name="ingredientesTequila_Sunrise">2 onzas (60 ml) de tequila.\n5 onzas (175 ml) de jugo de naranja (puede ser sustituido por 2 naranjas frescas).\nUn chorrito de granadina
+\nHielo.\nUna rebanada de naranja y una cereza (para decorarlo).
+</string>
+    <string name="preprarTequila_Sunrise">Coloca unos cuantos hielos en el vaso, vierte el tequila sobre los hielos, el jugo de naranja en el vaso y la granadina en el vaso, corte una rebanada de naranja.Tome una cereza y hazle una hendidura en el fondo. Coloca la cereza sobre el vaso encima de la hendidura.
+</string>
+
+    <!--
+    ****************WHISKY****************
+    -->
+    <string name="ingredientesRon_OldFashioned">1 terrón de azúcar.\nAngostura.\nRefresco.\nHielo.\n60ml de Whisky.\n1 rodaja de naranja.\n1 rodaja de limón.
+</string>
+    <string name="prepararRon_OldFashioned">Vierta en el vaso un golpe de Angostura y el terrón de azúcar y espere dos minutos.
+Llene el vaso de soda
+Añada el hielo y remueva para disolver el terrón de azúcar.
+Añada el Whisky
+Decore con una varilla de cocktail, una rodaja de naranja y otra de limón
+</string>
+    <string name="ingredientesRon_WardEight">1½ onzas de whisky bourbon.\nJugo de medio limón.\n½ onza de granadina\nSoda</string>
 </resources>
