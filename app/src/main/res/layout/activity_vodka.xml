@@ -24,29 +24,32 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp" />
 
-    <Button
-        android:text="Sex On The Beach"
-        android:background="#4D78A8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:textColor="#DEA230"
-        android:id="@+id/buttonSexOnTheBeach"
-        android:layout_below="@+id/buttonWhiteRussian"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="40dp" />
+
 
     <Button
-        android:text="White Russian"
+        android:text="Blueberry Spritzer"
         android:background="#4D78A8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30sp"
         android:textColor="#DEA230"
-        android:id="@+id/buttonWhiteRussian"
+        android:id="@+id/buttonBlueberrySpritzer"
         android:layout_marginTop="40dp"
-        android:layout_below="@+id/buttonMoradito"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:text="Bloody Mary"
+        android:background="#4D78A8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#DEA230"
+        android:id="@+id/buttonBloodyMary"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/buttonBlueberrySpritzer"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -63,29 +66,30 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
+
     <Button
-        android:text="Bloody Mary"
+        android:text="White Russian"
         android:background="#4D78A8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30sp"
         android:textColor="#DEA230"
-        android:id="@+id/buttonBloodyMary"
+        android:id="@+id/buttonWhiteRussian"
         android:layout_marginTop="40dp"
-        android:layout_below="@+id/buttonBlueberrySpritzer"
+        android:layout_below="@+id/buttonMoradito"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <Button
-        android:text="Blueberry Spritzer"
+        android:text="Sex On The Beach"
         android:background="#4D78A8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30sp"
         android:textColor="#DEA230"
-        android:id="@+id/buttonBlueberrySpritzer"
-        android:layout_marginTop="40dp"
-        android:layout_below="@+id/textView"
+        android:id="@+id/buttonSexOnTheBeach"
+        android:layout_below="@+id/buttonWhiteRussian"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp" />
 </RelativeLayout>
