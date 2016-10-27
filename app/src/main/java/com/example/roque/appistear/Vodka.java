@@ -22,7 +22,7 @@ public class Vodka extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent intent =  new Intent(this, Cocteleria_dinamica.class);
+                Intent intent =  new Intent(Vodka.this, Cocteleria_dinamica.class);
                 intent.putExtra("var", "Vodka_WhiteRussian");
                 startActivity(intent);
             }

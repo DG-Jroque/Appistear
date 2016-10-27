@@ -3,6 +3,7 @@ package com.example.roque.appistear;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Switch;
+import android.widget.TextView;
 
 public class Cocteleria_dinamica extends AppCompatActivity {
 
