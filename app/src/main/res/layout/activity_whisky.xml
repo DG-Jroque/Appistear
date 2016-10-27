@@ -8,6 +8,87 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.roque.appistear.Whisky">
+    tools:context="com.example.roque.appistear.Whisky"
+    android:background="@mipmap/fondo"
+    >
+
+    <TextView
+        android:text="Whisky"
+        android:background="#4D78A8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textColor="#DEA230"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:text="Ward Eight"
+        android:background="#4D78A8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="#DEA230"
+        android:textSize="20sp"
+        android:layout_below="@+id/buttonoldfashioned"
+        android:layout_alignLeft="@+id/buttonoldfashioned"
+        android:id="@+id/buttonwardeight" />
+
+    <Button
+        android:text="Night Cap"
+        android:background="#4D78A8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="#DEA230"
+        android:textSize="20sp"
+        android:layout_below="@+id/buttonwardeight"
+        android:layout_alignLeft="@+id/buttonwardeight"
+        android:layout_alignStart="@+id/buttonwardeight"
+        android:id="@+id/buttonnightcap" />
+
+    <Button
+        android:text="Black jack"
+        android:background="#4D78A8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="#DEA230"
+        android:textSize="20sp"
+        android:layout_below="@+id/buttonnightcap"
+
+        android:layout_alignLeft="@+id/buttonnightcap"
+        android:id="@+id/buttonblackjack" />
+
+    <Button
+        android:text="Café Irlandés"
+        android:background="#4D78A8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="#DEA230"
+        android:textSize="20sp"
+        android:layout_below="@+id/buttonblackjack"
+
+        android:layout_alignLeft="@+id/buttonblackjack"
+        android:id="@+id/buttoncafeirlandes" />
+
+    <Button
+        android:text="Old Fshioned"
+        android:background="#4D78A8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="#DEA230"
+        android:textSize="20sp"
+        android:id="@+id/buttonoldfashioned"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp" />
+
 
 </RelativeLayout>

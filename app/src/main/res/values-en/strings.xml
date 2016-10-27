@@ -13,12 +13,16 @@
     <string name="disenador">Designers</string>
     <string name="preparacion">Directions:</string>
     <string name="ingredientes">Ingredients:</string>
-    <string name="ingredientesTequila_Margarita">Tequila 60 ml.\nCointreau 30 ml.\n30 ml Lemon juice.\nIce.\nSalt for the rim of the glass.
+    <string name="ingredientesTequila_Margarita">Tequila 60 ml.\nCointreau 30 ml.\n30 ml lime juice.\nIce.\nSalt for the rim of the glass.
 </string>
-      <string name="prepararTequila_Margarita">Take the glass and rub the edge with the 3/4 lemon juice, immediately after passing the edges of the salt.
+      <string name="prepararTequila_Margarita">Take the glass and rub the edge with the 3/4 lime juice, immediately after passing the edges of the salt.
 Place all ingredients (except salt) in a cocktail shaker with ice.
 Shake and serve the drink (which should be salted on its edge)
 Garnish with a slice of lemon on the rim
 </string>
-
+    <string name="ingredientesTequila_Paloma">1 long glass with salt on the rim.\n100ml tequila blanco.\n1 teaspoon of lime juice.\nGrapefruit Soda.\nIce.</string>
+<string name="prepararTequila_Paloma">the ice is placed in the cup, add tequila and lime juice and finish filling with grapefruit soda</string>
+    <string name="ingredientesTequila_CharroNegro">1/3 de Tequila.\n1/3 lemon or lime juice.\n1/3 coke soda.</string>
+    <string name="prepararTequila_CharroNegro">Spread salt on a plate. Rub the rim of the glass with lime wedge and wipe the salt so that it is covered.
+        Mix all ingredients in a shaker with crushed ice and shake vigorously. Strain into the cocktail glass salt and garnish with a slice of lime. </ String>
 </resources>
