@@ -29,27 +29,24 @@
         android:background="#4D78A8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="40dp"
         android:textColor="#DEA230"
         android:textSize="20sp"
-
         android:id="@+id/buttonwhiterussian"
         android:layout_below="@+id/buttonblueberryspritzer"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignLeft="@+id/buttonblueberryspritzer" />
 
     <Button
         android:text="Sex On The Beach"
         android:background="#4D78A8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="40dp"
         android:textColor="#DEA230"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:id="@+id/buttonsexonthebeach"
-        android:layout_below="@+id/buttonwhiterussian"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignLeft="@+id/buttonwhiterussian"
+        android:layout_below="@+id/buttonwhiterussian" />
 
     <Button
         android:text="Moradito"
@@ -61,21 +58,19 @@
         android:textSize="20sp"
         android:id="@+id/buttonmoradito"
         android:layout_below="@+id/buttonsexonthebeach"
-        android:layout_toLeftOf="@+id/textView"
-        android:layout_toStartOf="@+id/textView" />
+        android:layout_alignLeft="@+id/buttonsexonthebeach"/>
 
     <Button
         android:text="Bloody Mary"
         android:background="#4D78A8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="31dp"
+        android:layout_marginTop="40dp"
         android:textColor="#DEA230"
         android:textSize="20sp"
         android:id="@+id/buttonbloodymary"
         android:layout_below="@+id/buttonmoradito"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignLeft="@+id/buttonmoradito" />
 
     <Button
         android:text="Blueberry Spritzer"
@@ -83,10 +78,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#DEA230"
-        android:textSize="20sp"
-
+        android:textSize="15sp"
         android:id="@+id/buttonblueberryspritzer"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="40dp"
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />

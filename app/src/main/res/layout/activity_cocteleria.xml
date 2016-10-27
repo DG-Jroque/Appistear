@@ -42,23 +42,6 @@
         android:textStyle="normal|bold" />
 
     <Button
-        android:text="@string/ron"
-        android:background="#4D78A8"
-        android:textColor="#DEA230"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btron"
-        android:textSize="18sp"
-        android:drawableRight="@mipmap/ron"
-        android:layout_marginTop="141dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/btwhisky"
-        android:layout_alignStart="@+id/btwhisky"
-        android:layout_marginLeft="11dp"
-        android:layout_marginStart="11dp"
-        android:textStyle="normal|bold" />
-
-    <Button
         android:text="Tequila"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -84,6 +67,21 @@
         android:textColor="#DEA230"
         android:textStyle="normal|bold"
         android:layout_above="@+id/btmezcal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="@string/ron"
+        android:background="#4D78A8"
+        android:textColor="#DEA230"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btron"
+        android:textSize="18sp"
+        android:drawableRight="@mipmap/ron"
+        android:layout_marginTop="141dp"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 </RelativeLayout>

@@ -33,12 +33,19 @@
         <activity
             android:name=".Acercade"
             android:configChanges="locale|orientation" />
-        <activity android:name=".Tequila" />
-        <activity android:name=".Ron" />
-        <activity android:name=".Whisky" />
-        <activity android:name=".Vodka" />
-        <activity android:name=".Mezcal" />
-        <activity android:name=".Cocteleria_dinamica"></activity>
+        <activity android:name=".Tequila"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Ron"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Whisky"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Vodka"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Mezcal"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Cocteleria_dinamica"
+            android:screenOrientation="portrait"
+            ></activity>
     </application>
 
 </manifest>
