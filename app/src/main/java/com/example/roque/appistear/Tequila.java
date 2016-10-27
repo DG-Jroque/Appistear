@@ -19,11 +19,16 @@ public class Tequila extends AppCompatActivity {
         final Button btblm = (Button)findViewById(R.id.btblm);
         final Button btchn = (Button)findViewById(R.id.btchn);
         final Button bttsu = (Button)findViewById(R.id.bttsu);
+        btmar.setTypeface(nf);
+        btpal.setTypeface(nf);
+        btblm.setTypeface(nf);
+        btchn.setTypeface(nf);
+        bttsu.setTypeface(nf);
         btmar.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View v) {
                 Intent intent =  new Intent(Tequila.this, Cocteleria_dinamica.class);
-                intent.putExtra("var","margarita");
+                intent.putExtra("var","tequila_margarita");
                 startActivity(intent);
             }
         });
@@ -31,7 +36,7 @@ public class Tequila extends AppCompatActivity {
 
             public void onClick(View v) {
                 Intent intent =  new Intent(Tequila.this, Cocteleria_dinamica.class);
-                intent.putExtra("var","paloma");
+                intent.putExtra("var","tequila_paloma");
                 startActivity(intent);
             }
         });
@@ -39,7 +44,7 @@ public class Tequila extends AppCompatActivity {
 
             public void onClick(View v) {
                 Intent intent =  new Intent(Tequila.this, Cocteleria_dinamica.class);
-                intent.putExtra("var","bloody");
+                intent.putExtra("var","tequila_bloodymary");
                 startActivity(intent);
             }
         });
@@ -47,7 +52,7 @@ public class Tequila extends AppCompatActivity {
 
             public void onClick(View v) {
                 Intent intent =  new Intent(Tequila.this, Cocteleria_dinamica.class);
-                intent.putExtra("var","charro");
+                intent.putExtra("var","tequila_charronegro");
                 startActivity(intent);
             }
         });
@@ -55,7 +60,7 @@ public class Tequila extends AppCompatActivity {
 
             public void onClick(View v) {
                 Intent intent =  new Intent(Tequila.this, Cocteleria_dinamica.class);
-                intent.putExtra("var","sunrise");
+                intent.putExtra("var","tequila_sunrise");
                 startActivity(intent);
             }
         });
