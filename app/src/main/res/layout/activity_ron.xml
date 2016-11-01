@@ -12,46 +12,6 @@
     android:background="@mipmap/fondo">
 
     <Button
-        android:text="Cuba libre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
-        android:id="@+id/btcub"
-        android:background="#4D78A8"
-        android:textColor="#DEA230"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textStyle="normal|bold"
-        android:textSize="16sp" />
-
-    <Button
-        android:text="Daikiri"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="39dp"
-        android:id="@+id/btdik"
-        android:background="#4D78A8"
-        android:textColor="#DEA230"
-        android:layout_below="@+id/btmoj"
-        android:layout_centerHorizontal="true"
-        android:textStyle="normal|bold"
-        android:textSize="16sp" />
-
-    <Button
-        android:text="Mojito"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="39dp"
-        android:id="@+id/btmoj"
-        android:background="#4D78A8"
-        android:textColor="#DEA230"
-        android:layout_below="@+id/btpco"
-        android:layout_alignLeft="@+id/btdik"
-        android:layout_alignStart="@+id/btdik"
-        android:textStyle="normal|bold"
-        android:textSize="16sp" />
-
-    <Button
         android:text="Blue Hawaiian"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -64,17 +24,70 @@
         android:textStyle="normal|bold"
         android:textSize="16sp" />
 
+    <TextView
+        android:text="@string/ron"
+        android:background="#4D78A8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textColor="#DEA230"
+        android:id="@+id/textView"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
     <Button
         android:text="Piña colada"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="46dp"
+        android:layout_marginTop="47dp"
         android:id="@+id/btpco"
         android:background="#4D78A8"
         android:textColor="#DEA230"
         android:textStyle="normal|bold"
         android:textSize="16sp"
         android:layout_below="@+id/btcub"
-        android:layout_alignRight="@+id/btcub"
-        android:layout_alignEnd="@+id/btcub" />
+        android:layout_alignLeft="@+id/btcub"
+        android:layout_alignStart="@+id/btcub" />
+
+    <Button
+        android:text="Mojito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:id="@+id/btmoj"
+        android:background="#4D78A8"
+        android:textColor="#DEA230"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:layout_below="@+id/btpco"
+        android:layout_alignLeft="@+id/btpco"
+        android:layout_alignStart="@+id/btpco" />
+
+    <Button
+        android:text="Daikiri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:id="@+id/btdik"
+        android:background="#4D78A8"
+        android:textColor="#DEA230"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:layout_below="@+id/btmoj"
+        android:layout_alignLeft="@+id/btmoj"
+        android:layout_alignStart="@+id/btmoj" />
+
+    <Button
+        android:text="Cuba libre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/btcub"
+        android:background="#4D78A8"
+        android:textColor="#DEA230"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

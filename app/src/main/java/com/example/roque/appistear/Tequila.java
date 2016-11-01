@@ -44,7 +44,7 @@ public class Tequila extends AppCompatActivity {
 
             public void onClick(View v) {
                 Intent intent =  new Intent(Tequila.this, Cocteleria_dinamica.class);
-                intent.putExtra("var","tequila_bloodymary");
+                intent.putExtra("var","tequila_bloodymaria");
                 startActivity(intent);
             }
         });

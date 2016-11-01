@@ -26,36 +26,14 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="80dp"
-        android:id="@+id/button_usa"
-        android:background="@mipmap/eng"
-
-        android:layout_alignBottom="@+id/button_mex"
-        android:layout_alignTop="@+id/button_mex"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="80dp"
         android:id="@+id/button_mex"
         android:background="@mipmap/esp"
-        android:layout_alignBottom="@+id/idioma"
-        android:layout_alignRight="@+id/btninfo"
-        android:layout_alignEnd="@+id/btninfo" />
-
-    <TextView
-        android:text="@string/jugadores"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView4"
-        android:textStyle="normal|bold"
-        android:fontFamily="cursive"
-        android:textSize="30sp"
-
-        android:layout_marginTop="47dp"
-        android:layout_below="@+id/button_mex"
-        android:layout_alignRight="@+id/button_mex"
-        android:layout_alignEnd="@+id/button_mex" />
+        android:layout_below="@+id/idioma"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="37dp" />
 
     <TextView
         android:text="@string/idioma"
@@ -66,10 +44,36 @@
         android:id="@+id/idioma"
         android:textStyle="normal|bold"
         android:textSize="20sp"
+        android:fontFamily="sans-serif"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="162dp"
-        android:fontFamily="sans-serif" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/button_mex"
+        android:id="@+id/button_usa"
+        android:background="@mipmap/eng"
+        android:layout_alignBaseline="@+id/button_mex"
+        android:layout_alignBottom="@+id/button_mex"
+        android:layout_toRightOf="@+id/idioma"
+        android:layout_toEndOf="@+id/idioma" />
+
+    <TextView
+        android:text="@string/jugadores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textStyle="normal|bold"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/button_usa"
+        android:layout_toLeftOf="@+id/button_usa"
+        android:layout_toStartOf="@+id/button_usa"
+        android:layout_marginRight="19dp"
+        android:layout_marginEnd="19dp" />
 
 </RelativeLayout>

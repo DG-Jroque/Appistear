@@ -39,19 +39,6 @@
         android:textStyle="normal|bold" />
 
     <Button
-        android:text="Margarita"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btmar"
-        android:background="#4D78A8"
-        android:textColor="#DEA230"
-        android:layout_marginTop="48dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textSize="16sp"
-        android:textStyle="normal|bold" />
-
-    <Button
         android:text="Paloma"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -76,4 +63,30 @@
         android:layout_centerHorizontal="true"
         android:textStyle="normal|bold"
         android:textSize="16sp" />
+
+    <TextView
+        android:text="Tequila"
+        android:background="#4D78A8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textColor="#DEA230"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <Button
+        android:text="Margarita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btmar"
+        android:background="#4D78A8"
+        android:textColor="#DEA230"
+        android:layout_marginTop="29dp"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView"
+        android:layout_alignRight="@+id/btpal"
+        android:layout_alignEnd="@+id/btpal" />
 </RelativeLayout>

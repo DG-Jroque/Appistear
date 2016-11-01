@@ -28,7 +28,7 @@ Decorar con una rodaja de limón en el borde
     <string name="ingredientesTequila_CharroNegro">1/3 de Tequila.\n1/3 de jugo de lima o limón.\n1/3 de refresco de Cola.</string>
     <string name="prepararTequila_CharroNegro">Extienda la sal en un plato. Frote el borde de la copa de cóctel con la rodaja de lima y páselo por la sal de modo que quede cubierto.
         Mezcle todos los ingredientes en la coctelera con hielo picado y agite enérgicamente. Cuele en la copa de cóctel salada y decore con una rodaja de lima.</string>
-    <string name="ingredientesTequila_BoodyMaria">1.5 oz. de tequila.\n3 oz. de jugo de tomate.\nUn toque de salsa picante al gusto.\nUn toque de sal al gusto.\nUn toque de pimienta al gusto.\nUna varita de apio.
+    <string name="ingredientesTequila_BloodyMaria">1.5 oz. de tequila.\n3 oz. de jugo de tomate.\nUn toque de salsa picante al gusto.\nUn toque de sal al gusto.\nUn toque de pimienta al gusto.\nUna varita de apio.
 </string>
     <string name="prepararTequila_BloodyMaria">En un vaso alto con hielo mezcla todos los ingredientes. Adorna con la ro-daja de limón.
 Opcional: Antes de servir, escarcha el vaso con sal.
@@ -42,7 +42,7 @@ Opcional: Antes de servir, escarcha el vaso con sal.
     <!--
     ****************WHISKY****************
     -->
-   <string name="ingredientesWhisky_OldFashioned">1 terrón de azúcar.\nAngostura.\nRefresco.\nHielo.\n60ml de Whisky.\n1 rodaja de naranja.\n1 rodaja de limón.
+    <string name="ingredientesWhisky_OldFashioned">1 terrón de azúcar.\nAngostura.\nRefresco.\nHielo.\n60ml de Whisky.\n1 rodaja de naranja.\n1 rodaja de limón.
 </string>
     <string name="prepararWhisky_OldFashioned">Vierta en el vaso un golpe de Angostura y el terrón de azúcar y espere dos minutos.
 Llene el vaso de soda
@@ -61,6 +61,108 @@ Si lo desea, adórnelo con una rebanada de fruta.
     <string name="prepararWhisky_BlackJack">En una batidora con hielo, combinar todos los ingredientes. Batir, y servir en copa de cóctel.</string>
     <string name="ingredientesWhisky_CafeIrlandes">1 1/2 onzas de Whiskey Irlandés.\n6 onzas de café negro caliente.\nCrema Batida.\n3/4 onzas de Crema.</string>
     <string name="prepararWhisky_CafeIrlandes">Coloca el whisky en una taza de café, luego agrega el café caliente y la crema irlandesa. Agrega la crema batida arriba del todo y decora con granos de café molidos o azúcar morena.</string>
+    <!--
+        ****************RON****************
+        -->
+    <string name="ingredientesRon_CubaLibre">160ml de ron.\n15ml de zumo de limón.\n2 cascaras de limón.\nRefresco de cola.\nCubos de hielo
+</string>
+    <string name="prepararRon_CubaLibre">En vasos altos coloque los cubitos, vierta el zumo de limón y añada el ron, complete con refresco de cola; agregue las cascarás después de frotar con ellas el borde del vaso</string>
+    <string name="ingredientesRon_PinaColada">Hielo.\n45ml de Ron blanco.\n35ml de crema de coco.\nZumo o jugo de piña.\nRodaja de piña y guinda</string>
+    <string name="prepararRon_PinaColada">Verter el hielo, el Ron blanco, la crema de coco y rellenar con zumo de piña.
+Agitar bien la mezcla y colar en un vaso.
+Decorar con rodaja de piña y guinda.
+</string>
+    <string name="ingredientesRon_Mojito">Hielo.\n1 cucharada de azúcar.\n10ml de zumo de lima.\n50ml de Ron blanco.\nGaseosa (7up, Sprite, Fanta de limón).\nHierbabuena o menta.
+</string>
+    <string name="prepararRon_Mojito">Poner la hierbabuena y el azúcar en el vaso y machacar con un mortero
+Añadir el hielo, el zumo de lima y el ron
+Llenar el vaso con la gaseosa y remover
+Decorar con un limón o una ramita de hierbabuena
+</string>
+    <string name="ingredientesRon_Daikiri">90ml de ron blanco.\n40ml de zumo de limón.\n1 parte de azúcar</string>
+    <string name="prepararRon_Daikiri"> Mezclar todos los ingredientes en una coctelera con hielo. Batir y servir en copa de cóctel. También lo puedes combinar con las frutas que quieras.</string>
 
+    <string name="ingredientesRon_BlueHawaiian">Crema de Coco.\nCuraçao Azul.\nJugo de Piña.\nRon Blanco.</string>
+    <string name="prepararRon_BlueHawaiian">Vierta en la licuadora con hielo picado 1oz de Ron Blanco, 1oz de Azul de Curazao, 1oz de Crema de Coco y 2oz de Jugo de Piña. Mezcle a velocidad máxima durante 10 segundos, sirva en un vaso alto y adorne con una piña y una cereza.</string>
+    <!--
+          ****************VODKA****************
+          -->
+
+    <string name="ingredientesVodka_WhiteRussian">20ml de licor de café (Kahlúa o Tia Maria por ejemplo).\n50ml de vodka.\n30ml de nata o leche
+</string>
+    <string name="prepararVodka_WhiteRussian">Se trata de un coctel sencillo, no requiere coctelera y se presenta en vaso corto. Lo primero es llenar el vaso de hielo, a continuación, echamos el licor de café, el vodka y finalmente la nata. Si no te convence la leche ni la nata puedes probar a usar leche de soja o directamente pasar al Black Russian.</string>
+ <string name="ingredientesVodka_Moradito">Vodka.\nJugo de uva.\nAzúcar morena.
+</string>
+    <string name="prepararVodka_Moradito">Mezclas un tanto de Vodka de buena calidad con Licor o jugo de uva (si es natural resulta mejor) una cucharada de azúcar morena.
+ si en vez de vodka usas tequila
+sabe muy bien y se llama 69.
+</string>
+    <string name="ingredientesVodka_BloodyMary">40 ml. de vodka.\n75 gramos de zumo de tomate.\n15 ml de zumo de limón.\n2 golpes (chorritos) de salsa inglesa.
+\n2-3 gotitas de tabasco.
+\nSal y pimienta negra recién molida.
+\n3-4 cubitos de hielo.
+\n1 cucharada de jerez también le va bien (opcional).
+</string>
+    <string name="prepararVodka_BloodyMary">Preparar el vaso con los hielos.
+Verter el vodka.
+Agregar el limón.
+Aderezar con la sal y pimienta.
+Añadir la salsa y el tabasco.
+Rellenar con el tomate.
+Adornar con apio y servir.
+</string>
+    <string name="ingredientesVodka_BlueberrySpritzer">1 1/2 onzas de lavanda y miel jarabe simple.\n2 onzas de vodka de arándano.\n4 -6 oz cal agua con gas o soda.\nJugo de 1/4 limón, recién exprimido.
+</string>
+    <string name="prepararVodka_BlueberrySpritzer">1. Combine el jarabe de miel de lavanda, el vodka y el hielo en una coctelera.
+2. Mezcle para combinar, y la tensión en una copa de cóctel o una flauta.
+3. Cubra con agua con gas o soda, y el acabado con unas gotas de jugo de limón fresco
+</string>
+    <string name="ingredientesVodka_SexOnTheBeach">1 1/2 oz de vodka.
+\n3/4 oz de peach schnapps (licor de durazno/melocotones).
+\n1 1/2 oz jugo natural de naranja.
+\n1 1/2 oz de jugo de arándanos rojos.
+\nHielo.
+\nVaso collins.
+\n2 pajitas.
+\n1 rodaja de naranja (o limón) para decorar.
+\n1 cereza roja para decorar.
+</string>
+    <string name="prepararVodka_SexOnTheBeach">verter el vodka, el peach schnapps, el jugo de naranja y el de arándanos. Con una cuchara de bar revolver suavemente durante 10 segundos, añadir un par de pajitas y decorar con una rodaja de naranja bien fresca en el borde. Finalmente añadir también una cereza roja, esto ayudará en la decoración y le dará un toque más sensual y aromático a este cóctel tan sofisticado.</string>
+
+    <!--
+          ****************MEZCAL****************
+          -->
+<string name="ingredientesMezcal_Zignumocuilli">1 oz ZIGNUM SILVER
+\n1 oz de chamoy.\n1 oz concentrado de tamarindo.\nSal de gusano o chile piquín para decorar.\nTiras de pepino, para decorar.
+</string>
+    <string name="prepararMezcal_Zignumocuilli">En un shaker coloca hielo al gusto, posteriormente agrega la oz de Zignum Mezcal Silver junto con el chamoy y el tamarindo, mezcla por 35 segundos. Colar en un vaso previamente enfriado y escarchado con sal de gusano, para finalizar decorar con el pepino también cubierto con la sal de gusano o chile piquín.</string>
+    <string name="ingredientesMezcal_HotPinneapple">2 onzas de Zignum reposado.\n4 onzas de jugo de piña.\n¼ onzas de jugo limón.\nTrocitos de piña.</string>
+    <string name="prepararMezcal_Hotpinneapple">1. En una jarra por separado mezcla el mezcal con el jugo de piña.\n
+2. Agrega el jugo de limón.\n
+3. Agrega hielo.\n
+4. Escarcha el vaso donde servirás con salsa Tajín alrededor.\n
+5. Decora con un pedacito de piña enchilada en una orilla.\n
+6. Sirve.
+</string>
+    <string name="ingredientesMezcal_Tunacuixe">1 onza de mezcal Convite Espadín-Madrecuixe.\n
+4 trozos de tuna.\n
+1 onza de jarabe natural.\n
+1/2 onza de jugo de limón.\n
+2 onzas de agua mineral.\n
+</string>
+    <string name="prepararMezcal_Tunacuixe">Machacar los ingredientes en un vaso mezclador (excepto agua mineral). Agregar hielo, agitar y servir el contenido (con doble colado). En el vaso con hielo, rellenar con agua mineral.</string>
+    <string name="ingredientesMezcal_Sunset">Jugo de limón natural 25 ml.\n
+Jugo de naranja natural 25 ml.\n
+mezcal blanco dorado 25 ml.\n
+Miel líquida 1 cucharada.\n
+Hielo picado.\n
+1 espiral de limón (para decorar).
+</string>
+    <string name="prepararMezcal_Sunset">Horas antes poner las copas en el congelador. Añadir el mezcal blanco, el jugo de limón y el jugo de naranja y mover. Verter la miel en la copa, siempre antes que el hielo. Introducir el hielo y decorar a su gusto.</string>
+    <string name="ingredientesMezcal_BlackMexcan">1 1/2 onza de mezcal blanco.\n
+1 onza de licor de café.\n
+Hielo en cubitos.\n
+</string>
+    <string name="prepararMezcal_BlackMexican">Vierta ambas bebidas en un vaso de cóctel lleno de hielo</string>
 
 </resources>

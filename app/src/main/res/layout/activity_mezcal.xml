@@ -39,20 +39,6 @@
         android:textSize="16sp" />
 
     <Button
-        android:text="Black Mexican"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="43dp"
-        android:id="@+id/btblm"
-        android:background="#4D78A8"
-        android:textColor="#DEA230"
-        android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/btzig"
-        android:layout_alignEnd="@+id/btzig"
-        android:textStyle="normal|bold"
-        android:textSize="16sp" />
-
-    <Button
         android:text="Tunacuixe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -78,4 +64,30 @@
         android:layout_alignStart="@+id/btmst"
         android:textStyle="normal|bold"
         android:textSize="16sp" />
+
+    <Button
+        android:text="Black Mexican"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="82dp"
+        android:id="@+id/btblm"
+        android:background="#4D78A8"
+        android:textColor="#DEA230"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignRight="@+id/bthot"
+        android:layout_alignEnd="@+id/bthot" />
+
+    <TextView
+        android:text="Mezcal"
+        android:background="#4D78A8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textColor="#DEA230"
+        android:id="@+id/textView"
+        android:layout_marginTop="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

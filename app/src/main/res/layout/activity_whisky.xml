@@ -12,18 +12,6 @@
     android:background="@mipmap/fondo"
     >
 
-    <TextView
-        android:text="Whisky"
-        android:background="#4D78A8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="50sp"
-        android:textColor="#DEA230"
-        android:id="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp" />
-
     <Button
         android:text="Ward Eight"
         android:background="#4D78A8"
@@ -75,20 +63,32 @@
         android:layout_alignLeft="@+id/buttonblackjack"
         android:id="@+id/buttoncafeirlandes" />
 
+    <TextView
+        android:text="Whisky"
+        android:background="#4D78A8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textColor="#DEA230"
+        android:id="@+id/textView"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
     <Button
         android:text="Old Fshioned"
         android:background="#4D78A8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="36dp"
         android:textColor="#DEA230"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:id="@+id/buttonoldfashioned"
         android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="21dp"
-        android:layout_marginStart="21dp" />
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp" />
 
 
 </RelativeLayout>

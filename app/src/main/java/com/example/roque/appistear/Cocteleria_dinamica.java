@@ -136,7 +136,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
         titulo.setText("BLOODY MARIA");
         titulo.setTypeface(nf);
         ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararTequila_BloodyMaria));
-        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesTequila_BoodyMaria));
+        ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesTequila_BloodyMaria));
     }
 
     public void tequila_sunrise(){
