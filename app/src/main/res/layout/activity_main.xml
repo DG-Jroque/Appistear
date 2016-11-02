@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="74dp"
             android:id="@+id/juegos"
-            android:background="#4D78A8"
+            android:background="@drawable/botoninicio"
             android:textColor="#DEA230"
             android:textSize="20sp"
             android:drawableRight="@mipmap/juego"/>
@@ -50,7 +50,7 @@
 
         <Button
             android:text="@string/cocteleria"
-            android:background="#4D78A8"
+            android:background="@drawable/botoninicio"
             android:layout_width="wrap_content"
             android:layout_height="68dp"
             android:id="@+id/cocteleria"
@@ -67,7 +67,7 @@
 
         <Button
             android:text="@string/opciones"
-            android:background="#4D78A8"
+            android:background="@drawable/botoninicio"
             android:layout_width="217dp"
             android:layout_height="67dp"
             android:id="@+id/opciones"

@@ -164,5 +164,6 @@ Hielo picado.\n
 Hielo en cubitos.\n
 </string>
     <string name="prepararMezcal_BlackMexican">Vierta ambas bebidas en un vaso de cóctel lleno de hielo</string>
-
+    <string name="reto">Retos</string>
+    <string name="corona">Corona del Rey</string>
 </resources>
