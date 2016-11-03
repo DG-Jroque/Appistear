@@ -29,7 +29,6 @@
 
     <Button
         android:text="@string/comojugar"
-
         android:background="#4D78A8"
         android:textColor="#DEA230"
         android:layout_width="wrap_content"

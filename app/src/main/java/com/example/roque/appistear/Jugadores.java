@@ -38,6 +38,7 @@ public class Jugadores extends AppCompatActivity {
                 con++;
                 nomjug.setText("");
                 jug.setText(getText(R.string.jugador)+" " +String.valueOf(con));
+
             }
         });
         btn.setOnClickListener(new View.OnClickListener() {
@@ -59,29 +60,28 @@ public class Jugadores extends AppCompatActivity {
                    alert.show();
                }
                 else {
-
                    Intent intent = new Intent(Jugadores.this, Juegos.class);
                    intent.putExtra("arr", jugadores);
                    startActivity(intent);
-
                }
             }
         });
-
     }
 
     public void createDynamicPlayer(){
+       /* setContentView(R.layout.activity_jugadores);
         RelativeLayout rl = (RelativeLayout)findViewById(R.id.activity_retos);
         setContentView(rl);
         TextView textView  = new TextView(this);
+        textView.setText("Jugador"+con);
         EditText editText = new EditText(this);
         RelativeLayout.LayoutParams relativeParams = new RelativeLayout.LayoutParams(
-                RelativeLayout.LayoutParams.WRAP_CONTENT,RelativeLayout.LayoutParams.WRAP_CONTENT);
+                RelativeLayout.LayoutParams.MATCH_PARENT,RelativeLayout.LayoutParams.MATCH_PARENT);
         rl.addView(textView, relativeParams);
         rl.addView(editText, relativeParams);
         playerstag.add(textView);
         playerName.add(editText);
-        setContentView(rl);
+*/
 
 
 
