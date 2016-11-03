@@ -222,8 +222,6 @@ Ice cubes.
     <string name="jugadores">Log the players</string>
     <string name="jugador">Player </string>
     <string name="aceptar">Continue</string>
-    <string name="comojugar">How to play?</string>
-    <string name="jugar">Play</string>
     <string name="iniciareto">I want a challenge</string>
     <string-array name="retos">
         <item>if there is a woman at the party, you do not take, if you do not act like woman for 15 minutes.</item>

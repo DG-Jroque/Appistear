@@ -168,11 +168,6 @@ Hielo en cubitos.\n
     <string name="jugadores">Ingresa los jugadores</string>
     <string name="jugador">Jugador </string>
     <string name="aceptar">Aceptar</string>
-    <string-array name="retos">
-        <item> Reto 1 </item>
-        <item>Reto 2</item>
-    </string-array>
-    <string name="title_activity_jugadores">Jugadores</string>
     <string name="copareyAs">las cascadas.</string>
     <string name="coparey2">Para ti. Elige quien toma.</string>
     <string name="coparey3">Para mi. Tú tomas</string>
@@ -204,5 +199,65 @@ Hielo en cubitos.\n
     <string name="comojugar">¿CÓMO JUGAR?</string>
     <string name="jugardenuevo">Jugar de nuevo</string>
     <string name="salir">Salir</string>
+    <string name="iniciareto">Quiero un reto</string>
+    <string name="retosreglas">Sencillo, sigue las instrucciones que indica cada reto, disfruta, nadie pierde!</string>
+    <string-array name="retos">
+        <item>si en la fiesta hay alguna mujer no tomas, si no actuaras como mujer por 15 minutos.</item>
+        <item>debes invitar una ronda a todos los que estén jugando.</item>
+        <item>tomate la bebida del de la derecha.</item>
+        <item>toma un trago por cada persona que esté jugando.</item>
+        <item>habla como chino hasta que se te diga que puedes hablar normal.</item>
+        <item>cada que una persona te toque el cabello tendrás que tomar un trago de tu bebida.</item>
+        <item>habla como español por 10 minutos.</item>
+        <item>pon tu trago en el suelo e intenta levantarlo y beberlo sin utilizar las manos, si no lo logras o tiras algo, shot.</item>
+        <item>cuenta un chiste o una anécdota graciosa, aquellos que se rían beberán un shot, si nadie ríe el que bebe eres tú.</item>
+        <item>empieza diciendo el nombre de un trago, por ejemplo “mojito”, el jugador a tu derecha deberá continuar y así sucesivamente hasta que alguien se equivoque o repita alguno, quien lo haga bebe un shot.</item>
+        <item>todos mencionen quien de los jugadores creen que: morirá primero, tendrá la mejor chic@ y tendrá el mejor auto, expliquen por qué y cada persona elegida deberá beber un shot.</item>
+        <item>cuenta una historia (puede ser verdadera o falsa) al finalizarla los demás deberán votar si es cierta o no, aquellos que se equivoquen shot.</item>
+        <item>dile a jugador que nombre una parte del cuerpo ahora mismo, ya que lo hizo, por ejemplo, si dijo “cabeza” deberán permanecer pegados de la cabeza por las siguientes 3 rondas, si se despegan shot.</item>
+        <item>entre todos formen un circulo con su trago a la misma medida y en mano ahora volteen al suelo y en voz alta cuenten hasta 3 y levanten la cara fijando su mirada en los ojos de otra persona, si esa persona no los ve también no pasa nada, si ambos se ven deben tomarse su trago completo</item>
+        <item>deberás prepararle una bebida con 4 ingredientes comestibles los que desees al jugador de tu derecha, si no lo bebe completo shot.</item>
+        <item>entre todos tomen un cubo de hielo y apriétenlo con su mano, el primer jugador en rendirse shot.</item>
+        <item>los demás jugadores tendrán que darte 10 prendas y deberás usarlas extras a las que ya tienes, deberás permanecer así por el resto de la actividad, si no shot.</item>
+        <item>dile al jugador de tu izquierda que nombre una parte del cuerpo ahora mismo, ya que lo hizo deberás poner tu lengua en su parte del cuerpo mencionada, si no puedes shot.</item>
+        <item>intenta decir el alfabeto al revés si te equivocas shot.</item>
+        <item>los demás deben vendarte los ojos, ahora cada uno deberá decir tu nombre y tu tendrás que decir quien lo dijo, si te equivocas shot.</item>
+        <item>deberá comer un plátano de manera sugestiva y sensual, en caso de no tener puedes utilizar otro alimento, si no shot.  </item>
+        <item>tienes que tomar cualquier objeto y hablarle a los demás sobre este objeto durante 1 minuto, no tiene que ser información real, en caso de no durar el minuto completo shot.</item>
+        <item>deben taparte los ojos, ya que lo hayan hecho deberá describir detalladamente como está vestido cualquiera de los asistentes a la fiesta, si no lo logra shot.</item>
+        <item>debes mencionar 3 partes del cuerpo que tengan 3 letras, si no shot.</item>
+        <item>tiene 30 segundos para decir 15 palabras que empiecen con la letra “a”, si no lo logra shot. </item>
+        <item>debe darle argumentos al jugador de tu izquierda del porque le cae tan bien o le gusta tanto, si no se la creen shot.</item>
+        <item>no podrá decir “si” o “no” por el resto del juego, los demás pueden intentar hacerte perder en cualquier momento del juego, cada vez que lo digas shot.</item>
+        <item>deberá agarrarse la nariz con la mano derecha, mientras que agarra la oreja derecha con la mano izquierda, después intercambia, la oreja izquierda con la mano derecha y la nariz con la mano izquierda.  Debe hacerlo 10 veces sin equivocase, si no shot.</item>
+        <item>debe nombrar 10 países con sus capitales en caso de no saber shot.</item>
+        <item>tiene que nombrar 10 nombres o apellidos con la letra que los demás escojan, si no shot.</item>
+        <item>mencione el nombre de al menos 5 ex presidentes de tu país, si no lo logra shot.</item>
+        <item>deberá responder “no” a todas las preguntas que le hagan los demás argumentando porque durante todo el juego, si no shot</item>
+        <item>entre todos revisen sus carteras o bolsas y quien tenga el objeto más extraño shot.</item>
+        <item>tendrá que gritar “muere” cada que alguno de los otros participantes diga no, por el resto del juego, por cada vez que no lo haga shot.</item>
+        <item>tiene que hacer una llamada telefónica a un negocio, amigo o familiar y hacerle una broma telefónica, si no se la creen shot.</item>
+        <item>formen un círculo y cada uno tendrá que decir una palabra, el siguiente tendrá que repetir la palabra que dijo el anterior y decir otra, el tercero decir las 2 anteriores y una más y así sucesivamente, tomará shot el primero que se equivoque.</item>
+        <item>Deben decir los números del 1 al 30, pero sin mencionar los múltiplos de 3, si te equivocas shot, háganlo hasta lograr llegar a 30.</item>
+        <item>Deben echar en el trago de Jugador una cucharada de salsa o chile y terminarlo si no shot.</item>
+        <item>tiene que decir una frase corta y quien está a su derecha debe continuar con una frase que rime y así sucesivamente, ejemplo “1-Mi mamá me regaló una camisa, 2-Con la que siempre voy a misa, 3-Y se me arruga muy de prisa…” el que no pueda shot.</item>
+        <item>debe decir los nombres y edades de todos los participantes, si no sabe shot.</item>
+        <item>tendrá los ojos vendados mientras que los demás esconden un objeto, ya que este escondido él tendrá que buscarlo durante 2 minutos, si no lo encuentra shot.  </item>
+        <item>tendrá que deletrear el nombre de los demás participantes, si se equivoca shot</item>
+        <item>usando las letras del alfabeto, en orden, debe nombrar un nombre de persona con cada una de las letras, si se equivoca shot.</item>
+        <item>debe adivinar con los ojos vendados y usando únicamente la boca, que objeto está tocando, si no lo logra shot.</item>
+        <item>deberá cantar las mañanitas usando únicamente una vocal, que deberá ser elegida por los demás, si se equivoca shot.</item>
+        <item>tiene que cantarnos una canción haciendo gárgaras, si nadie la adivina shot.</item>
+        <item>a partir de ahora todo lo que digas deberá tener rima, por ejemplo “Es mi turno de jugar y lo voy a disfrutar…”, si algo no rima shot.</item>
+        <item>debes decir un defecto y una cualidad de cada uno de los participantes, si no lo logras shot. </item>
+        <item>a partir de ahora todo lo que diga será únicamente con la vocal “e”, cada vez que se equivoque shot. </item>
+        <item>jueguen vencidas entre todos, el que haya perdido más se toma un shot.</item>
+        <item>debe salir de la casa o el lugar del juego y conseguir una tacita de azúcar. No puede regresar al juego hasta que llegue con el azúcar o shot. </item>
+        <item>debe quitar una prenda de vestir a otro de los jugadores, del sexo opuesto utilizando únicamente la boca, los demás indicarán a quien, si no lo logra shot, si no hay nadie del sexo opuesto shot todos.</item>
+        <item>a partir de ahora será un T-Rex por lo que no podrás despegar los codos de tu cuerpo si se le olvida hacerlo shot.</item>
+        <item>debes decir una palabra en un circulo, el siguiente a la derecha una que comience con la misma sílaba con la que terminaba la palabra anterior. Por ejemplo: Mora, rana. Mora termina con "ra" y rana comienza con "ra", el que se confunda primero shot.</item>
+        <item>Cada vez que alguien mencione una palabra con la letra “a” deberá tomar un shot. </item>
+        <item>debe susurrarle a Jugador una pregunta y debe responder gritando la respuesta. (por ejemplo, "¿Quién es la más guapa en esta fiesta?"), ahora los demás deben intentar adivinar cuál era la pregunta, si no lo logran shot.</item>
 
+    </string-array>
 </resources>

@@ -1,5 +1,6 @@
 package com.example.roque.appistear;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
@@ -70,7 +71,7 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
 
     public void end(){
         AlertDialog.Builder adb = new AlertDialog.Builder(this);
-        adb.setView(alertDialogView);
+      //  adb.setView(AlertDialogView);
         adb.setTitle("Title of alert dialog");
         adb.setIcon(android.R.drawable.ic_dialog_alert);
 

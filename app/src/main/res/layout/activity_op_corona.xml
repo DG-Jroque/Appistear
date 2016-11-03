@@ -8,24 +8,31 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.roque.appistear.OpCorona">
+    tools:context="com.example.roque.appistear.OpCorona"
+    android:background="@mipmap/fondo">
 
     <Button
-        android:text="Jugar"
+        android:text="@string/comojugar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="74dp"
-        android:id="@+id/btncorona" />
-
-    <Button
-        android:text="Como jugar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="97dp"
+        android:background="@drawable/boton"
+        android:layout_marginTop="159dp"
+        android:textSize="18sp"
+        android:textColor="#DEA230"
         android:id="@+id/btnhtpc"
         android:layout_below="@+id/btncorona"
         android:layout_alignLeft="@+id/btncorona"
         android:layout_alignStart="@+id/btncorona" />
+
+    <Button
+        android:text="@string/jugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="137dp"
+        android:background="@drawable/boton"
+        android:textSize="18sp"
+        android:textColor="#DEA230"
+        android:id="@+id/btncorona"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

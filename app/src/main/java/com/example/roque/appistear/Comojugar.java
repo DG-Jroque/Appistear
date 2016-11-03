@@ -18,6 +18,7 @@ public class Comojugar extends AppCompatActivity {
         else{
 
             ///************REGLAS DE RETOS****************
+            textView.setText(getString(R.string.retosreglas));
         }
     }
 }
