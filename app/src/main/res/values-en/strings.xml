@@ -226,6 +226,55 @@ Ice cubes.
         <item> Challenge 1 </item>
         <item>Challenge 2</item>
     </string-array>
+
+
+    <string name="copareyAs">Waterfall</string>
+    <string name="coparey2">2 for U.</string>
+    <string name="coparey3">3 for me</string>
+    <string name="coparey4">4 on the floor</string>
+    <string name="coparey5">5 guys</string>
+    <string name="coparey6">6 chicks ;)</string>
+    <string name="coparey7">7 heaven</string>
+    <string name="coparey8">8 mate</string>
+    <string name="coparey9">9 bust a rhyme</string>
+    <string name="coparey10">Categories</string>
+    <string name="copareyj">Make a rule</string>
+    <string name="copareyq">Question Master</string>
+    <string name="copareyk">King's Cup!!!</string>
+    <string name="copareyReglas">
+Ace: \nIn the standard version, an ace is “waterfall”. This starts with everyone chugging.
+        Then the person who picked the card can stop whenever he/she wants.
+        This allows the next person to stop when he/she wants and so on and so on.
+        This version is classic because it does a great job of getting everyone plastered.
+\nTwo:\n Two has and always will be the classic “you”.
+        This means that whoever picks the 2 card gets to choose anybody they want in the game to drink.
+\nThree:\nThree is another staple in Kings Cup, “me”. Pick a 3 and you have to drink.
+\nFour:\nFour on the floor, everybody has to point to the ground the last person to do it has to drink.
+Five:\n Five for guys. Guys have to drink.
+
+\nSix:\n Six for Chicks, girls have to drink.
+\nSeven:\nSeven equals “heaven”. All players reach for the sky.
+        The last person has to drink. Great card when people aren’t paying attention or someone is too
+        drunk to realize a seven was picked.
+\nEight:\nEight is “mate”. The player who picks the card chooses another player to be their mate.
+        This means when one of them drinks they both drink. Perfect for letting the fine girl across
+        the table know you are interested.
+\nNine:\nNine can either be one of the best or worst cards depending on how creative the group is.
+        It is called “bust a rhyme”. The simple version has the player who picked the card say a
+        word and everybody has to say a word that rhymes with it. Say for example the word is bite.
+        Other players would say fight, kite, tight, right, ect. This goes on until somebody cannot
+        think of a word that rhymes.
+
+\nTen:\nTen is “categories”. The player who picked the card chooses a category.
+        Then everyone goes around and says something that fits in the category.
+        Whoever cannot think of anything in the category has to drink.
+
+        \nJack:\nMake a Rule. Player makes a rule that lasts the entire game and if broken the violator must drink
+\nQueen:\nQuestion Master.Player who flips over a queen becomes the question master until the next queen is flipped over. This player can ask anybody at any time a question and if that player doesn't respond with a question to the asker or another player he must drink
+
+\nKing:\nKing's Cup.Pour however much beer/liquor you want into the glass, the 4th king has to drink the cup.
+    </string>
+
 </resources>
 
 
