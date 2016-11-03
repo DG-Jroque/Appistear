@@ -54,7 +54,6 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
         text.remove(pos);
 
          if(Cards.size()==0){
-
          }
         return 1;
 
