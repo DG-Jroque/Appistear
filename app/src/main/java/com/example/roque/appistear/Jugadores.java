@@ -33,7 +33,7 @@ public class Jugadores extends AppCompatActivity {
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                createDynamicPlayer();
+                //createDynamicPlayer();
                 jugadores.add(nomjug.getText().toString());
                 con++;
                 nomjug.setText("");
@@ -67,6 +67,7 @@ public class Jugadores extends AppCompatActivity {
             }
         });
     }
+
 
     public void createDynamicPlayer(){
        /* setContentView(R.layout.activity_jugadores);
