@@ -21,9 +21,12 @@ public class CoronaRey extends AppCompatActivity implements GestureDetector.OnGe
 GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
 
     private boolean []state= new boolean[52];
+
     //private int []Cards = new int [52];
     public ArrayList<Integer> Cards = new ArrayList<Integer>();
+    public ArrayList<Integer> text = new ArrayList<Integer>();
     private GestureDetector gestureDetector;
+    private TextView tx;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +35,7 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
         gestureDetector = new GestureDetector(this, this);
         gestureDetector.setOnDoubleTapListener(this);
         createCards();
+        tx= (TextView)findViewById(R.id.textView2);
         Button bt= (Button)findViewById(R.id.buttoncoparey);
         bt.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,7 +49,9 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
         int pos= (int)(Math.random()*max-1);
         RelativeLayout relativeLayout= (RelativeLayout)findViewById(R.id.activity_corona_rey);
         relativeLayout.setBackgroundResource(Cards.get(pos));
+        tx.setText(getString(text.get(pos)));
         Cards.remove(pos);
+        text.remove(pos);
 
          if(Cards.size()==0){
 
@@ -57,6 +63,7 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
     public void createCards(){
         for(int i=0; i<image.length;i++){
             Cards.add(image[i]);
+            text.add(Text[i]);
         }
     }
 
