@@ -1,20 +1,18 @@
 package com.example.roque.appistear;
 
-import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.Typeface;
-import android.graphics.drawable.Drawable;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.GestureDetector;
-import android.support.v4.view.GestureDetectorCompat;
-import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import java.util.ArrayList;
+import android.content.DialogInterface;
 
 public class CoronaRey extends AppCompatActivity implements GestureDetector.OnGestureListener,
 GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
@@ -38,12 +36,13 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
         createCards();
         tx= (TextView)findViewById(R.id.textView2);
         tx.setTypeface(nf);
+        changeBackground();
     }
 
 
     public int changeBackground(){
         int max= Cards.size();
-        int pos= (int)(Math.random()*max-1);
+        int pos= (int)(Math.random()*max);
         RelativeLayout relativeLayout= (RelativeLayout)findViewById(R.id.activity_corona_rey);
         relativeLayout.setBackgroundResource(Cards.get(pos));
         tx.setText(getString(text.get(pos)));
@@ -52,10 +51,7 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
             King++;
         }
         text.remove(pos);
-
-
-
-         if(Cards.size()==0|| King >3 ){
+         if(King ==4 ){
              end();
          }
         return 1;
@@ -71,10 +67,8 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
 
     public void end(){
         AlertDialog.Builder adb = new AlertDialog.Builder(this);
-      //  adb.setView(AlertDialogView);
-        adb.setTitle("Title of alert dialog");
+        adb.setTitle(getString(R.string.fincorona));
         adb.setIcon(android.R.drawable.ic_dialog_alert);
-
         adb.setPositiveButton(getString(R.string.jugardenuevo), new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 Intent intent = new Intent(CoronaRey.this, CoronaRey.class);
@@ -84,9 +78,17 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
             public void onClick(DialogInterface dialog, int which) {
             Intent intent = new Intent(CoronaRey.this, OpCorona.class);
             startActivity(intent);
-
         } });
-        adb.show();
+        AlertDialog alert = adb.create();
+        alert.show();
+        Button a = alert.getButton(DialogInterface.BUTTON_NEGATIVE);
+        if(a != null)
+            a.setBackgroundColor(Color.BLUE);
+        Button b = alert.getButton(DialogInterface.BUTTON_POSITIVE);
+        if(b != null)
+        b.setBackgroundColor(Color.BLUE);
+
+
     }
 
     @Override
