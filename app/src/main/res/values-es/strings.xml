@@ -201,4 +201,6 @@ Hielo en cubitos.\n
 \nEl rey: \nla Copa del Rey. Si un jugador saca un rey, debe echar su bebida en el vaso ubicado en el centro de la mesa. Cuando un jugador saque el cuarto rey, deberá beber la mezcla del vaso, lo que indicará el final del juego. Si juegas con latas en lugar de vasos, los reyes podrían indicar que tendrás que terminarte tu bebida actual u otra regla.
 \nLos ases: las cascadas. Si un jugador saca un as, todos los de la mesa deberán tomar su bebida, comienza por el que sacó la carta. Cada jugador solo puede empezar a beber después de que la persona a su derecha haya empezado a hacerlo y solo podría detenerse cuando ella lo haya hecho. Por lo tanto, si te encuentras a la izquierda del jugador que sacó la carta, no puedes dejar de beber hasta que todos en la mesa lo hayan hecho.
     </string>
+    <string name="jugar">JUGAR</string>
+    <string name="comojugar">CÓMO JUGAR</string>
 </resources>

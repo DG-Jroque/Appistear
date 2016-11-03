@@ -1,6 +1,7 @@
 package com.example.roque.appistear;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -15,7 +16,7 @@ public class OpCorona extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_op_corona);
         final ArrayList<String> jugadores=new ArrayList<String>();
-
+        Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
         Button btcorona = (Button) findViewById(R.id.btncorona);
         btcorona.setOnClickListener(new View.OnClickListener() {
 
@@ -25,6 +26,7 @@ public class OpCorona extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        btcorona.setTypeface(nf);
         Button bthtp = (Button) findViewById(R.id.btnhtpc);
         bthtp.setOnClickListener(new View.OnClickListener() {
 
@@ -34,6 +36,7 @@ public class OpCorona extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        bthtp.setTypeface(nf);
 
     }
 }

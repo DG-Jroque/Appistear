@@ -275,7 +275,8 @@ Five:\n Five for guys. Guys have to drink.
 
 \nKing:\nKing\'s Cup.Pour however much beer/liquor you want into the glass, the 4th king has to drink the cup.
     </string>
-
+    <string name="jugar">PLAY</string>
+    <string name="comojugar">HOW TO PLAY</string>
 </resources>
 
 

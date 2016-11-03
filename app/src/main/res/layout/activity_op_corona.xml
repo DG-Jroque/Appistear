@@ -8,10 +8,13 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.roque.appistear.OpCorona">
+    tools:context="com.example.roque.appistear.OpCorona"
+    android:background="@mipmap/fondo">
 
     <Button
-        android:text="Jugar"
+        android:text="@string/jugar"
+        android:background="#4D78A8"
+        android:textColor="#DEA230"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -20,7 +23,9 @@
         android:id="@+id/btncorona" />
 
     <Button
-        android:text="Como jugar"
+        android:text="@string/comojugar"
+        android:background="#4D78A8"
+        android:textColor="#DEA230"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="97dp"
