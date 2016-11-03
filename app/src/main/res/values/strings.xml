@@ -166,4 +166,5 @@ Hielo en cubitos.\n
     <string name="prepararMezcal_BlackMexican">Vierta ambas bebidas en un vaso de cóctel lleno de hielo</string>
     <string name="reto">Retos</string>
     <string name="corona">Corona del Rey</string>
+    <string name="title_activity_copa_del_rey">copa_del_rey</string>
 </resources>
