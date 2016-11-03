@@ -211,4 +211,5 @@ Hielo en cubitos.\n
     <string name="comojugar">CÓMO JUGAR</string>
     <string name="jugardenuevo">Jugar de nuevo</string>
     <string name="salir">Salir</string>
+    <string name="fincorona">Fin del juego</string>
 </resources>
