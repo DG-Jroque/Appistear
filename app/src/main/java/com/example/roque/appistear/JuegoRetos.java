@@ -23,7 +23,6 @@ public class JuegoRetos extends AppCompatActivity {
         int tam=listajugadores.size();
         int tamret=getResources().getStringArray(R.array.retos).length;
 
-
         tv.setText(String.valueOf(tam) +" " +String.valueOf(tamret));
     }
 }
