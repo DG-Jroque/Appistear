@@ -24,6 +24,6 @@ public class JuegoRetos extends AppCompatActivity {
         final Random rnd= new Random();
         int nj=rnd.nextInt(tam)+1;
         int nr=rnd.nextInt(tamret)+0;
-        tv.setText(listajugadores.get(nj).toString() +" " +retos[nr].toString() +" ");
+        tv.setText(listajugadores.get(nj).toString() +" " +retos[nr].toString() +"  prueba");
     }
 }
