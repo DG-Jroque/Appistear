@@ -70,7 +70,7 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
 
     public void end(){
         AlertDialog.Builder adb = new AlertDialog.Builder(this);
-        adb.setView(alertDialogView);
+        adb.setView( alertDialogView);
         adb.setTitle("Title of alert dialog");
         adb.setIcon(android.R.drawable.ic_dialog_alert);
 
