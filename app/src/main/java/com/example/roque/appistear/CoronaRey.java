@@ -39,6 +39,7 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
         tx.setTypeface(nf);
     }
 
+
     public int changeBackground(){
         int max= Cards.size();
         int pos= (int)(Math.random()*max-1);
