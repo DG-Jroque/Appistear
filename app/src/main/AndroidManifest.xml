@@ -51,8 +51,9 @@
         <activity
             android:name=".Cocteleria_dinamica"
             android:screenOrientation="portrait" />
-        <activity android:name=".Retos" />
-        <activity android:name=".CoronaRey"></activity>
+        <activity android:name=".RetosJugadores" />
+        <activity android:name=".CoronaRey" />
+        <activity android:name=".JuegoRetos"></activity>
     </application>
 
 </manifest>

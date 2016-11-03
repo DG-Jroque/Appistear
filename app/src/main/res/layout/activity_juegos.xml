@@ -12,24 +12,6 @@
     android:background="@mipmap/fondo">
 
     <Button
-        android:text="@string/reto"
-        android:background="@drawable/boton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btretos"
-        android:textSize="18sp"
-        android:textColor="#DEA230"
-        android:textStyle="normal|bold"
-        android:bottomRightRadius="10dp"
-        android:bottomLeftRadius="10dp"
-        android:topLeftRadius="10dp"
-        android:topRightRadius="10dp"
-        android:layout_marginTop="229dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
         android:text="@string/corona"
         android:background="@drawable/boton"
         android:layout_width="wrap_content"
@@ -42,10 +24,26 @@
         android:bottomLeftRadius="10dp"
         android:topLeftRadius="10dp"
         android:topRightRadius="10dp"
-        android:layout_alignBaseline="@+id/btretos"
-        android:layout_alignBottom="@+id/btretos"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_below="@+id/btretos"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp" />
+
+    <Button
+        android:text="@string/reto"
+        android:background="@drawable/boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btretos"
+        android:textSize="18sp"
+        android:textColor="#DEA230"
+        android:textStyle="normal|bold"
+        android:bottomRightRadius="10dp"
+        android:bottomLeftRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        android:layout_marginTop="109dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>

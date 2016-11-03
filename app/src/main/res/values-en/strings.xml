@@ -3,7 +3,6 @@
     <string name="juegos">Games</string>
     <string name="cocteleria">Mixology</string>
     <string name="opciones">Options</string>
-    <string name="jugadores">Players</string>
     <string name="idioma">LANGUAGE</string>
     <string name="acerca">About...</string>
     <string name="desarrolladopor">Developed by: The DG Crew</string>
@@ -220,6 +219,13 @@ Ice cubes.
     <string name="prepararMezcal_BlackMexican">Pour both drinks in a cocktail glass filled with ice</string>
     <string name="reto">Challenges</string>
     <string name="corona">King\'s crown</string>
+    <string name="jugadores">Log the players</string>
+    <string name="jugador">Player </string>
+    <string name="aceptar">Continue</string>
+    <string-array name="retos">
+        <item> Challenge 1 </item>
+        <item>Challenge 2</item>
+    </string-array>
 </resources>
 
 

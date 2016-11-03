@@ -60,20 +60,4 @@
         android:layout_toRightOf="@+id/idioma"
         android:layout_toEndOf="@+id/idioma" />
 
-    <TextView
-        android:text="@string/jugadores"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView4"
-        android:textStyle="normal|bold"
-        android:fontFamily="cursive"
-        android:textSize="30sp"
-
-        android:layout_marginTop="33dp"
-        android:layout_below="@+id/button_usa"
-        android:layout_toLeftOf="@+id/button_usa"
-        android:layout_toStartOf="@+id/button_usa"
-        android:layout_marginRight="19dp"
-        android:layout_marginEnd="19dp" />
-
 </RelativeLayout>

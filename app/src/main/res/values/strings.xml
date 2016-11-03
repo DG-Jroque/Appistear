@@ -4,7 +4,6 @@
     <string name="cocteleria">Cocteleria</string>
     <string name="opciones">Opciones</string>
     <string name="idioma">IDIOMA</string>
-    <string name="jugadores">Jugadores</string>
     <string name="acerca">ACERCA DE...</string>
     <string name="equipo">NUESTRO EQUIPO..</string>
     <string name="desarrollador">PROGRAMADORES</string>
@@ -166,4 +165,11 @@ Hielo en cubitos.\n
     <string name="prepararMezcal_BlackMexican">Vierta ambas bebidas en un vaso de cóctel lleno de hielo</string>
     <string name="reto">Retos</string>
     <string name="corona">Corona del Rey</string>
+    <string name="jugadores">Ingresa los jugadores</string>
+    <string name="jugador">Jugador </string>
+    <string name="aceptar">Aceptar</string>
+    <string-array name="retos">
+        <item> Reto 1 </item>
+        <item>Reto 2</item>
+    </string-array>
 </resources>
