@@ -172,4 +172,5 @@ Hielo en cubitos.\n
         <item> Reto 1 </item>
         <item>Reto 2</item>
     </string-array>
+    <string name="title_activity_jugadores">Jugadores</string>
 </resources>
