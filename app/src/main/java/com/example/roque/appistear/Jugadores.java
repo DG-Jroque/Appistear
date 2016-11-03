@@ -2,18 +2,24 @@ package com.example.roque.appistear;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import java.lang.reflect.GenericArrayType;
 import java.util.ArrayList;
 
 public class Jugadores extends AppCompatActivity {
     int con=1;
+    private ArrayList<TextView> playerstag = new ArrayList<>();
+    private ArrayList<EditText> playerName = new ArrayList<>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +33,7 @@ public class Jugadores extends AppCompatActivity {
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                createDynamicPlayer();
                 jugadores.add(nomjug.getText().toString());
                 con++;
                 nomjug.setText("");
@@ -60,6 +67,24 @@ public class Jugadores extends AppCompatActivity {
                }
             }
         });
+
+    }
+
+    public void createDynamicPlayer(){
+        RelativeLayout rl = (RelativeLayout)findViewById(R.id.activity_retos);
+        setContentView(rl);
+        TextView textView  = new TextView(this);
+        EditText editText = new EditText(this);
+        RelativeLayout.LayoutParams relativeParams = new RelativeLayout.LayoutParams(
+                RelativeLayout.LayoutParams.WRAP_CONTENT,RelativeLayout.LayoutParams.WRAP_CONTENT);
+        rl.addView(textView, relativeParams);
+        rl.addView(editText, relativeParams);
+        playerstag.add(textView);
+        playerName.add(editText);
+        setContentView(rl);
+
+
+
 
     }
 
