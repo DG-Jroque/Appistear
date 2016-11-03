@@ -27,6 +27,7 @@ public class OpCorona extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        btcorona.setTypeface(nf);
         Button bthtp = (Button) findViewById(R.id.btnhtpc);
         bthtp.setTypeface(nf);
         bthtp.setOnClickListener(new View.OnClickListener() {
@@ -37,6 +38,7 @@ public class OpCorona extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        bthtp.setTypeface(nf);
 
     }
 }

@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.roque.appistear.Jugadores">
+    tools:context="com.example.roque.appistear.Jugadores"
+    android:background="@mipmap/fondo">
 
     <TextView
         android:text="@string/jugador"
@@ -30,13 +31,21 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
+    <Button
+        android:text="@string/aceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/conret"
+        android:background="@drawable/boton"
+        android:layout_marginBottom="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:layout_marginLeft="11dp"
-        android:layout_marginStart="11dp"
         android:id="@+id/nomjug"
         android:layout_alignBaseline="@+id/jug"
         android:layout_alignBottom="@+id/jug"
@@ -44,24 +53,14 @@
         android:layout_alignStart="@+id/textView5" />
 
     <Button
-        android:text="@string/aceptar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/conret"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/boton"
-        android:layout_marginBottom="137dp" />
-
-    <Button
         android:text="+"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/add"
         android:background="@drawable/boton"
-        android:layout_marginTop="38dp"
+        android:layout_marginTop="56dp"
         android:layout_below="@+id/nomjug"
-        android:layout_alignRight="@+id/nomjug"
-        android:layout_alignEnd="@+id/nomjug" />
+        android:layout_alignLeft="@+id/conret"
+        android:layout_alignStart="@+id/conret" />
 
 </RelativeLayout>
