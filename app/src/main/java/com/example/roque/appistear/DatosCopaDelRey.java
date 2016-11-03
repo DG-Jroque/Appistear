@@ -20,7 +20,19 @@ public interface DatosCopaDelRey {
                             R.mipmap.botellaq, R.mipmap.vasoq, R.mipmap.tarroq, R.mipmap.copaq,
                             R.mipmap.botellak, R.mipmap.vasok, R.mipmap.tarrok, R.mipmap.copak};
 
-    String []action ={"Todos beben", "algo"};
+    int []action ={R.string.copareyAs, R.string.copareyAs, R.string.copareyAs, R.string.copareyAs,
+                    R.string.coparey2, R.string.coparey2, R.string.coparey2, R.string.coparey2,
+            R.string.coparey3, R.string.coparey3, R.string.coparey3, R.string.coparey3,
+            R.string.coparey4, R.string.coparey4, R.string.coparey4, R.string.coparey4,
+            R.string.coparey5, R.string.coparey5, R.string.coparey5, R.string.coparey5,
+            R.string.coparey6, R.string.coparey6, R.string.coparey6, R.string.coparey6,
+            R.string.coparey7, R.string.coparey7, R.string.coparey7, R.string.coparey7,
+            R.string.coparey8, R.string.coparey8, R.string.coparey8, R.string.coparey8,
+            R.string.coparey9, R.string.coparey9, R.string.coparey9, R.string.coparey9,
+            R.string.coparey10, R.string.coparey10, R.string.coparey10, R.string.coparey10,
+            R.string.copareyj, R.string.copareyj, R.string.copareyj, R.string.copareyj,
+            R.string.copareyq, R.string.copareyq, R.string.copareyq, R.string.copareyq,
+            R.string.copareyk, R.string.copareyk, R.string.copareyk, R.string.copareyk};
 
 
 
