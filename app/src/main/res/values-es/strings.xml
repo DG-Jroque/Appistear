@@ -187,7 +187,13 @@ Hielo en cubitos.\n
     <string name="copareyj">INVENTA UNA REGLA</string>
     <string name="copareyq">MAESTRO DEL\n\n INTERROGATORIO</string>
     <string name="copareyk">COPA DEL REY!!!</string>
-    <string name="copareyReglas"> 2:\n para ti. Si un jugador saca un 2 (de cualquier color o palo), podría escoger a un jugador para que beba. La persona elegida deberá beber durante el tiempo establecido al principio del juego.
+    <string name="copareyReglas">La Copa del Rey tiene una serie de reglas muy específicas que todos los
+        jugadores necesitan conocer antes de empezar a jugar. En cada turno, un jugador sacará una carta
+        de la baraja, la cual representará una acción para alguien en la mesa. Siéntete libre de adaptar
+        o editar las reglas del juego, pues existen variaciones y reglas infinitas, aunque las más comunes
+        son las siguientes:\n
+
+        2:\n para ti. Si un jugador saca un 2 (de cualquier color o palo), podría escoger a un jugador para que beba. La persona elegida deberá beber durante el tiempo establecido al principio del juego.
 \n3:\n para mí. Si un jugador saca un 3, deberá beber su bebida.
 \n4:\n para el suelo. Si un jugador saca un 4, todos en la mesa deberán agacharse y tocar el suelo lo antes posible. El último en hacerlo deberá beber.
 \n5:\n para los chicos. Si un jugador saca un 5, todos en la mesa deberán beber.

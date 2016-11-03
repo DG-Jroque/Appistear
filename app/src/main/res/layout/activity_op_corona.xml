@@ -12,25 +12,30 @@
     android:background="@mipmap/fondo">
 
     <Button
-        android:text="@string/jugar"
-        android:background="#4D78A8"
-        android:textColor="#DEA230"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="74dp"
-        android:id="@+id/btncorona" />
-
-    <Button
         android:text="@string/comojugar"
+        android:gravity="center"
         android:background="#4D78A8"
         android:textColor="#DEA230"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="97dp"
         android:id="@+id/btnhtpc"
-        android:layout_below="@+id/btncorona"
+        android:layout_marginBottom="178dp"
+        android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/btncorona"
         android:layout_alignStart="@+id/btncorona" />
+
+    <Button
+        android:text="@string/jugar"
+        android:gravity="center"
+        android:background="#4D78A8"
+        android:textColor="#DEA230"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btncorona"
+        android:layout_marginLeft="120dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginBottom="129dp"
+        android:layout_above="@+id/btnhtpc"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
