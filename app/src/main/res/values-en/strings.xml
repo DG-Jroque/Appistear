@@ -240,7 +240,7 @@ Ice cubes.
     <string name="coparey10">Categories</string>
     <string name="copareyj">Make a rule</string>
     <string name="copareyq">Question Master</string>
-    <string name="copareyk">King's Cup!!!</string>
+    <string name="copareyk">King\'s Cup!!!</string>
     <string name="copareyReglas">
 Ace: \nIn the standard version, an ace is “waterfall”. This starts with everyone chugging.
         Then the person who picked the card can stop whenever he/she wants.
@@ -272,7 +272,7 @@ Five:\n Five for guys. Guys have to drink.
         \nJack:\nMake a Rule. Player makes a rule that lasts the entire game and if broken the violator must drink
 \nQueen:\nQuestion Master.Player who flips over a queen becomes the question master until the next queen is flipped over. This player can ask anybody at any time a question and if that player doesn't respond with a question to the asker or another player he must drink
 
-\nKing:\nKing's Cup.Pour however much beer/liquor you want into the glass, the 4th king has to drink the cup.
+\nKing:\nKing\'s Cup.Pour however much beer/liquor you want into the glass, the 4th king has to drink the cup.
     </string>
 
 </resources>
