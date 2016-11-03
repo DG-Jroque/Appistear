@@ -280,6 +280,8 @@ Ace: \nAce is waterfall. This starts with everyone chugging.
     </string>
     <string name="jugar">PLAY</string>
     <string name="comojugar">HOW TO PLAY</string>
+    <string name="jugardenuevo">Play again</string>
+    <string name="salir">Exit</string>
 </resources>
 
 

@@ -202,5 +202,7 @@ Hielo en cubitos.\n
     </string>
     <string name="jugar">JUGAR</string>
     <string name="comojugar">¿CÓMO JUGAR?</string>
+    <string name="jugardenuevo">Jugar de nuevo</string>
+    <string name="salir">Salir</string>
 
 </resources>

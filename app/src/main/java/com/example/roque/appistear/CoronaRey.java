@@ -1,7 +1,9 @@
 package com.example.roque.appistear;
 
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MotionEvent;
@@ -23,6 +25,7 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
     public ArrayList<Integer> text = new ArrayList<Integer>();
     private GestureDetector gestureDetector;
     private TextView tx;
+    private int King=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,9 +46,15 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
         relativeLayout.setBackgroundResource(Cards.get(pos));
         tx.setText(getString(text.get(pos)));
         Cards.remove(pos);
+        if(getString(R.string.copareyk).equalsIgnoreCase(getString(text.get(pos)))){
+            King++;
+        }
         text.remove(pos);
 
-         if(Cards.size()==0){
+
+
+         if(Cards.size()==0|| King >3 ){
+             end();
          }
         return 1;
 
@@ -59,7 +68,23 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
     }
 
     public void end(){
+        AlertDialog.Builder adb = new AlertDialog.Builder(this);
+        adb.setView(alertDialogView);
+        adb.setTitle("Title of alert dialog");
+        adb.setIcon(android.R.drawable.ic_dialog_alert);
 
+        adb.setPositiveButton(getString(R.string.jugardenuevo), new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+                Intent intent = new Intent(CoronaRey.this, CoronaRey.class);
+                startActivity(intent);
+            } });
+        adb.setNegativeButton(getString(R.string.salir), new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+            Intent intent = new Intent(CoronaRey.this, OpCorona.class);
+            startActivity(intent);
+
+        } });
+        adb.show();
     }
 
     @Override
