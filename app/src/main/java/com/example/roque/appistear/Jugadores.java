@@ -63,6 +63,7 @@ public class Jugadores extends AppCompatActivity {
                    if(a != null)
                        a.setBackgroundColor(Color.BLUE);
                }
+
                 else {
                    Intent intent = new Intent(Jugadores.this, Juegos.class);
                    intent.putExtra("arr", jugadores);
