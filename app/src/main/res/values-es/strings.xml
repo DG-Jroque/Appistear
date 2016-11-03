@@ -269,5 +269,5 @@ Hielo en cubitos.\n
     <string name="jugardenuevo">Jugar de nuevo</string>
     <string name="salir">Salir</string>
     <string name="retosreglas">Sencillo, sigue las instrucciones que indica cada reto, disfruta, nadie pierde!</string>
-
+    <string name="fincorona">Fin del juego</string>
 </resources>

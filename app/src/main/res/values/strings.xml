@@ -260,4 +260,5 @@ Hielo en cubitos.\n
         <item>debe susurrarle a Jugador una pregunta y debe responder gritando la respuesta. (por ejemplo, "¿Quién es la más guapa en esta fiesta?"), ahora los demás deben intentar adivinar cuál era la pregunta, si no lo logran shot.</item>
 
     </string-array>
+    <string name="fincorona">Fin del juego</string>
 </resources>
