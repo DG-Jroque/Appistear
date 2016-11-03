@@ -8,24 +8,30 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.roque.appistear.OpRetos">
+    tools:context="com.example.roque.appistear.OpRetos"
+    android:background="@mipmap/fondo">
 
     <Button
-        android:text="jugar"
+        android:text="@string/jugar"
+        android:background="@drawable/boton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="102dp"
+        android:textSize="18sp"
+        android:textColor="#DEA230"
         android:id="@+id/btnretos" />
 
     <Button
-        android:text="Como jugar retos"
+        android:text="@string/comojugar"
+        android:background="@drawable/boton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="129dp"
+        android:id="@+id/btnhtp"
+        android:textSize="18sp"
+        android:textColor="#DEA230"
         android:layout_below="@+id/btnretos"
-        android:layout_alignLeft="@+id/btnretos"
-        android:layout_alignStart="@+id/btnretos"
-        android:layout_marginTop="71dp"
-        android:id="@+id/btnhtp" />
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

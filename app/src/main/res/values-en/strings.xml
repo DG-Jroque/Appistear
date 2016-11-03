@@ -222,9 +222,66 @@ Ice cubes.
     <string name="jugadores">Log the players</string>
     <string name="jugador">Player </string>
     <string name="aceptar">Continue</string>
+    <string name="comojugar">How to play?</string>
+    <string name="jugar">Play</string>
+    <string name="iniciareto">I want a challenge</string>
     <string-array name="retos">
-        <item> Challenge 1 </item>
-        <item>Challenge 2</item>
+        <item>if there is a woman at the party, you do not take, if you do not act like woman for 15 minutes.</item>
+        <item>would you invite a round to all who are playing</item>
+        <item>drink the drink of the people who is in you righ side</item>
+        <item>you have to take a drink for each person playing.</item>
+        <item>you have to talk like Chinese, until you are told you can talk normally.</item>
+        <item>each person you touch a hair will have to take a sip of your drink.</item>
+        <item>you have to speak as Spanish for 10 minutes.</item>
+        <item>put your drink on the floor and tries to lift it and drink it without using your hands, if you do not succeed, shot.</item>
+        <item>tells a joke or a funny story, those who laugh will drink one shot, if no one laughs drinking you.</item>
+        <item>begins by saying the name of a drink, for example "mojito", the player to your right must continue and so on until someone repeat any mistake or who do drink a shot.</item>
+        <item>Among all players mentioned who believe: die first, will have the best girl/boy and will have the best car, and explain why each person chosen must drink a shot.</item>
+        <item>tells a story (can be true or false) to finalize the others must vote if it is true or not, those who are wrong shot.</item>
+        <item>tell the player to your right to name a body part now as it did, for example, if "head" must remain glued said the head for the next 3 rounds, if unstuck shot.</item>
+        <item>among all form a circle with his drink to the same extent and in hand now overturn the floor and loudly count to 3 and raise your face fixing his gaze into the eyes of another person, if that person does not see well not okay, if both are to be taken full drink</item>
+        <item>must prepare a drink with 4 edible ingredients which want to player2, if not complete baby shot.</item>
+        <item>among all take an ice cube with his hand, the first Jugador to surrender shot.</item>
+        <item>other player will have to give 10 pieces of clothing and you must use extras to which you already have, you will remain so for the rest of the activity, if not shot.</item>
+        <item>tell player2 the name of a body part now as it did need to put your tongue in your body said, if you can not shot.</item>
+        <item>tries to say the alphabet backwards if you\'re wrong shot.</item>
+        <item>others should blindfold, now everyone will say your name and have to say who said it, if you\'re wrong shot.</item>
+        <item>should eat a banana and sensually suggestive, should have no other food can use, if not shot.</item>
+        <item>have to take any object and tell others about this object for 1 minute, do not have to be real information, if not last the full minute shot.</item>
+        <item>you have to cover your eyes, as they have done so should describe in detail how dressed any of the partygoers, if it does shot.</item>
+        <item>must mention 3 parts of the body with 3 letters, if not shot.</item>
+        <item>has 30 seconds to say 15 words beginning with the letter "a", if it does shot.</item>
+        <item>must give arguments because player the falls as well or like much, if not believe the shot.</item>
+        <item>may not say "yes" or "no" for the rest of the game, others may try to make you lose the game at any time, whenever you say shot.</item>
+        <item>should hold his nose with his right hand while grasping the right ear with his left hand, then exchanged, the left ear with his right hand and nose with his left hand. You must do this 10 times unerringly, if not shot.</item>
+        <item>must name 10 countries with their capitals not know if shot.</item>
+        <item>must name 10 names or last names with the letter that others choose, if not shot.</item>
+        <item>refer to the name of at least 5 former presidents of your country, if it does shot.</item>
+        <item>should answer "no" to all questions that will make others arguing that throughout the game, if not shot.</item>
+        <item>among all review their purses or bags and who has the weirdest shot object.</item>
+        <item>will have to shout "die" every any of the other participants say no, for the rest of the game, whenever you do not shot.</item>
+        <item>must make a phone call to a business friend or relative and make a phone joke, if not believe the shot.</item>
+        <item>make a circle and each will have to say a word, the next will have to repeat the word I said before and say another third say the 2 above and more and so on, take the first shot that mistake.</item>
+        <item>must say the numbers 1 through 30, but without mentioning the multiples of 3, if you\'re wrong shot, do it to make it to 30.</item>
+        <item>they should take in the Jugador drink a spoonful of sauce or chili and finish if not shot.</item>
+        <item>has to say a short sentence and who is on your right should continue with a phrase that rhymes and so on, such as "1-My mom gave me a shirt, 2-With I always go to church, 3-Y I wrinkle is very fast ... "which can not be shot.</item>
+        <item>must say the names and ages of all participants, if you do not know shot.</item>
+        <item>will blindfolded while others hide an object, as this hidden he will have to look for 2 minutes, if not found shot.</item>
+        <item>will have to spell the name of the other participants, if you put the wrong shot</item>
+        <item>using the letters of the alphabet, in order, must appoint a person\'s name with each of the letters, if you\'re wrong shot.</item>
+        <item>must guess blindfolded and using only the mouth, which object is playing, if it does shot.</item>
+        <item>should sing happy birthday using only one vowel, to be chosen by others if wrong shot.</item>
+        <item>has to sing a song gargling, if nobody guesses shot.</item>
+        <item>from now on everything you say must have rhyme, such as "It\'s my turn to play and I will enjoy ..." if something does not rhyme shot.</item>
+        <item>must say a defect and a quality of each of the participants, if you do not succeed shot.</item>
+        <item>from now on everything you say will be only with the vowel "e", whenever you are wrong shot.</item>
+        <item>matured together, which has lost more than take a shot.</item>
+        <item>must leave the house or place the game and get a cup of sugar. You can not return to the game until you reach with sugar or shot.</item>
+        <item>must remove a garment to another player, the opposite sex using only the mouth, others indicate who, if it does shot, if no one shot all opposite sex.</item>
+        <item>from now will be a T-Rex so you cannot take off the elbows of your body if you forget to do this shot.</item>
+        <item>must circle a word, the next right one that starts with the same syllable with which ended the previous word. For example: “apple” “lemon”. Apple ends with "le" and lemon starts with "le", the first shot is confused.</item>
+        <item>whenever someone mentions a word with the letter "a" should take a shot.</item>
+        <item>must whisper a Jugador must answer a question and the answer screaming. (Example, "Who is the prettiest in this party?"), Now others must guess what the question was, if they fail shot.</item>
     </string-array>
 </resources>
 

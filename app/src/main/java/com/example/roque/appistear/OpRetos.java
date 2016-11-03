@@ -1,6 +1,7 @@
 package com.example.roque.appistear;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -14,8 +15,10 @@ public class OpRetos extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_op_retos);
-        final ArrayList<String> jugadores = (ArrayList<String>) getIntent().getStringArrayListExtra("arr");
+        Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
+        final ArrayList<String> jugadores = getIntent().getStringArrayListExtra("arr");
         Button btretos = (Button) findViewById(R.id.btnretos);
+        btretos.setTypeface(nf);
         btretos.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
@@ -25,6 +28,7 @@ public class OpRetos extends AppCompatActivity {
             }
         });
         Button bthtp = (Button) findViewById(R.id.btnhtp);
+        bthtp.setTypeface(nf);
         bthtp.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
