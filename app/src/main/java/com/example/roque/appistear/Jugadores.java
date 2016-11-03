@@ -2,6 +2,7 @@ package com.example.roque.appistear;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -58,6 +59,9 @@ public class Jugadores extends AppCompatActivity {
                                    });
                    AlertDialog alert = builder.create();
                    alert.show();
+                   Button a = alert.getButton(DialogInterface.BUTTON_NEUTRAL);
+                   if(a != null)
+                       a.setBackgroundColor(Color.BLUE);
                }
                 else {
                    Intent intent = new Intent(Jugadores.this, Juegos.class);
