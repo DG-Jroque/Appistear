@@ -53,7 +53,7 @@
             android:screenOrientation="portrait" />
         <activity android:name=".RetosJugadores" />
         <activity android:name=".CoronaRey" />
-        <activity android:name=".JuegoRetos"></activity>
+        <activity android:name=".JuegoRetos" />
     </application>
 
 </manifest>
