@@ -268,4 +268,6 @@ Hielo en cubitos.\n
     <string name="comojugar">CÓMO JUGAR</string>
     <string name="jugardenuevo">Jugar de nuevo</string>
     <string name="salir">Salir</string>
+    <string name="retosreglas">Sencillo, sigue las instrucciones que indica cada reto, disfruta, nadie pierde!</string>
+
 </resources>

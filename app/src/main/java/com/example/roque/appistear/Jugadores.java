@@ -49,6 +49,7 @@ public class Jugadores extends AppCompatActivity {
                    builder.setMessage("Ingrese algunos jugadores,porfa")
                            .setTitle("Atención!!")
                            .setCancelable(false)
+                           .setIcon(android.R.drawable.ic_dialog_alert)
                            .setNeutralButton("Aceptar",
                                    new DialogInterface.OnClickListener() {
                                        public void onClick(DialogInterface dialog, int id) {

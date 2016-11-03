@@ -24,10 +24,8 @@ public class JuegoRetos extends AppCompatActivity {
         btnretos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
                 TextView tv=(TextView)findViewById(R.id.reto);
                 tv.setVisibility(View.VISIBLE);
-                tv.setTypeface(nf);
                 ArrayList<String> listajugadores = (ArrayList<String>) getIntent().getStringArrayListExtra("arr");
                 String[] retos=getResources().getStringArray(R.array.retos);
                 int tam=listajugadores.size();
