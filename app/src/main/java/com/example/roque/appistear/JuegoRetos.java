@@ -15,14 +15,15 @@ public class JuegoRetos extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String j="";
         setContentView(R.layout.activity_juego_retos);
         TextView tv=(TextView)findViewById(R.id.reto);
         ArrayList<String> listajugadores = (ArrayList<String>) getIntent().getStringArrayListExtra("arr");
-        ArrayList<String>retos=new ArrayList<String>();
+        String[] retos=getResources().getStringArray(R.array.retos);
         int tam=listajugadores.size();
-        int tamret=getResources().getStringArray(R.array.retos).length;
-
-        tv.setText(String.valueOf(tam) +" " +String.valueOf(tamret));
+        int tamret=retos.length;
+        final Random rnd= new Random();
+        int nj=rnd.nextInt(tam)+1;
+        int nr=rnd.nextInt(tamret)+0;
+        tv.setText(listajugadores.get(nj).toString() +" " +retos[nr].toString() +" ");
     }
 }
