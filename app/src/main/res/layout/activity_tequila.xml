@@ -52,7 +52,7 @@
         android:textStyle="normal|bold" />
 
     <Button
-        android:text="Bloody Mary"
+        android:text="Bloody Maria"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"

@@ -60,7 +60,7 @@ public class Mezcal extends AppCompatActivity {
 
             public void onClick(View v) {
                 Intent intent =  new Intent(Mezcal.this, Cocteleria_dinamica.class);
-                intent.putExtra("var","mezcal_Mezcalsunset");
+                intent.putExtra("var","mezcal_sunset");
                 startActivity(intent);
             }
         });
