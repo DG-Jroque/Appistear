@@ -174,19 +174,19 @@ Hielo en cubitos.\n
         <item>Challenge 2</item>
     </string-array>
     <!-- **********************COPA DEL REY*****************  -->
-    <string name="copareyAs">las cascadas.</string>
-    <string name="coparey2">Para ti. Elige quien toma.</string>
-    <string name="coparey3">Para mi. Tú tomas</string>
-    <string name="coparey4">Al suelo!</string>
-    <string name="coparey5">Los hombres toman</string>
-    <string name="coparey6">Las chicas toman</string>
-    <string name="coparey7">Al cielo</string>
-    <string name="coparey8">El compañero</string>
-    <string name="coparey9">La rima</string>
-    <string name="coparey10">Categoría</string>
-    <string name="copareyj">Inventa una regla</string>
-    <string name="copareyq">Maestro del interrogatorio</string>
-    <string name="copareyk">La Copa del Rey!!!</string>
+    <string name="copareyAs">CASCADA</string>
+    <string name="coparey2">PARA TI</string>
+    <string name="coparey3">PARA MI</string>
+    <string name="coparey4">AL SUELO!</string>
+    <string name="coparey5">HOMBRES TOMAN</string>
+    <string name="coparey6">CHICAS TOMAN</string>
+    <string name="coparey7">AL CIELO</string>
+    <string name="coparey8">EL COMPAÑERO</string>
+    <string name="coparey9">RIMA</string>
+    <string name="coparey10">CATEGORIA</string>
+    <string name="copareyj">INVENTA UNA REGLA</string>
+    <string name="copareyq">MAESTRO DEL\n\n INTERROGATORIO</string>
+    <string name="copareyk">COPA DEL REY!!!</string>
     <string name="copareyReglas"> 2:\n para ti. Si un jugador saca un 2 (de cualquier color o palo), podría escoger a un jugador para que beba. La persona elegida deberá beber durante el tiempo establecido al principio del juego.
 \n3:\n para mí. Si un jugador saca un 3, deberá beber su bebida.
 \n4:\n para el suelo. Si un jugador saca un 4, todos en la mesa deberán agacharse y tocar el suelo lo antes posible. El último en hacerlo deberá beber.

@@ -1,8 +1,7 @@
 package com.example.roque.appistear;
 
-import android.content.Intent;
+import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
-import android.renderscript.Allocation;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MotionEvent;
@@ -10,11 +9,8 @@ import android.view.GestureDetector;
 import android.support.v4.view.GestureDetectorCompat;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
-import java.lang.reflect.Field;
 import java.util.ArrayList;
 
 public class CoronaRey extends AppCompatActivity implements GestureDetector.OnGestureListener,
@@ -32,18 +28,14 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_corona_rey);
+        Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
         gestureDetector = new GestureDetector(this, this);
         gestureDetector.setOnDoubleTapListener(this);
         createCards();
         tx= (TextView)findViewById(R.id.textView2);
-        Button bt= (Button)findViewById(R.id.buttoncoparey);
-        bt.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                changeBackground();
-            }
-        });
+        tx.setTypeface(nf);
     }
+
     public int changeBackground(){
         int max= Cards.size();
         int pos= (int)(Math.random()*max-1);
@@ -71,21 +63,24 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
     }
 
     @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        this.gestureDetector.onTouchEvent(event);
+        return super.onTouchEvent(event);
+    }
+
+    @Override
     public boolean onSingleTapConfirmed(MotionEvent e) {
-        changeBackground();
-        return true;
+        return false;
     }
 
     @Override
     public boolean onDoubleTap(MotionEvent e) {
-        changeBackground();
-        return true;
+        return false;
     }
 
     @Override
     public boolean onDoubleTapEvent(MotionEvent e) {
-        changeBackground();
-        return true;
+        return false;
     }
 
     @Override
@@ -96,29 +91,24 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
 
     @Override
     public void onShowPress(MotionEvent e) {
-
     }
 
     @Override
     public boolean onSingleTapUp(MotionEvent e) {
-        changeBackground();
-        return true;
+                return false;
     }
 
     @Override
     public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY) {
-        changeBackground();
-        return true;
+        return false;
     }
 
     @Override
     public void onLongPress(MotionEvent e) {
-
     }
 
     @Override
     public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
-        changeBackground();
-        return true;
+        return false;
     }
 }
