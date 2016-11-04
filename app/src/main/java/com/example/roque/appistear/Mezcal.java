@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class Mezcal extends AppCompatActivity {
 
@@ -19,6 +20,8 @@ public class Mezcal extends AppCompatActivity {
         final Button bttun = (Button)findViewById(R.id.bttun);
         final Button btblm = (Button)findViewById(R.id.btblm);
         final Button btmst = (Button)findViewById(R.id.btmst);
+        final TextView bttTe = (TextView) findViewById(R.id.textView);
+        bttTe.setTypeface(nf);
         bthot.setTypeface(nf);
         btzig.setTypeface(nf);
         bttun.setTypeface(nf);

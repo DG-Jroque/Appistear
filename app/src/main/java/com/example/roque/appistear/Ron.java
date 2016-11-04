@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import java.lang.reflect.Type;
 
@@ -21,6 +22,8 @@ public class Ron extends AppCompatActivity {
         final Button btmoj = (Button)findViewById(R.id.btmoj);
         final Button btdik = (Button)findViewById(R.id.btdik);
         final Button btblh = (Button)findViewById(R.id.btblh);
+        final TextView bttTe = (TextView) findViewById(R.id.textView);
+        bttTe.setTypeface(nf);
         btcub.setTypeface(nf);
         btpco.setTypeface(nf);
         btmoj.setTypeface(nf);

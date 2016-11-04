@@ -28,6 +28,7 @@
         android:textColorHint="#4D78A8"
         android:textColorLink="#4D78A8"
         android:id="@+id/reto"
+        android:textStyle="bold"
         android:textSize="18sp"
         android:fontFamily="casual"
         android:visibility="invisible"

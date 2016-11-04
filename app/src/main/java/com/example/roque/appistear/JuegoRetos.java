@@ -1,6 +1,7 @@
 package com.example.roque.appistear;
 
 import android.content.res.Resources;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.support.annotation.StringDef;
 import android.support.v7.app.AppCompatActivity;
@@ -34,7 +35,7 @@ public class JuegoRetos extends AppCompatActivity {
                 int nj=rnd.nextInt(tam)+1;
                 int nr=rnd.nextInt(tamret)+1;
                 tv.setText(listajugadores.get(nj-1).toUpperCase().toString() +", " +retos[nr-1].toUpperCase().toString());
-
+                //tv.setTextColor(Color.parseColor("#4D78A8"));
             }
         });
     }

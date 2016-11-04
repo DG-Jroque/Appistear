@@ -11,80 +11,83 @@
     tools:context="com.example.roque.appistear.Cocteleria_dinamica"
     android:background="@mipmap/fondo">
 
-<ScrollView
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content">
-
-    <LinearLayout
-        android:layout_width="match_parent"
+    <ScrollView
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
 
-        <TextView
-            android:text="TextView"
-            android:background="#4D78A8"
-            android:textColor="#DEA230"
-            android:textSize="30sp"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="40dp"
-            android:layout_marginStart="40dp"
-            android:layout_marginLeft="0dp"
-            android:id="@+id/textView_titulo" />
-
-        <TextView
-            android:text="@string/ingredientes"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/textView_titulo"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginLeft="28dp"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="40dp"
-            android:textSize="30sp"
-            android:id="@+id/textView14" />
+            android:layout_alignParentStart="true">
 
-        <TextView
-            android:text="TextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/textView14"
-            android:layout_alignLeft="@+id/textView14"
-            android:layout_alignStart="@+id/textView14"
-            android:layout_marginTop="12dp"
-            android:textSize="20sp"
-            android:id="@+id/textView_ingredientes" />
+            <TextView
+                android:text="TextView"
+                android:background="#4D78A8"
+                android:textColor="#DEA230"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:id="@+id/textView_titulo" />
 
-        <TextView
-            android:text="@string/preparacion"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="26dp"
-            android:layout_below="@+id/textView_ingredientes"
-            android:layout_alignLeft="@+id/textView_ingredientes"
-            android:layout_alignStart="@+id/textView_ingredientes"
-            android:textSize="30sp"
-            android:id="@+id/textView16" />
+            <TextView
+                android:text="@string/ingredientes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_titulo"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="28dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="40dp"
+                android:textSize="30sp"
+                android:id="@+id/textView14" />
 
-        <TextView
-            android:text="TextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView_preparar"
-            android:layout_marginTop="12dp"
-            android:layout_below="@+id/textView16"
-            android:layout_alignLeft="@+id/textView16"
-            android:textSize="20sp"
-            android:layout_alignStart="@+id/textView16" />
+            <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView14"
+                android:layout_alignLeft="@+id/textView14"
+                android:layout_alignStart="@+id/textView14"
+                android:layout_marginTop="12dp"
+                android:textSize="20sp"
+                android:id="@+id/textView_ingredientes" />
 
-    </LinearLayout>
+            <TextView
+                android:text="@string/preparacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp"
+                android:layout_below="@+id/textView_ingredientes"
+                android:layout_alignLeft="@+id/textView_ingredientes"
+                android:layout_alignStart="@+id/textView_ingredientes"
+                android:textSize="30sp"
+                android:id="@+id/textView16" />
 
-</ScrollView>
+            <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_preparar"
+                android:layout_marginTop="12dp"
+                android:layout_below="@+id/textView16"
+                android:layout_alignLeft="@+id/textView16"
+                android:textSize="20sp"
+                android:layout_alignStart="@+id/textView16" />
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </RelativeLayout>

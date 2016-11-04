@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class Vodka extends AppCompatActivity {
 
@@ -15,6 +16,8 @@ public class Vodka extends AppCompatActivity {
         setContentView(R.layout.activity_vodka);
         Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
 
+        final TextView bttTe = (TextView) findViewById(R.id.textView);
+        bttTe.setTypeface(nf);
 
         final Button btn = (Button)findViewById(R.id.buttonwhiterussian);
         btn.setTypeface(nf);

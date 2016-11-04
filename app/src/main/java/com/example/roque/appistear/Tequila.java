@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class Tequila extends AppCompatActivity {
 
@@ -19,6 +20,8 @@ public class Tequila extends AppCompatActivity {
         final Button btblm = (Button)findViewById(R.id.btblm);
         final Button btchn = (Button)findViewById(R.id.btchn);
         final Button bttsu = (Button)findViewById(R.id.bttsu);
+        final TextView bttTe = (TextView) findViewById(R.id.textView);
+        bttTe.setTypeface(nf);
         btmar.setTypeface(nf);
         btpal.setTypeface(nf);
         btblm.setTypeface(nf);

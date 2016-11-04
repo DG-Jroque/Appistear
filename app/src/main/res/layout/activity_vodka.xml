@@ -5,28 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingLeft="0dp"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.roque.appistear.Vodka"
     android:background="@mipmap/fondo">
 
 
-    <TextView
-        android:text="Vodka"
-        android:background="#4D78A8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="50sp"
-        android:textColor="#DEA230"
-        android:id="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp" />
-
     <Button
         android:text="White Russian"
-        android:background="#4D78A8"
+        android:background="@drawable/botoninicio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -38,7 +26,7 @@
 
     <Button
         android:text="Sex On The Beach"
-        android:background="#4D78A8"
+        android:background="@drawable/botoninicio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -50,7 +38,7 @@
 
     <Button
         android:text="Moradito"
-        android:background="#4D78A8"
+        android:background="@drawable/botoninicio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="31dp"
@@ -62,7 +50,7 @@
 
     <Button
         android:text="Bloody Mary"
-        android:background="#4D78A8"
+        android:background="@drawable/botoninicio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -74,7 +62,7 @@
 
     <Button
         android:text="Blueberry Spritzer"
-        android:background="#4D78A8"
+        android:background="@drawable/botoninicio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#DEA230"
@@ -84,5 +72,16 @@
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="VODKA"
+        android:background="#4D78A8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#DEA230"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
