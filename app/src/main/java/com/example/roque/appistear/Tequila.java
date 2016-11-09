@@ -15,6 +15,7 @@ public class Tequila extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tequila);
         Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
+        //asignar los botones de la interfaz a variables, así como agregarles la tipografía
         final Button btmar = (Button)findViewById(R.id.btmar);
         final Button btpal = (Button)findViewById(R.id.btpal);
         final Button btblm = (Button)findViewById(R.id.btblm);
@@ -27,6 +28,7 @@ public class Tequila extends AppCompatActivity {
         btblm.setTypeface(nf);
         btchn.setTypeface(nf);
         bttsu.setTypeface(nf);
+        //Funciones que llaman a la interfaz coctelera_dinamica enviando el tipo de bebdida
         btmar.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View v) {

@@ -14,14 +14,20 @@ public class Vodka extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vodka);
+        //crear y guardar la tipografía
         Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
 
+        //obtener el cuadro de texto de la interfaz de titulo y asignarle la tipografía
         final TextView bttTe = (TextView) findViewById(R.id.textView);
         bttTe.setTypeface(nf);
 
+        //obtener el cuadro de texto de la interfaz de titulo y asignarle la tipografía
         final Button btn = (Button)findViewById(R.id.buttonwhiterussian);
         btn.setTypeface(nf);
-//Implementamos el evento “click” del botón
+        /**************************
+        Funciones que llaman a la interfaz coctelera_dinamica enviando el tipo de bebdida
+        **************************/
+//Implementamos el evento “click” del botón de whiterussian
         btn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent =  new Intent(Vodka.this, Cocteleria_dinamica.class);
@@ -67,6 +73,7 @@ public class Vodka extends AppCompatActivity {
         final Button btn4 = (Button)findViewById(R.id.buttonsexonthebeach);
         btn4.setTypeface(nf);
 //Implementamos el evento “click” del botón
+
         btn4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent =  new Intent(Vodka.this, Cocteleria_dinamica.class);

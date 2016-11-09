@@ -16,7 +16,9 @@ public class Ron extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ron);
+        //crear y guardar la tipografía
         Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
+        //obtener todos los botones de la interfaz y asignarles la tipografía
         final Button btcub = (Button)findViewById(R.id.btcub);
         final Button btpco = (Button)findViewById(R.id.btpco);
         final Button btmoj = (Button)findViewById(R.id.btmoj);
@@ -29,6 +31,10 @@ public class Ron extends AppCompatActivity {
         btmoj.setTypeface(nf);
         btdik.setTypeface(nf);
         btblh.setTypeface(nf);
+
+        /**************************
+         Funciones que llaman a la interfaz coctelera_dinamica enviando el tipo de bebdida
+         **************************/
         btcub.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View v) {

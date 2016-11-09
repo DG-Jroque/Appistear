@@ -18,23 +18,26 @@ import java.util.ArrayList;
 
 public class Jugadores extends AppCompatActivity {
     int con=1;
-    private ArrayList<TextView> playerstag = new ArrayList<>();
+    //arreglo para los jugadores y sus nombres
     private ArrayList<EditText> playerName = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jugadores);
+        //crear el objeto de ArrayList para los jugadores
         final ArrayList<String> jugadores=new ArrayList<String>();
-        final TextView jug=(TextView)findViewById(R.id.jug);
-        final EditText nomjug=(EditText)findViewById(R.id.nomjug);
-        Button btn=(Button)findViewById(R.id.conret);
+        final TextView jug=(TextView)findViewById(R.id.jug);//texto de "jugador n"
+        final EditText nomjug=(EditText)findViewById(R.id.nomjug);//cuadro de texto para ingresar el nombre del jugador
+        Button btn=(Button)findViewById(R.id.conret); //buscar los bonotes de la interfaz
         Button add=(Button)findViewById(R.id.add);
-        jug.setText(getText(R.string.jugador)+" " +String.valueOf(con));
+        jug.setText(getText(R.string.jugador)+" " +String.valueOf(con));//ingresar la palabra jugador n al TextView
+        //Evento de clic al añadir un nuevo jugador boton de "+"
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //createDynamicPlayer();
+                //agregar el jugador al arraylist
                 jugadores.add(nomjug.getText().toString());
                 con++;
                 nomjug.setText("");
@@ -42,11 +45,14 @@ public class Jugadores extends AppCompatActivity {
 
             }
         });
+        //evento de clic para ir a la interfaz para elegir los juegos, si no hay jugadores, no se podrá
+        //continuar, es necesario un jugador minimo
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                if(jugadores.isEmpty())
                {
+                   //ventana alerta que indica que no hay jugadores registrados
                    AlertDialog.Builder builder = new AlertDialog.Builder(Jugadores.this);
                    builder.setMessage("Ingrese algunos jugadores,porfa")
                            .setTitle("Atención!!")
@@ -65,6 +71,8 @@ public class Jugadores extends AppCompatActivity {
                        a.setBackgroundColor(Color.BLUE);
                }
                 else {
+                   //se abre la interfaz de juegos para elegir entre retos o copa del rey, eviando
+                   //el arreglo de jugadores
                    Intent intent = new Intent(Jugadores.this, Juegos.class);
                    intent.putExtra("arr", jugadores);
                    startActivity(intent);
@@ -74,8 +82,8 @@ public class Jugadores extends AppCompatActivity {
     }
 
 
-    public void createDynamicPlayer(){
-       /* setContentView(R.layout.activity_jugadores);
+    /*public void createDynamicPlayer(){
+       setContentView(R.layout.activity_jugadores);
         RelativeLayout rl = (RelativeLayout)findViewById(R.id.activity_retos);
         setContentView(rl);
         TextView textView  = new TextView(this);

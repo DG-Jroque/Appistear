@@ -21,6 +21,7 @@ public class JuegoRetos extends AppCompatActivity {
         setContentView(R.layout.activity_juego_retos);
         Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
         Button btnretos=(Button)findViewById(R.id.btnsigret);
+        //ingresar al boton la tipografía utilizada
         btnretos.setTypeface(nf);
         btnretos.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,12 +29,14 @@ public class JuegoRetos extends AppCompatActivity {
                 TextView tv=(TextView)findViewById(R.id.reto);
                 tv.setVisibility(View.VISIBLE);
                 ArrayList<String> listajugadores = (ArrayList<String>) getIntent().getStringArrayListExtra("arr");
+                //guardar los retos existentes en un arreglo de strings
                 String[] retos=getResources().getStringArray(R.array.retos);
-                int tam=listajugadores.size();
-                int tamret=retos.length;
-                final Random rnd= new Random();
-                int nj=rnd.nextInt(tam)+1;
-                int nr=rnd.nextInt(tamret)+1;
+                int tam=listajugadores.size();//obtener la cantidad de jugadores
+                int tamret=retos.length;//obtener el numero de retos disponibles
+                final Random rnd= new Random();//generar el objeto de clase Random para numeros aleatorios
+                int nj=rnd.nextInt(tam)+1;//guardar el numero aleatorio en el rango de 0-numero de jugadores
+                int nr=rnd.nextInt(tamret)+1;//guardar el numero aleatorio en el rango de 0-numero de retos
+                //asignar el reto y jugador a la interfaz
                 tv.setText(listajugadores.get(nj-1).toUpperCase().toString() +", " +retos[nr-1].toUpperCase().toString());
                 //tv.setTextColor(Color.parseColor("#4D78A8"));
             }

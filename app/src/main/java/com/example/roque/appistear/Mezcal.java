@@ -14,19 +14,25 @@ public class Mezcal extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mezcal);
+        //guardar la tipografía en un objeto de la clase TypeFace
         Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
+        //obtener los botones de la interfaz de mezcal
         final Button bthot = (Button)findViewById(R.id.bthot);
         final Button btzig = (Button)findViewById(R.id.btzig);
         final Button bttun = (Button)findViewById(R.id.bttun);
         final Button btblm = (Button)findViewById(R.id.btblm);
         final Button btmst = (Button)findViewById(R.id.btmst);
         final TextView bttTe = (TextView) findViewById(R.id.textView);
+        //asingnar la tipografía a los botnoes
         bttTe.setTypeface(nf);
         bthot.setTypeface(nf);
         btzig.setTypeface(nf);
         bttun.setTypeface(nf);
         btblm.setTypeface(nf);
         btmst.setTypeface(nf);
+
+        //Funciones que llaman a la interfaz de Coctelera_dinamica , enviando como parametro extra un
+        //string para identificar que bebida se debe mostrar
         bthot.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View v) {

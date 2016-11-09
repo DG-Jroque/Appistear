@@ -15,11 +15,17 @@ public class Whisky extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_whisky);
         Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
-
+//obtener el cuadro de texto de la interfaz de titulo y asignarle la tipografía
         final TextView bttTe = (TextView) findViewById(R.id.textView);
         bttTe.setTypeface(nf);
+        //obtener el cuadro de texto de la interfaz de titulo de bebida y asignarle la tipografía
         final Button btn = (android.widget.Button)findViewById(R.id.buttonoldfashioned);
         btn.setTypeface(nf);
+
+        /**************************
+         Funciones que llaman a la interfaz coctelera_dinamica enviando el tipo de bebdida
+         **************************/
+
 //Implementamos el evento “click” del botón
         btn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

@@ -9,8 +9,10 @@ public class Acercade extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //Inicializar la interfaz de acercade
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_acercade);
+        //crear un objeto tipografía para utilizar el tipo de letra usado en  casi toda la aplicación
         Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
 
        /* final TextView eq = (TextView) findViewById(R.id.equipo);

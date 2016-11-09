@@ -3,9 +3,13 @@ package com.example.roque.appistear;
 /**
  * Created by Carlos on 02/11/2016.
  */
+//interfaz creada para tomar datos necesarios para el juego
 
 public interface DatosCopaDelRey {
 
+    /*arreglo fijo de 52 localidades utilizado para almacenar en forma ordenada las imagenes de las
+    cartas necesarias para el juego de copa del rey
+    */
      int []image = {R.mipmap.botellaa, R.mipmap.vasoa, R.mipmap.tarroa, R.mipmap.copaa,
                             R.mipmap.botella2, R.mipmap.vaso2, R.mipmap.tarro2, R.mipmap.copa2,
                             R.mipmap.botella3, R.mipmap.vaso3, R.mipmap.tarro3, R.mipmap.copa3,
@@ -20,6 +24,10 @@ public interface DatosCopaDelRey {
                             R.mipmap.botellaq, R.mipmap.vasoq, R.mipmap.tarroq, R.mipmap.copaq,
                             R.mipmap.botellak, R.mipmap.vasok, R.mipmap.tarrok, R.mipmap.copak};
 
+    /*arreglo fijo de 52 localidades utilizado para almacenar en forma ordenada las instrucciones
+    necesarias para el juego de copa del rey, posiiconadas en la misma localidad del arreglo anterior
+    para que coincidan carta-instrucción de manera correcta
+    */
     int []Text ={R.string.copareyAs, R.string.copareyAs, R.string.copareyAs, R.string.copareyAs,
                     R.string.coparey2, R.string.coparey2, R.string.coparey2, R.string.coparey2,
             R.string.coparey3, R.string.coparey3, R.string.coparey3, R.string.coparey3,

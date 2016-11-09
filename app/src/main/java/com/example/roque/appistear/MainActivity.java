@@ -16,11 +16,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //menu principal
+
+        //creación y guardado de la tipografía
         Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
 
         final Button boton = (Button)findViewById(R.id.juegos);
         boton.setTypeface(nf);
-//Implementamos el evento “click” del botón
+//Implementamos el evento “click” del botón para ir al ingreso de jugadores
         boton.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
@@ -31,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         final Button btn = (Button)findViewById(R.id.cocteleria);
         btn.setTypeface(nf);
-//Implementamos el evento “click” del botón
+//Implementamos el evento “click” del botón para ir a la coctelera 
         btn.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
@@ -42,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
         final Button bt = (Button)findViewById(R.id.opciones);
         bt.setTypeface(nf);
-//Implementamos el evento “click” del botón
+//Implementamos el evento “click” del botón para ir a la interfaza de opciones
         bt.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {

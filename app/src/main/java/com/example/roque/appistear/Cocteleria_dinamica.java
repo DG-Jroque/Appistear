@@ -7,6 +7,9 @@ import android.widget.Switch;
 import android.widget.TextView;
 
 public class Cocteleria_dinamica extends AppCompatActivity {
+    /*variable Typeface para tipografías creada de manera global en la clase para hacer uso de ella
+    en diferentes funciones.
+    */
     public Typeface nf;
 
     @Override
@@ -14,8 +17,12 @@ public class Cocteleria_dinamica extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cocteleria_dinamica);
         nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
+        //se recibe una variable de tipo string, mandada desde la ventana anterior y nos indicará
+        //que tipo de bebida es la que se quiere acceder, todos los botones de bebidas llaman a
+        //esta interfaz para generar las bebidas de manera más dinamica
         String recibir= getIntent().getStringExtra("var");
         recibir= recibir.toLowerCase();
+        //se hace un switch con la variable recibida para determinar qué bebida fue llamada
         switch(recibir){
             //TEQUILA
             case "tequila_margarita":
@@ -103,8 +110,15 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     }
 
+    /*
+    En los siguientes metodos, se modifica el titulo de la interfaz  ( por medio de un TeXTview titulo,
+    y se ingresan las cadenas string de ingles o español, así como la tipografía con la variable
+     "nf "en dos TextViews, sin embargo estos textviews
+    no se reservan en una variable, solo se les hace la modificación a los textos de forma directa
+     */
+
     /***************
-     METHODS FOR TEQUILA
+     METODOS PARA EL TEQUILA
      *****************/
     public void tequila_margarita(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
@@ -148,7 +162,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
     }
 
     /***************
-     METHODS FOR WHISKY
+     METODOS PARA EL WHISKY
      *****************/
     public void whisky_oldFashioned(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
@@ -191,7 +205,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
     }
 
     /***************
-    METHODS FOR VODKA
+     METODOS PARA EL VODKA
    *****************/
 
     public void vodka_whiteRussian(){
@@ -236,7 +250,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
     }
 
     /***************
-     METHODS FOR RUM
+     METODOS PARA EL RON
      *****************/
 
     public void ron_cubaLibre(){
@@ -281,7 +295,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
     }
 
     /***************
-     METHODS FOR MEZCAL
+     METODOS PARA EL MEZCAL
      *****************/
 
     public void mezcal_zignumocuilli() {

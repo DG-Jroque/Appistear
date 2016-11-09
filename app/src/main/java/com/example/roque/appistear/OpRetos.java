@@ -15,10 +15,13 @@ public class OpRetos extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_op_retos);
+        //Crear y guardar la tipografía
         Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
+        //guardar un un arrayList los jugadores
         final ArrayList<String> jugadores = getIntent().getStringArrayListExtra("arr");
         Button btretos = (Button) findViewById(R.id.btnretos);
-        btretos.setTypeface(nf);
+
+        //evento de clic para abir la interfaz para jugar retos
         btretos.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
@@ -28,6 +31,7 @@ public class OpRetos extends AppCompatActivity {
             }
         });
         Button bthtp = (Button) findViewById(R.id.btnhtp);
+        //evento de clic para abir la interfaz de como jugar en retos
         bthtp.setTypeface(nf);
         bthtp.setOnClickListener(new View.OnClickListener() {
 

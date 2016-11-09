@@ -13,13 +13,15 @@ public class Cocteleria extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cocteleria);
+        //Objeto tipografía para el estilo de letra usado
         Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
+        //obtener los botones de la interfaz para poder utilizarlos como objetos de la clase Button
         final Button btequila = (Button)findViewById(R.id.bttequila);
         final Button bron = (Button)findViewById(R.id.btron);
         final Button bvodka = (Button)findViewById(R.id.btvodka);
         final Button bwhisky = (Button)findViewById(R.id.btwhisky);
         final Button bmezcal = (Button)findViewById(R.id.btmezcal);
-//Definimos la tipografia
+//Definimos la tipografia para los botones
         btequila.setTypeface(nf);
         bron.setTypeface(nf);
         bvodka.setTypeface(nf);
@@ -28,6 +30,7 @@ public class Cocteleria extends AppCompatActivity {
 
 //Implementamos el evento “click” de los botone
 
+        //evento  de clic para iniciar la interfaz de tequila
         btequila.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -35,6 +38,7 @@ public class Cocteleria extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        //evento  de clic para iniciar la interfaz de Ron
         bron.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -42,7 +46,7 @@ public class Cocteleria extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+//evento  de clic para iniciar la interfaz de Vodka
         bvodka.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -50,6 +54,7 @@ public class Cocteleria extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        //evento  de clic para iniciar la interfaz de Whisky
         bwhisky.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -57,7 +62,7 @@ public class Cocteleria extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+//evento  de clic para iniciar la interfaz de Mezcal
         bmezcal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
