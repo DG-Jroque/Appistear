@@ -61,7 +61,7 @@
         android:textSize="16sp"
         android:layout_marginBottom="34dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentLeft="true"/>
 
     <Button
         android:text="Cuba Libre"
