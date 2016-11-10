@@ -30,19 +30,20 @@ public class Cocteleria extends AppCompatActivity {
 
 //Implementamos el evento “click” de los botone
 
-        //evento  de clic para iniciar la interfaz de tequila
-        btequila.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(Cocteleria.this,Tequila.class);
-                startActivity(intent);
-            }
-        });
+
         //evento  de clic para iniciar la interfaz de Ron
         bron.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(Cocteleria.this,Ron.class);
+                startActivity(intent);
+            }
+        });
+        //evento  de clic para iniciar la interfaz de tequila
+        btequila.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(Cocteleria.this,Tequila.class);
                 startActivity(intent);
             }
         });

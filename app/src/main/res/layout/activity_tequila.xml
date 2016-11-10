@@ -23,19 +23,6 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:text="Margarita"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btmar"
-        android:background="@drawable/botoninicio"
-        android:textColor="#DEA230"
-        android:textSize="16sp"
-        android:textStyle="normal|bold"
-        android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
         android:text="Paloma"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -48,20 +35,6 @@
         android:layout_below="@+id/btmar"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
-
-    <Button
-        android:text="Charro Negro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/botoninicio"
-        android:textColor="#DEA230"
-        android:id="@+id/btchn"
-        android:textSize="16sp"
-        android:textStyle="normal|bold"
-        android:layout_above="@+id/btmar"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="24dp" />
 
     <Button
         android:text="Sunrise"
@@ -89,5 +62,34 @@
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="56dp" />
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:text="Charro Negro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botoninicio"
+        android:textColor="#DEA230"
+        android:id="@+id/btchn"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/btblm"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp" />
+
+    <Button
+        android:text="Margarita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btmar"
+        android:background="@drawable/botoninicio"
+        android:textColor="#DEA230"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/btchn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="36dp" />
+
 </RelativeLayout>
