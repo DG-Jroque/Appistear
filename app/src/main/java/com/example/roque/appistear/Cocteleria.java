@@ -7,12 +7,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class Cocteleria extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cocteleria);
+        AdView mAdView = (AdView) findViewById(R.id.advcoc);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
         //Objeto tipografía para el estilo de letra usado
         Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
         //obtener los botones de la interfaz para poder utilizarlos como objetos de la clase Button

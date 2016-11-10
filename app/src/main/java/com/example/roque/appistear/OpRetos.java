@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import java.util.ArrayList;
 
 public class OpRetos extends AppCompatActivity {
@@ -15,12 +18,15 @@ public class OpRetos extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_op_retos);
+        AdView mAdView = (AdView) findViewById(R.id.advopr);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
         //Crear y guardar la tipografía
         Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
         //guardar un un arrayList los jugadores
         final ArrayList<String> jugadores = getIntent().getStringArrayListExtra("arr");
         Button btretos = (Button) findViewById(R.id.btnretos);
-
+        btretos.setTypeface(nf);
         //evento de clic para abir la interfaz para jugar retos
         btretos.setOnClickListener(new View.OnClickListener() {
 

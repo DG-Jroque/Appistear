@@ -4,7 +4,8 @@
     android:id="@+id/activity_retos"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="0dp"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
@@ -12,34 +13,38 @@
     android:background="@mipmap/fondo">
 
     <TextView
-        android:text="@string/jugador"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="69dp"
-        android:id="@+id/jug"
-        android:layout_below="@+id/textView5"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
         android:text="@string/jugadores"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView5"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:text="@string/aceptar"
+        android:text="+"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/conret"
+        android:id="@+id/add"
+        android:textSize="18sp"
+        android:textColor="#DEA230"
+        android:textStyle="normal|bold"
         android:background="@drawable/boton"
-        android:layout_marginBottom="32dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/nomjug"
+        android:layout_alignLeft="@+id/conret"
+        android:layout_alignStart="@+id/conret" />
+
+    <TextView
+        android:text="@string/jugador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="71dp"
+        android:id="@+id/jug"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -49,18 +54,29 @@
         android:id="@+id/nomjug"
         android:layout_alignBaseline="@+id/jug"
         android:layout_alignBottom="@+id/jug"
-        android:layout_alignLeft="@+id/textView5"
-        android:layout_alignStart="@+id/textView5" />
+        android:layout_alignRight="@+id/textView5"
+        android:layout_alignEnd="@+id/textView5" />
 
     <Button
-        android:text="+"
+        android:text="@string/aceptar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/add"
+        android:id="@+id/conret"
+        android:textSize="18sp"
+        android:textColor="#DEA230"
+        android:textStyle="normal|bold"
         android:background="@drawable/boton"
-        android:layout_marginTop="56dp"
-        android:layout_below="@+id/nomjug"
-        android:layout_alignLeft="@+id/conret"
-        android:layout_alignStart="@+id/conret" />
+        android:layout_marginBottom="112dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/advjug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/bannerinf3" >
+    </com.google.android.gms.ads.AdView>
 </RelativeLayout>

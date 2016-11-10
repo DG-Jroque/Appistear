@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import java.util.ArrayList;
 
 public class OpCorona extends AppCompatActivity {
@@ -15,6 +18,9 @@ public class OpCorona extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_op_corona);
+        AdView mAdView = (AdView) findViewById(R.id.advopcor);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
         //arreglo de strings de los jugadores
         final ArrayList<String> jugadores=new ArrayList<String>();
         //crear al tipografía y guardarla en una variable
@@ -31,8 +37,8 @@ public class OpCorona extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        btcorona.setTypeface(nf);
         Button bthtp = (Button) findViewById(R.id.btnhtpc);
+        //asignar tipografía al boton de como jugar
         bthtp.setTypeface(nf);
         //evento al dar clic en el boton de como jugar, mandando un string a la interfaaz de como jugar
         bthtp.setOnClickListener(new View.OnClickListener() {
@@ -43,8 +49,6 @@ public class OpCorona extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        //asignar tipografía al boton de como jugar
-        bthtp.setTypeface(nf);
 
     }
 }
