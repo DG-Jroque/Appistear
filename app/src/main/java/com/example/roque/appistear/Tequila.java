@@ -18,7 +18,7 @@ public class Tequila extends AppCompatActivity {
         //asignar los botones de la interfaz a variables, así como agregarles la tipografía
         final Button btmar = (Button)findViewById(R.id.btmar);
         final Button btpal = (Button)findViewById(R.id.btpal);
-        final Button btblm = (Button)findViewById(R.id.btblm);
+        final Button btblm = (Button)findViewById(R.id.buttonblackmex);
         final Button btchn = (Button)findViewById(R.id.btchn);
         final Button bttsu = (Button)findViewById(R.id.bttsu);
         final TextView bttTe = (TextView) findViewById(R.id.textView);

@@ -12,30 +12,16 @@
     android:background="@mipmap/fondo">
 
     <Button
-        android:text="Zignum Ocuilli"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/bthot"
-        android:layout_alignLeft="@+id/bthot"
-        android:layout_alignStart="@+id/bthot"
-        android:layout_marginTop="51dp"
-        android:background="@drawable/botoninicio"
-        android:textColor="#DEA230"
-        android:id="@+id/btzig"
-        android:textStyle="normal|bold"
-        android:textSize="16sp" />
-
-    <Button
-        android:text="Hot Pinneapple"
+        android:text="Tunacuxe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="41dp"
-        android:id="@+id/bthot"
+        android:id="@+id/buttontunacuxe"
         android:background="@drawable/botoninicio"
         android:textColor="#DEA230"
-        android:layout_below="@+id/bttun"
-        android:layout_alignLeft="@+id/btmst"
-        android:layout_alignStart="@+id/btmst"
+        android:layout_below="@+id/buttonmezcalsunset"
+        android:layout_alignLeft="@+id/buttonhotp"
+        android:layout_alignStart="@+id/buttonhotp"
         android:textStyle="normal|bold"
         android:textSize="16sp" />
 
@@ -44,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="21dp"
-        android:id="@+id/btblm"
+        android:id="@+id/buttonblackmex"
         android:background="@drawable/botoninicio"
         android:textColor="#DEA230"
         android:textStyle="normal|bold"
@@ -54,30 +40,16 @@
         android:layout_alignParentStart="true" />
 
     <Button
-        android:text="Mezcal sunset"
+        android:text="Hot PinneApple"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
-        android:id="@+id/btmst"
+        android:id="@+id/buttonhotp"
         android:background="@drawable/botoninicio"
         android:textColor="#DEA230"
         android:textStyle="normal|bold"
         android:textSize="16sp"
-        android:layout_below="@+id/btblm"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
-        android:text="Tunacuixe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:id="@+id/bttun"
-        android:background="@drawable/botoninicio"
-        android:textColor="#DEA230"
-        android:textStyle="normal|bold"
-        android:textSize="16sp"
-        android:layout_below="@+id/btmst"
+        android:layout_below="@+id/buttonblackmex"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -91,4 +63,31 @@
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Zignum Ocuilli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/botoninicio"
+        android:textColor="#DEA230"
+        android:id="@+id/btzig"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:layout_below="@+id/buttontunacuxe"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Mezcal Sunset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonmezcalsunset"
+        android:background="@drawable/botoninicio"
+        android:textColor="#DEA230"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

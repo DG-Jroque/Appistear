@@ -8,8 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import java.lang.reflect.Type;
-
 public class Ron extends AppCompatActivity {
 
     @Override
@@ -19,11 +17,11 @@ public class Ron extends AppCompatActivity {
         //crear y guardar la tipografía
         Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
         //obtener todos los botones de la interfaz y asignarles la tipografía
-        final Button btcub = (Button)findViewById(R.id.btcub);
-        final Button btpco = (Button)findViewById(R.id.btpco);
-        final Button btmoj = (Button)findViewById(R.id.btmoj);
+        final Button btblh = (Button)findViewById(R.id.bottonBlueHawaiian);
+        final Button btcub= (Button)findViewById(R.id.buttonCubaLibre);
+        final Button btmoj = (Button)findViewById(R.id.buttonMojito);
         final Button btdik = (Button)findViewById(R.id.btdik);
-        final Button btblh = (Button)findViewById(R.id.btblh);
+        final Button btpco = (Button)findViewById(R.id.buttonpinacolada);
         final TextView bttTe = (TextView) findViewById(R.id.textView);
         bttTe.setTypeface(nf);
         btcub.setTypeface(nf);

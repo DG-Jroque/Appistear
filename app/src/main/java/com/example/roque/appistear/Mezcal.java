@@ -17,11 +17,11 @@ public class Mezcal extends AppCompatActivity {
         //guardar la tipografía en un objeto de la clase TypeFace
         Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
         //obtener los botones de la interfaz de mezcal
-        final Button bthot = (Button)findViewById(R.id.bthot);
+        final Button bttun = (Button)findViewById(R.id.buttontunacuxe);
         final Button btzig = (Button)findViewById(R.id.btzig);
-        final Button bttun = (Button)findViewById(R.id.bttun);
-        final Button btblm = (Button)findViewById(R.id.btblm);
-        final Button btmst = (Button)findViewById(R.id.btmst);
+        final Button btmst = (Button)findViewById(R.id.buttonmezcalsunset);
+        final Button btblm = (Button)findViewById(R.id.buttonblackmex);
+        final Button bthot = (Button)findViewById(R.id.buttonhotp);
         final TextView bttTe = (TextView) findViewById(R.id.textView);
         //asingnar la tipografía a los botnoes
         bttTe.setTypeface(nf);
