@@ -270,4 +270,10 @@ Hielo en cubitos.\n
     <string name="bannerinf5">ca-app-pub-8694874567384392/1158642669</string>
     <string name="bannerinf6">ca-app-pub-8694874567384392/2635375862</string>
 
+     <string name="infoacercade">Versión 1.0, desarrollada para dispositivos moviles con android 3.1 o superior.
+    El usuario es responsable de cualquier incidente que pueda suceder con el uso de la aplicación. El equipo de desarrollo no
+    se adjudica la creación de imagenes y tipografías utilizadas.
+    Se prohibe la comercialización de esta aplicación. Para más información contactarnos por el correo
+     alumnosITMorelia@gmail.com</string>
+
 </resources>

@@ -10,30 +10,43 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.roque.appistear.Acercade"
     android:background="@mipmap/fondo">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="5"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="105dp"
-        android:id="@+id/textView7"
-        android:typeface="serif"
-        android:fontFamily="cursive"
-        android:textSize="30sp"
-        android:textStyle="normal|bold"
-        android:textColor="@android:color/black"
-        android:text="@string/desarrolladopor" />
-
-    <TextView
-        android:text="TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView7"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="35dp"
-        android:id="@+id/textView3" />
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="105dp"
+            android:id="@+id/textView7"
+            android:typeface="serif"
+            android:fontFamily="cursive"
+            android:textSize="30sp"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/black"
+            android:text="@string/desarrolladopor" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="400pt">
+            <TextView
+                android:text="@string/infoacercade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="35dp"
+                android:id="@+id/textView3" />
+        </ScrollView>
+
+    </LinearLayout>
 
 
 </RelativeLayout>

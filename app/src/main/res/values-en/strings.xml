@@ -350,6 +350,10 @@ Ace: \nAce is waterfall. This starts with everyone chugging.
     <string name="bannerinf5">ca-app-pub-8694874567384392/1158642669</string>
     <string name="bannerinf6">ca-app-pub-8694874567384392/2635375862</string>
 
+ <string name="infoacercade">Version 1.0, developed for mobile devices with android 3.1 or higher.
+The user is responsible for any incidents that may occur with the use of the application. The development team does not award the creation of images and fonts used.
+     The commercialization of this application is forbidden.
+     For more information contact us by mail alumnosITMorelia@gmail.com</string>
 
 </resources>
 
