@@ -18,6 +18,9 @@ import android.content.res.Resources;
 import android.util.DisplayMetrics;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class Opciones extends AppCompatActivity {
 
 
@@ -46,6 +49,9 @@ public class Opciones extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_opciones);
+        AdView mAdView = (AdView) findViewById(R.id.advopc);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
         //guardar la tipografía
         Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
         Button btn = (Button)findViewById(R.id.btninfo);

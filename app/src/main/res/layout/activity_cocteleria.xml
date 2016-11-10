@@ -4,50 +4,13 @@
     android:id="@+id/activity_cocteleria"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="0dp"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.roque.appistear.Cocteleria"
     android:background="@mipmap/fondo">
-
-    <Button
-        android:text="@string/ron"
-        android:background="@drawable/boton"
-        android:drawableTop="@mipmap/ron"
-        android:textColor="#DEA230"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btron"
-        android:textSize="18sp"
-        android:layout_marginTop="110dp"
-        android:textStyle="normal|bold"
-        android:bottomRightRadius="10dp"
-        android:bottomLeftRadius="10dp"
-        android:topLeftRadius="10dp"
-        android:topRightRadius="10dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/btwhisky"
-        android:layout_alignStart="@+id/btwhisky" />
-
-    <Button
-        android:text="Vodka"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btvodka"
-        android:background="@drawable/boton"
-        android:textSize="18sp"
-        android:drawableTop="@mipmap/vodka"
-        android:textColor="#DEA230"
-        android:textStyle="normal|bold"
-        android:bottomRightRadius="10dp"
-        android:bottomLeftRadius="10dp"
-        android:topLeftRadius="10dp"
-        android:topRightRadius="10dp"
-        android:layout_below="@+id/btmezcal"
-        android:layout_toLeftOf="@+id/bttequila"
-        android:layout_toStartOf="@+id/bttequila"
-        android:layout_marginTop="66dp" />
 
     <Button
         android:text="Tequila"
@@ -64,28 +27,47 @@
         android:bottomLeftRadius="10dp"
         android:topLeftRadius="10dp"
         android:topRightRadius="10dp"
-        android:layout_marginTop="31dp"
+        android:layout_marginTop="57dp"
         android:layout_below="@+id/btwhisky"
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:text="Whisky"
+        android:text="Vodka"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btwhisky"
-        android:textSize="18sp"
+        android:id="@+id/btvodka"
         android:background="@drawable/boton"
-        android:drawableTop="@mipmap/whiskey"
+        android:textSize="18sp"
+        android:drawableTop="@mipmap/vodka"
         android:textColor="#DEA230"
         android:textStyle="normal|bold"
         android:bottomRightRadius="10dp"
         android:bottomLeftRadius="10dp"
         android:topLeftRadius="10dp"
         android:topRightRadius="10dp"
-        android:layout_alignBaseline="@+id/btvodka"
-        android:layout_alignBottom="@+id/btvodka"
-        android:layout_toRightOf="@+id/bttequila"
-        android:layout_toEndOf="@+id/bttequila" />
+        android:layout_alignBaseline="@+id/btwhisky"
+        android:layout_alignBottom="@+id/btwhisky"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/ron"
+        android:background="@drawable/boton"
+        android:drawableTop="@mipmap/ron"
+        android:textColor="#DEA230"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btron"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:bottomRightRadius="10dp"
+        android:bottomLeftRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        android:layout_alignBaseline="@+id/btmezcal"
+        android:layout_alignBottom="@+id/btmezcal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:text="Mezcal"
@@ -101,8 +83,37 @@
         android:bottomLeftRadius="10dp"
         android:topLeftRadius="10dp"
         android:topRightRadius="10dp"
-        android:layout_alignBaseline="@+id/btron"
-        android:layout_alignBottom="@+id/btron"
-        android:layout_alignLeft="@+id/btvodka"
-        android:layout_alignStart="@+id/btvodka" />
+        android:layout_marginBottom="48dp"
+        android:layout_above="@+id/btwhisky"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp" />
+
+    <Button
+        android:text="Whisky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btwhisky"
+        android:textSize="18sp"
+        android:background="@drawable/boton"
+        android:drawableTop="@mipmap/whiskey"
+        android:textColor="#DEA230"
+        android:textStyle="normal|bold"
+        android:bottomRightRadius="10dp"
+        android:bottomLeftRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/btmezcal"
+        android:layout_alignStart="@+id/btmezcal" />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/advcoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/bannerinf2" >
+    </com.google.android.gms.ads.AdView>
 </RelativeLayout>

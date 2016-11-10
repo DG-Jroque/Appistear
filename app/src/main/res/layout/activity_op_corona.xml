@@ -4,7 +4,8 @@
     android:id="@+id/activity_op_corona"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="0dp"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
@@ -13,29 +14,33 @@
 
     <Button
         android:text="@string/jugar"
-        android:gravity="center"
-        android:includeFontPadding="false"
-        android:background="#4D78A8"
-        android:textColor="#DEA230"
+        android:background="@drawable/boton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btncorona"
-        android:layout_marginLeft="120dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginBottom="129dp"
-        android:layout_above="@+id/btnhtpc"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:textSize="18sp"
+        android:textColor="#DEA230"
+        android:id="@+id/btncorona" />
 
     <Button
         android:text="@string/comojugar"
-        android:background="#4D78A8"
-        android:textColor="#DEA230"
+        android:background="@drawable/boton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btnhtpc"
-        android:layout_marginBottom="178dp"
+        android:textSize="18sp"
+        android:textColor="#DEA230"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/advopcor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/btncorona"
-        android:layout_alignStart="@+id/btncorona" />
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/bannerinf6" >
+    </com.google.android.gms.ads.AdView>
 </RelativeLayout>

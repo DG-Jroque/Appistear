@@ -3,6 +3,7 @@ package com.example.roque.appistear;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -12,6 +13,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 import java.lang.reflect.GenericArrayType;
 import java.util.ArrayList;
@@ -25,12 +29,18 @@ public class Jugadores extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jugadores);
+        AdView mAdView = (AdView) findViewById(R.id.advjug);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
         //crear el objeto de ArrayList para los jugadores
         final ArrayList<String> jugadores=new ArrayList<String>();
+        Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
         final TextView jug=(TextView)findViewById(R.id.jug);//texto de "jugador n"
         final EditText nomjug=(EditText)findViewById(R.id.nomjug);//cuadro de texto para ingresar el nombre del jugador
         Button btn=(Button)findViewById(R.id.conret); //buscar los bonotes de la interfaz
+        btn.setTypeface(nf);
         Button add=(Button)findViewById(R.id.add);
+        add.setTypeface(nf);
         jug.setText(getText(R.string.jugador)+" " +String.valueOf(con));//ingresar la palabra jugador n al TextView
         //Evento de clic al añadir un nuevo jugador boton de "+"
         add.setOnClickListener(new View.OnClickListener() {
