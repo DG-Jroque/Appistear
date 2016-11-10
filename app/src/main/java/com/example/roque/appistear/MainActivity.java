@@ -9,15 +9,17 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+import com.google.android.gms.ads.AdView;
+
 public class MainActivity extends AppCompatActivity {
 
-
+    private AdView mBottomBanner;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //menu principal
-
+        mBottomBanner = (AdView) findViewById(R.id.av_bottom_banner);
         //creación y guardado de la tipografía
         Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
 
