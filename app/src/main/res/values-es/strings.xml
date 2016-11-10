@@ -271,5 +271,8 @@ Hielo en cubitos.\n
     <string name="retosreglas">Sencillo, sigue las instrucciones que indica cada reto, disfruta, nadie pierde!</string>
     <string name="fincorona">Fin del juego</string>
     <string name="bannerinferior">ca-app-pub-8694874567384392/4788263469</string>
-
+    <string name="mensajealcohol">Tome con medida.\n El consumo de bebidas alcoholicas es nocivo \npara la salud. \n
+        Al continuar está aceptando que usted es responsable por cualquier daño que pueda suceder con el uso de la aplicación\n
+        Apparrandear</string>
+    <string name="precaucion">Precaución</string>
 </resources>

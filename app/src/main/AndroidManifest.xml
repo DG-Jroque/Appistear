@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.roque.appistear">
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/appicon"
@@ -13,11 +15,7 @@
             android:name=".MainActivity"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".Juegos"
@@ -38,46 +36,59 @@
         <activity
             android:name=".Tequila"
             android:configChanges="locale|orientation"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Ron"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Whisky"
-            android:screenOrientation="portrait"
-            android:configChanges="locale|orientation"/>
+            android:configChanges="locale|orientation"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Vodka"
-            android:screenOrientation="portrait"
-            android:configChanges="locale|orientation"/>
+            android:configChanges="locale|orientation"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Mezcal"
-            android:screenOrientation="portrait"
-            android:configChanges="locale|orientation"/>
+            android:configChanges="locale|orientation"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Cocteleria_dinamica"
-            android:screenOrientation="portrait"
-            android:configChanges="locale|orientation"/>
-        <activity android:name=".Jugadores"
-
-            android:screenOrientation="portrait"
-            android:configChanges="locale|orientation"/>
-        <activity android:name=".CoronaRey"
-            android:screenOrientation="portrait"
-            android:configChanges="locale|orientation"/>
-        <activity android:name=".JuegoRetos"
-            android:screenOrientation="portrait"
-            android:configChanges="locale|orientation"/>
-        <activity android:name=".OpCorona"
-            android:screenOrientation="portrait"
-            android:configChanges="locale|orientation"/>
-        <activity android:name=".OpRetos"
-            android:screenOrientation="portrait"
-            android:configChanges="locale|orientation"/>
-        <activity android:name=".Comojugar"
-            android:screenOrientation="portrait"
-            android:configChanges="locale|orientation"></activity>
+            android:configChanges="locale|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Jugadores"
+            android:configChanges="locale|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoronaRey"
+            android:configChanges="locale|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JuegoRetos"
+            android:configChanges="locale|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OpCorona"
+            android:configChanges="locale|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OpRetos"
+            android:configChanges="locale|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Comojugar"
+            android:configChanges="locale|orientation"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Alerta"
+            android:configChanges="locale|orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

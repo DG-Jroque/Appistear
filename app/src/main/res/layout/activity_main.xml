@@ -75,7 +75,6 @@
             android:textSize="20sp"
             android:drawableRight="@mipmap/opc"
             />
-
     </LinearLayout>
     <com.google.android.gms.ads.AdView
         android:id="@+id/av_bottom_banner"
