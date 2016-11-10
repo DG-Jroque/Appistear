@@ -51,6 +51,20 @@
         android:layout_centerHorizontal="true" />
 
     <Button
+        android:text="Daikiri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:id="@+id/btdik"
+        android:background="@drawable/botoninicio"
+        android:textColor="#DEA230"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:layout_below="@+id/buttonMojito"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
         android:text="Piña Colada"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -59,35 +73,22 @@
         android:textColor="#DEA230"
         android:textStyle="normal|bold"
         android:textSize="16sp"
-        android:layout_marginBottom="34dp"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/btdik"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp" />
 
     <Button
         android:text="Cuba Libre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="46dp"
+        android:layout_marginTop="35dp"
         android:id="@+id/buttonCubaLibre"
         android:background="@drawable/botoninicio"
         android:textColor="#DEA230"
         android:textStyle="normal|bold"
         android:textSize="16sp"
         android:layout_below="@+id/bottonBlueHawaiian"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
-        android:text="Daikiri"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="39dp"
-        android:id="@+id/btdik"
-        android:background="@drawable/botoninicio"
-        android:textColor="#DEA230"
-        android:textStyle="normal|bold"
-        android:textSize="16sp"
-        android:layout_below="@+id/buttonMojito"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 </RelativeLayout>

@@ -234,7 +234,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void vodka_blueberrySpritzer(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
-        titulo.setText("BLUEBERRY SPRITZER");
+        titulo.setText("BLUEBERRY \n\nSPRITZER");
         titulo.setTypeface(nf);
         ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararVodka_BlueberrySpritzer));
         ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesVodka_BlueberrySpritzer));
@@ -263,7 +263,7 @@ public class Cocteleria_dinamica extends AppCompatActivity {
 
     public void ron_pinacolada(){
         TextView titulo= (TextView)findViewById(R.id.textView_titulo);
-        titulo.setText("PIÑA COLADA");
+        titulo.setText("PIÑA\n\n COLADA");
         titulo.setTypeface(nf);
         ((TextView)findViewById(R.id.textView_preparar)).setText(getString(R.string.prepararRon_PinaColada));
         ((TextView)findViewById(R.id.textView_ingredientes)).setText(getString(R.string.ingredientesRon_PinaColada));
