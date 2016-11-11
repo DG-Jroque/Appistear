@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:152842898787:android:c9376d3f34a48360",
+        "mobilesdk_app_id": "1:152842898787:android:7f517d10e882e0c4",
         "android_client_info": {
-          "package_name": "com.example.roque.appistear"
+          "package_name": "com.DG.roque.appistear"
         }
       },
       "oauth_client": [

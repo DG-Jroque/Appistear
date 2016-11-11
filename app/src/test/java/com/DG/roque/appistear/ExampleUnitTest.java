@@ -1,4 +1,4 @@
-package com.example.roque.appistear;
+package com.DG.roque.appistear;
 
 import org.junit.Test;
 

@@ -339,16 +339,17 @@ Ace: \nAce is waterfall. This starts with everyone chugging.
     <string name="salir">Exit</string>
     <string name="retosreglas">Easy, follow the instructions which showy every challenge...</string>
     <string name="fincorona">End of game</string>
-    <string name="bannerinferior">ca-app-pub-8694874567384392/4788263469</string>
 
     <string name="mensajealcohol">Please drink responibly. By continuing, ypu agree you are\n responsable for any consequences that may result \nusing Appistear app</string>
     <string name="precaucion">Caution</string>
 
-    <string name="bannerinf2">ca-app-pub-8694874567384392/5728443064</string>
-    <string name="bannerinf3">ca-app-pub-8694874567384392/7205176260</string>
-    <string name="bannerinf4">ca-app-pub-8694874567384392/8681909468</string>
-    <string name="bannerinf5">ca-app-pub-8694874567384392/1158642669</string>
-    <string name="bannerinf6">ca-app-pub-8694874567384392/2635375862</string>
+
+    <string name="bannerinferior">ca-app-pub-8694874567384392/7292574665</string>
+    <string name="bannerinf2">ca-app-pub-8694874567384392/8769307867</string>
+    <string name="bannerinf3">ca-app-pub-8694874567384392/1246041065</string>
+    <string name="bannerinf4">ca-app-pub-8694874567384392/2722774263</string>
+    <string name="bannerinf5">ca-app-pub-8694874567384392/4199507461</string>
+    <string name="bannerinf6">ca-app-pub-8694874567384392/4339108266</string>
 
  <string name="infoacercade">Version 1.0, developed for mobile devices with android 3.1 or higher.
 The user is responsible for any incidents that may occur with the use of the application. The development team does not award the creation of images and fonts used.

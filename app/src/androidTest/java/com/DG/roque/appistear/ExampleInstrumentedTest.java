@@ -1,4 +1,4 @@
-package com.example.roque.appistear;
+package com.DG.roque.appistear;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,4 +1,4 @@
-package com.example.roque.appistear;
+package com.DG.roque.appistear;
 
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -23,7 +23,7 @@ public class Mezcal extends AppCompatActivity {
         final Button btblm = (Button)findViewById(R.id.buttonblackmex);
         final Button bthot = (Button)findViewById(R.id.buttonhotp);
         final TextView bttTe = (TextView) findViewById(R.id.textView);
-        //asingnar la tipografía a los botnoes
+        //asignar la tipografía a los botnoes
         bttTe.setTypeface(nf);
         bthot.setTypeface(nf);
         btzig.setTypeface(nf);

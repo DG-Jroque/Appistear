@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.roque.appistear">
+    package="com.DG.roque.appistear">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -12,76 +12,76 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.DG.roque.appistear.MainActivity"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait">
 
         </activity>
         <activity
-            android:name=".Juegos"
+            android:name="com.DG.roque.appistear.Juegos"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Cocteleria"
+            android:name="com.DG.roque.appistear.Cocteleria"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Opciones"
+            android:name="com.DG.roque.appistear.Opciones"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Acercade"
+            android:name="com.DG.roque.appistear.Acercade"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Tequila"
+            android:name="com.DG.roque.appistear.Tequila"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Ron"
+            android:name="com.DG.roque.appistear.Ron"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Whisky"
+            android:name="com.DG.roque.appistear.Whisky"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Vodka"
+            android:name="com.DG.roque.appistear.Vodka"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Mezcal"
+            android:name="com.DG.roque.appistear.Mezcal"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Cocteleria_dinamica"
+            android:name="com.DG.roque.appistear.Cocteleria_dinamica"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Jugadores"
+            android:name="com.DG.roque.appistear.Jugadores"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CoronaRey"
+            android:name="com.DG.roque.appistear.CoronaRey"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".JuegoRetos"
+            android:name="com.DG.roque.appistear.JuegoRetos"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".OpCorona"
+            android:name="com.DG.roque.appistear.OpCorona"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".OpRetos"
+            android:name="com.DG.roque.appistear.OpRetos"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Comojugar"
+            android:name="com.DG.roque.appistear.Comojugar"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait" />
-        <activity android:name=".Alerta"
+        <activity android:name="com.DG.roque.appistear.Alerta"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait">
             <intent-filter>

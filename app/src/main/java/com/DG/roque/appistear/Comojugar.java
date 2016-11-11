@@ -1,11 +1,8 @@
-package com.example.roque.appistear;
+package com.DG.roque.appistear;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
-
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
 
 public class Comojugar extends AppCompatActivity {
 
