@@ -31,6 +31,7 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         //inicio y creación de la interfaz
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_corona_rey);

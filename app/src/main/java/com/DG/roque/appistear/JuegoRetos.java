@@ -11,12 +11,20 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class JuegoRetos extends AppCompatActivity {
+    ArrayList<String> listajugadores;
+    ArrayList<String> Challenges;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_juego_retos);
         Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
+        //Agregar los jugadores a un arreglo
+        listajugadores = (ArrayList<String>) getIntent().getStringArrayListExtra("arr");
+        //Crear un arreglo que contenga los retos
+        CreateChallenges();
         Button btnretos=(Button)findViewById(R.id.btnsigret);
+
         //ingresar al boton la tipografía utilizada
         btnretos.setTypeface(nf);
         btnretos.setOnClickListener(new View.OnClickListener() {
@@ -38,5 +46,34 @@ public class JuegoRetos extends AppCompatActivity {
             }
         });
     }
+    private void Game(){
+        TextView tv=(TextView)findViewById(R.id.reto);
+        tv.setVisibility(View.VISIBLE);
+        final Random rnd= new Random();//generar el objeto de clase Random para numeros aleatorios
+        int nr=(int)(Math.random()*Challenges.size());//guardar el numero aleatorio en el rango de 0-numero de jugadores
+        int nj;
+        ArrayList<Integer> playersOnText= new ArrayList();
+        for(int i=1;i<listajugadores.size();i++){
+        if(Challenges.get(nr-1).toUpperCase().toString().contains("jugador"+i) playersOnText.add(i);
+        }
+        String challenge= Challenges.get(nr-1).toUpperCase().toString();
+        if(playersOnText.size()>0){
+        for(int i=1;i<playersOnText.size();i++){
+        nj=(int)(Math.random()*listajugadores.size());
+            challenge.replace("jugador"+i, listajugadores.get(nj));
+        }
+        tv.setText(challenge);
+        }
+
+    }
+
+    private void CreateChallenges() {
+        String[] retos= getResources().getStringArray(R.array.retos);
+        for ( int i= 0; i<retos.length;i++){
+            Challenges.add(retos[i]);
+        }
+    }
+
+
 
 }
