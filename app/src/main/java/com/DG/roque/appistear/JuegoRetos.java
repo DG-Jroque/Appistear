@@ -54,6 +54,8 @@ public class JuegoRetos extends AppCompatActivity {
             }
         });
     }
+
+    //función para mostrar en pantalla el reto y jugador de manera aleatoria
     private void Game(){
         TextView tv=(TextView)findViewById(R.id.reto);
         tv.setVisibility(View.VISIBLE);

@@ -275,5 +275,8 @@ Hielo en cubitos.\n
     se adjudica la creación de imagenes y tipografías utilizadas.
     Se prohibe la comercialización de esta aplicación. Para más información contactarnos por el correo
      alumnosITMorelia@gmail.com</string>
+    <string name="title_activity_jugadores2">Jugadores2</string>
+    <string name="title_activity_jugadores_dinamico">jugadores_dinamico</string>
+    <string name="title_activity_jugadores_dinamicos">jugadores_dinamicos</string>
 
 </resources>
