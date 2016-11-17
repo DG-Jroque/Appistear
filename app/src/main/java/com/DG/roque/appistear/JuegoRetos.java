@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class JuegoRetos extends AppCompatActivity {
-    ArrayList<String> listajugadores= new ArrayList<>();
+    ArrayList<String> listajugadores;
     ArrayList<String> Challenges= new ArrayList<>();
 
     @Override
@@ -21,7 +21,7 @@ public class JuegoRetos extends AppCompatActivity {
         setContentView(R.layout.activity_juego_retos);
         Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
         //Agregar los jugadores a un arreglo
-        listajugadores = (ArrayList<String>) getIntent().getStringArrayListExtra("arr");
+        listajugadores = (ArrayList<String>)(getIntent().getStringArrayListExtra("arr"));
         //Crear un arreglo que contenga los retos
         CreateChallenges();
         Button btnretos=(Button)findViewById(R.id.btnsigret);
@@ -57,16 +57,19 @@ public class JuegoRetos extends AppCompatActivity {
     private void Game(){
         TextView tv=(TextView)findViewById(R.id.reto);
         tv.setVisibility(View.VISIBLE);
-        final Random rnd= new Random();//generar el objeto de clase Random para numeros aleatorios
         int nr=(int)(Math.random()*Challenges.size());//guardar el numero aleatorio en el rango de 0-numero de jugadores
         int nj;
-        ArrayList<Integer> playersOnText= new ArrayList();
         String challenge= Challenges.get(nr).toUpperCase().toString();
         Challenges.remove(nr);
-        ArrayList<String> players= listajugadores;
-            for(int i=1;i<listajugadores.size();i++){
+        ArrayList <String> players= new ArrayList<>();
+
+        for ( int a= 0; a<listajugadores.size();a++){
+            String b= listajugadores.get(a);
+            players.add(b);
+        }
+            for(int i=0;i<listajugadores.size();i++){
                 nj=(int)(Math.random()*players.size());
-                challenge= challenge.replace("JUGADOR"+i, listajugadores.get(nj).toUpperCase());
+                challenge= challenge.replace("JUGADOR"+(i+1), players.get(nj).toUpperCase());
                 players.remove(nj);
             }
             tv.setText(challenge);
