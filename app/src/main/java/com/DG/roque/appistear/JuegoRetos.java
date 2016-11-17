@@ -7,12 +7,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Random;
 
 public class JuegoRetos extends AppCompatActivity {
-    ArrayList<String> listajugadores;
-    ArrayList<String> Challenges;
+    ArrayList<String> listajugadores= new ArrayList<>();
+    ArrayList<String> Challenges= new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,11 @@ public class JuegoRetos extends AppCompatActivity {
         btnretos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //NUEVA VERSIÓN
+                if(Challenges.size()==0) CreateChallenges();
+                Game();
+
+                /*VERSION ANTERIOR
                 TextView tv=(TextView)findViewById(R.id.reto);
                 tv.setVisibility(View.VISIBLE);
                 ArrayList<String> listajugadores = (ArrayList<String>) getIntent().getStringArrayListExtra("arr");
@@ -43,6 +49,8 @@ public class JuegoRetos extends AppCompatActivity {
                 //asignar el reto y jugador a la interfaz
                 tv.setText(listajugadores.get(nj-1).toUpperCase().toString() +", " +retos[nr-1].toUpperCase().toString());
                 //tv.setTextColor(Color.parseColor("#4D78A8"));
+
+                */
             }
         });
     }
@@ -53,20 +61,18 @@ public class JuegoRetos extends AppCompatActivity {
         int nr=(int)(Math.random()*Challenges.size());//guardar el numero aleatorio en el rango de 0-numero de jugadores
         int nj;
         ArrayList<Integer> playersOnText= new ArrayList();
-        for(int i=1;i<listajugadores.size();i++){
-        if(Challenges.get(nr-1).toUpperCase().toString().contains("jugador"+i) playersOnText.add(i);
-        }
-        String challenge= Challenges.get(nr-1).toUpperCase().toString();
-        if(playersOnText.size()>0){
-        for(int i=1;i<playersOnText.size();i++){
-        nj=(int)(Math.random()*listajugadores.size());
-            challenge.replace("jugador"+i, listajugadores.get(nj));
-        }
-        tv.setText(challenge);
-        }
-
+        String challenge= Challenges.get(nr).toUpperCase().toString();
+        Challenges.remove(nr);
+        ArrayList<String> players= listajugadores;
+            for(int i=1;i<listajugadores.size();i++){
+                nj=(int)(Math.random()*players.size());
+                challenge= challenge.replace("JUGADOR"+i, listajugadores.get(nj).toUpperCase());
+                players.remove(nj);
+            }
+            tv.setText(challenge);
     }
 
+    //función para guardar los retos en un arreglo dinámico
     private void CreateChallenges() {
         String[] retos= getResources().getStringArray(R.array.retos);
         for ( int i= 0; i<retos.length;i++){
