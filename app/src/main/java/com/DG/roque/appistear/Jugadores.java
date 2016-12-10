@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.google.android.gms.ads.AdRequest;
@@ -20,6 +21,7 @@ import java.util.ArrayList;
 public class Jugadores extends AppCompatActivity {
     int con=1;
     //arreglo para los jugadores y sus nombres
+    private LinearLayout linear;
     private ArrayList<EditText> playerName = new ArrayList<>();
 
     @Override
@@ -32,8 +34,9 @@ public class Jugadores extends AppCompatActivity {
         //crear el objeto de ArrayList para los jugadores
         final ArrayList<String> jugadores=new ArrayList<String>();
         Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
+        linear= (LinearLayout) findViewById(R.id.linear);
         final TextView jug=(TextView)findViewById(R.id.jug);//texto de "jugador n"
-        final EditText nomjug=(EditText)findViewById(R.id.nomjug);//cuadro de texto para ingresar el nombre del jugador
+        //final EditText nomjug=(EditText)findViewById(R.id.nomjug);//cuadro de texto para ingresar el nombre del jugador
         Button btn=(Button)findViewById(R.id.conret); //buscar los bonotes de la interfaz
         btn.setTypeface(nf);
         Button add=(Button)findViewById(R.id.add);
@@ -43,13 +46,13 @@ public class Jugadores extends AppCompatActivity {
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //createDynamicPlayer();
+                createDynamicPlayer();
                 //agregar el jugador al arraylist
-                jugadores.add(nomjug.getText().toString());
+                /*jugadores.add(nomjug.getText().toString());
                 con++;
                 nomjug.setText("");
                 jug.setText(getText(R.string.jugador)+" " +String.valueOf(con));
-
+                */
             }
         });
         //evento de clic para ir a la interfaz para elegir los juegos, si no hay jugadores, no se podrá
@@ -89,20 +92,12 @@ public class Jugadores extends AppCompatActivity {
     }
 
 
-    /*public void createDynamicPlayer(){
-       setContentView(R.layout.activity_jugadores);
-        RelativeLayout rl = (RelativeLayout)findViewById(R.id.activity_retos);
-        setContentView(rl);
-        TextView textView  = new TextView(this);
-        textView.setText("Jugador"+con);
+    public void createDynamicPlayer() {
         EditText editText = new EditText(this);
-        RelativeLayout.LayoutParams relativeParams = new RelativeLayout.LayoutParams(
-                RelativeLayout.LayoutParams.MATCH_PARENT,RelativeLayout.LayoutParams.MATCH_PARENT);
-        rl.addView(textView, relativeParams);
-        rl.addView(editText, relativeParams);
-        playerstag.add(textView);
+        linear.addView(editText);
         playerName.add(editText);
-*/
+    }
+
 
 
 

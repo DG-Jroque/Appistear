@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         boton.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent intent =  new Intent(MainActivity.this, Jugadores.class);
+                Intent intent =  new Intent(MainActivity.this, JugadoresDinamicos.class);
                 startActivity(intent);
             }
         });

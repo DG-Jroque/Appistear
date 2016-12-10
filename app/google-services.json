@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "152842898787",
+    "firebase_url": "https://apparrandear.firebaseio.com",
+    "project_id": "apparrandear",
+    "storage_bucket": "apparrandear.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152842898787:android:7f517d10e882e0c4",
+        "android_client_info": {
+          "package_name": "com.DG.roque.appistear"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152842898787-eunc7a7l4ma2uv2tdmi7va6mv0vakkie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf__Z0cywx5wTwUmFPwQfwmDgRXEcfAkw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

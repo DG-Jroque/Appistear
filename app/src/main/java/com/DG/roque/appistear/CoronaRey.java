@@ -83,6 +83,18 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
         }
     }
 
+    //funcion para reiniciar el juego
+    public void StartGame(){
+
+        Cards.clear();
+        text.clear();
+        King=0;
+        createCards();
+        //funcion para iniciar el juego
+        changeBackground();
+
+    }
+
     //Función para terminar el juego
     public void end(){
         //mostrar un menaje de alerta para indicar el fin del juego
@@ -97,8 +109,7 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
             } });
         adb.setNegativeButton(getString(R.string.salir), new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
-            Intent intent = new Intent(CoronaRey.this, OpCorona.class);
-            startActivity(intent);
+            StartGame();
         } });
         AlertDialog alert = adb.create();
         alert.show();
