@@ -26,6 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/buttonAgregar"
+        android:textColor="#DEA230"
         android:layout_alignParentBottom="true"
         android:layout_toLeftOf="@+id/textView4"
         android:layout_toStartOf="@+id/textView4"
@@ -35,11 +36,12 @@
 
     <Button
         android:text="Continuar"
+        android:textSize="10sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/buttonAgregar"
         android:layout_toRightOf="@+id/textView4"
-        android:layout_toEndOf="@+id/textView4"
+        android:textColor="#DEA230"
         android:id="@+id/buttonContinuar"
         android:background="@drawable/boton"
         />
