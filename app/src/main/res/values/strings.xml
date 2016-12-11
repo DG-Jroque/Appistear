@@ -277,5 +277,10 @@ Hielo en cubitos.\n
      alumnosITMorelia@gmail.com</string>
     <string name="title_activity_jugadores_dinamicos">jugadoresDinamicos</string>
 
+    <string name="continuar">Continuar</string>
+    <string name="agregar">Agregar</string>
+    <string name="NombresRepetidos">Favor de no repetir nombres</string>
+    <string name="NoNombres">No se han ingresado nombres</string>
+    <string name="UnNombre">Ingrese más de un nombre, no sea Forever Alone</string>
 
 </resources>

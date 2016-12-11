@@ -289,5 +289,10 @@ Hielo en cubitos.\n
     Se prohibe la comercialización de esta aplicación. Para más información contactarnos por el correo
      alumnosITMorelia@gmail.com</string>
 
+    <string name="continuar">Continuar</string>
+    <string name="agregar">Agregar</string>
+    <string name="NombresRepetidos">Favor de no repetir nombres</string>
+    <string name="NoNombres">No se han ingresado nombres</string>
+    <string name="UnNombre">Ingrese más de un nombre, no sea Forever Alone</string>
 
 </resources>

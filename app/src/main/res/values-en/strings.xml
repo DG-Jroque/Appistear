@@ -340,7 +340,8 @@ Ace: \nAce is waterfall. This starts with everyone chugging.
     <string name="retosreglas">Easy, follow the instructions which showy every challenge...</string>
     <string name="fincorona">End of game</string>
 
-    <string name="mensajealcohol">Please drink responsibly. By continuing, you agree you are \nresponsable for any consequences that may result \nusing Appistear app</string>
+    <string name="mensajealcohol">Please drink responsibly.
+        By continuing, you agree you are responsable for any  \n consequences that may result \nusing Apparrandear app</string>
     <string name="precaucion">Caution</string>
 
 
@@ -355,7 +356,11 @@ Ace: \nAce is waterfall. This starts with everyone chugging.
 The user is responsible for any incidents that may occur with the use of the application. The development team does not award the creation of images and fonts used.
      The commercialization of this application is forbidden.
      For more information contact us by mail alumnosITMorelia@gmail.com</string>
-
+    <string name="continuar">Continue</string>
+    <string name="agregar">Add</string>
+    <string name="NombresRepetidos">Please, don\'t repeat names</string>
+    <string name="NoNombres">You need to type at least two names</string>
+    <string name="UnNombre">Type more than one name, don\'t be a Forever Alone</string>
 </resources>
 
 

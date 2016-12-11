@@ -36,17 +36,16 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_corona_rey);
         //creación de la tipografía, guardada en un objeto TypeFace
-        Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
+
         //Creacion del objeto GestureDetector para detectar los gestos creados por el usuario
         gestureDetector = new GestureDetector(this, this);
         gestureDetector.setOnDoubleTapListener(this);
         //Función para guardar las cartas en el ArrayList
-        createCards();
         //texo creado para las instrucciones con la tipografía empelada en casi todo el juego
+        Typeface nf = Typeface.createFromAsset(getAssets(),  "fonts/spacecomics.ttf");
         tx= (TextView)findViewById(R.id.textView2);
         tx.setTypeface(nf);
-        //funcion para iniciar el juego
-        changeBackground();
+        StartGame();
     }
 
     //Funcion para cambiar el fonodo, cambiando las cartasy para inicar el juego
@@ -83,7 +82,6 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
         }
     }
 
-    //funcion para reiniciar el juego
     public void StartGame(){
 
         Cards.clear();
@@ -104,13 +102,12 @@ GestureDetector.OnDoubleTapListener, DatosCopaDelRey{
         //botones para indicar si quiere volver a jugar o salir
         adb.setPositiveButton(getString(R.string.jugardenuevo), new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
-                Intent intent = new Intent(CoronaRey.this, CoronaRey.class);
-                startActivity(intent);
+                StartGame();
             } });
         adb.setNegativeButton(getString(R.string.salir), new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
-            StartGame();
-        } });
+                CoronaRey.super.onBackPressed();
+            } });
         AlertDialog alert = adb.create();
         alert.show();
         Button a = alert.getButton(DialogInterface.BUTTON_NEGATIVE);

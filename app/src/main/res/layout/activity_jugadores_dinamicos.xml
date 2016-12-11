@@ -12,7 +12,7 @@
     android:background="@mipmap/fondo">
 
     <TextView
-        android:text="Jugadores"
+        android:text="@string/jugadores"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -22,7 +22,7 @@
 
 
     <Button
-        android:text="Agregar"
+        android:text="@string/agregar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/buttonAgregar"
@@ -35,7 +35,7 @@
         />
 
     <Button
-        android:text="Continuar"
+        android:text="@string/continuar"
         android:textSize="10sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -61,7 +61,8 @@
             android:layout_below="@+id/textView4"
             android:layout_centerHorizontal="true"
             android:id="@+id/linear"
-            android:layout_marginTop="61dp">
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp">
             </LinearLayout>
     </ScrollView>
 </RelativeLayout>
